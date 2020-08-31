@@ -1,8 +1,11 @@
 ﻿using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace AzureLightDiscordBot
@@ -92,5 +95,55 @@ namespace AzureLightDiscordBot
         {
             await ctx.Channel.SendFileAsync(@"images\arAux.png").ConfigureAwait(false);
         }
+
+        [Command("info")]
+        [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ning_hai")]
+        public async Task shipGeneral(CommandContext ctx, string boat)
+        {
+            string shipCalled = boat + ".json"; //file name for boat called
+            //read json, then deserialize it
+            var json = string.Empty;
+            using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
+            using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
+                json = await sr.ReadToEndAsync().ConfigureAwait(false); //configureAwait false - the thread that starts this task does not have to be the one to continue it - faster
+                 
+            var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
+
+            //for nested json objects, parse specifically
+            JObject jo = JObject.Parse(json);
+            string artist = jo.SelectToken("artist.pixiv").ToString();
+            if (artist == string.Empty)
+                artist = "Not found";
+
+            string boatName = " - " +"\n"+ "Name: "+ configShip.faction + configShip.Name + "\n";
+            string boatRarity = "Rarity: " + configShip.Rarity + "\n";
+            string boatClass = "Class: " + configShip.ShipClass + "\n";
+            string boatType = "Type: " + configShip.type + "\n";
+            string boatGet = "Obtainable: " + configShip.AcquisitionMethod + "\n";
+            string boatVA = "Voice Actress: " + configShip.VoiceActress + "\n";
+            string artistPixiv = "Artist Pixiv: " + artist;
+    
+            await ctx.Channel.SendMessageAsync(boatName+boatRarity+boatClass+boatType+boatGet+boatVA+artistPixiv).ConfigureAwait(false);
+        }
+
+
+        //[Command("stats")]
+        //[Description("Returns statistics for the specified boat. EG. !stats hiryuu !stats ark_royal")]
+        //public async Task shipStats(CommandContext ctx, string boat)
+        //{
+        //    string shipCalled = boat + ".json"; //file name for boat called
+        //    //read json, then deserialize it
+        //    var json = string.Empty;
+        //    using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
+        //    using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
+        //        json = await sr.ReadToEndAsync().ConfigureAwait(false); //configureAwait false - the thread that starts this task does not have to be the one to continue it - faster
+
+        //    var configJson = JsonConvert.DeserializeObject<ConfigJSON>(json);
+        //    JObject jo = JObject.Parse(json);
+
+
+
+
+        //}
     }
 }
