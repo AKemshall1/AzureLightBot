@@ -49,10 +49,11 @@ namespace AzureLightDiscordBot
                 StringPrefixes = new string[] {configJson.Prefix },
                 EnableDms = false,
                 EnableMentionPrefix = true  //can mention bot insted of !
-
+                
             };
 
             Commands = Client.UseCommandsNext(commandsConfig);
+            Commands.RegisterCommands<dCommands>();
 
             await Client.ConnectAsync(); //connect to the server
             await Task.Delay(-1); //the bot can quit early, this prevents it.
