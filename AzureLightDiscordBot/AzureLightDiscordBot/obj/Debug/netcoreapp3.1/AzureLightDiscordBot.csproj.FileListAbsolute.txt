@@ -1,0 +1,13 @@
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.exe
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.csprojAssemblyReference.cache
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.AssemblyInfoInputs.cache
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.AssemblyInfo.cs
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Emzi0767.Common.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.csproj.CopyComplete
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
