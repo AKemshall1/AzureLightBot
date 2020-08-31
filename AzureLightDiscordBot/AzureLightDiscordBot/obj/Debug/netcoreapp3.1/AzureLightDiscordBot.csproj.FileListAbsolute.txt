@@ -11,3 +11,13 @@ C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\o
 C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
 C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.deps.json
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.runtimeconfig.json
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.runtimeconfig.dev.json
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\bin\Debug\netcoreapp3.1\AzureLightDiscordBot.pdb
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.dll
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.pdb
+C:\Users\piggy\Desktop\AzureLightBot\AzureLightDiscordBot\AzureLightDiscordBot\obj\Debug\netcoreapp3.1\AzureLightDiscordBot.genruntimeconfig.cache

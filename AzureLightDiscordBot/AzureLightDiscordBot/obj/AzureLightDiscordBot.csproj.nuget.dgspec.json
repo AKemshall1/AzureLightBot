@@ -50,6 +50,10 @@
             "DSharpPlus.Interactivity": {
               "target": "Package",
               "version": "[4.0.0-nightly-00720, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

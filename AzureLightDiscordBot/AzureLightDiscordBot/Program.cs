@@ -6,7 +6,9 @@ namespace AzureLightDiscordBot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Bot bot = new Bot();
+            bot.RunAsync().GetAwaiter().GetResult();    //get awaiter - async run bot
+            //Console.WriteLine("Ran the bot");
         }
     }
 }
