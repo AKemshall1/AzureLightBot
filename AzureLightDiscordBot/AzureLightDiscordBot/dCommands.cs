@@ -35,6 +35,7 @@ namespace AzureLightDiscordBot
             string normChibi = "chibi.png";
 
             string shipCalled = boat + ".json"; //file name for boat called
+            Console.WriteLine("INFO: " + shipCalled);
             //read json, then deserialize it
             var json = string.Empty;
             using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
@@ -82,6 +83,7 @@ namespace AzureLightDiscordBot
            
 
             string shipCalled = boat + ".json"; //file name for boat called
+            Console.WriteLine("STATS: " + shipCalled);
             //read json, then deserialize it
             var json = string.Empty;
             using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
@@ -148,8 +150,9 @@ namespace AzureLightDiscordBot
             string ammoFinal = "Ammo: " + ammo + "\n";
             string costFinal = "Cost: " + cost + "\n";
             string armorFinal = "Amor: " + armor;
-
-            await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi);
+            
+            if (File.Exists(@"chibis\" + boatName + normChibi))
+                await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi);
             await ctx.Channel.SendMessageAsync("- \n"+ Name+ hpFinal + fpFinal +torpFinal + aaFinal + aviFinal + relFinal + evaFinal+speedFinal+luckFinal+aswFinal+oxyFinal+ammoFinal+costFinal+armorFinal).ConfigureAwait(false);
         }
 
