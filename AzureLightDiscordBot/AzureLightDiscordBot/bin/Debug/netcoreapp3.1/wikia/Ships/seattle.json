@@ -1,0 +1,1149 @@
+{
+	"name_reference": "seattle",
+	"cn_reference": "xiyatu",
+	"nameJP": "シアトル",
+	"nameCN": "",
+	"ID": "P007",
+	"name": "Seattle",
+	"internal_id": "199011",
+	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "N/A",
+	"class": "Seattle-Class",
+	"voiceActress": "Tomori Kusunoki",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "A",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "April 18, 2019",
+		"CN": "April 18, 2019",
+		"KR": "April 18, 2019",
+		"EN": "December 19, 2019"
+	},
+	"artist": {
+		"name": "nineo",
+		"weibo": "https://www.weibo.com/p/1005051869856223",
+		"twitter": "https://twitter.com/nineeeeeeeeo",
+		"pixiv": "https://www.pixiv.net/member.php?id=2827978",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
+	},
+	"acquisitionMethod": "Research and Development",
+	"skill": {
+		"1": {
+			"icon": "19130",
+			"requirement": "Default Unlocked",
+			"name": "No-Fly Zone!",
+			"type": "Defensive",
+			"description": "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (15.0%) for 8s. When your fleet has shot down 15 or more aircraft in one battle: increases this ship's FP by 5.0% (15.0%) and RLD by 10.0% (20.0%) until the end of the battle."
+		},
+		"2": {
+			"icon": "18130",
+			"requirement": "Strengthen Level 35",
+			"name": "No-Fly Zone!+",
+			"type": "Defensive",
+			"description": "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (15.0%) for 8s; if your Airspace Control of the map is at Parity or higher: this buff's duration extends until the end of the battle, but does not stack. Additionally, when your fleet has shot down 15 or more aircraft in one battle: increases this ship's FP and RLD by 10.0% (20.0%) until the end of the battle."
+		},
+		"3": {
+			"icon": "19140",
+			"requirement": "Default Unlocked",
+			"name": "Dual Nock",
+			"type": "Support",
+			"description": "When equipping main gun in the secondary weapon slot, increase anti-air efficiency by 5-15%. When equipping anti-air in the secondary weapon slot, increase main-gun efficiency by 5-15%. When in the rear position of the vanguard, reduce damage taken by self by 5-15%"
+		},
+		"4": {
+			"icon": "19000",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"5": {
+			"icon": "29391",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "When the main gun attacks 10 times, fire exclusive barrage - Seattle II"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "xiyatu",
+			"name": "Seattle ",
+			"description": "Light cruiser – Seattle. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		},
+		"2": {
+			"id": "xiyatu_2",
+			"name": "Seattle",
+			"description": "哦哦指挥官，来得正好！嘿嘿，这身礼服，怎么说…会不会有种太华丽的感觉？……不会？太好了！还想着我这么穿会不会不太合适呢，谢谢啦~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
+		"3": {
+			"id": "xiyatu_3",
+			"name": "Christmas Party Prep!",
+			"description": "Meeeerry Christmas~! Even though the party is about to start, as you can see, I'm still getting ready~ Just gimme a moment, all righty~?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"4": {
+			"id": "xiyatu_4",
+			"name": "Sunfish Spell!",
+			"description": "Supportive sorceress Seattle, comin' in hot! So, something got you down, my good pal? I'm up to talk about whatever's on your mind, but in return, you've gotta come to my party tonight!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "4779",
+			"firepower": "155",
+			"torpedo": "0",
+			"antiAir": "325",
+			"aviation": "0",
+			"reload": "136",
+			"hit": "140",
+			"evasion": "73",
+			"speed": "33",
+			"luck": "0",
+			"asw": "137",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "5257",
+			"firepower": "178",
+			"torpedo": "0",
+			"antiAir": "365",
+			"aviation": "0",
+			"reload": "156",
+			"hit": "157",
+			"evasion": "97",
+			"speed": "33",
+			"luck": "0",
+			"asw": "154",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "924",
+			"firepower": "33",
+			"torpedo": "0",
+			"antiAir": "70",
+			"aviation": "0",
+			"reload": "57",
+			"hit": "54",
+			"evasion": "28",
+			"speed": "33",
+			"luck": "0",
+			"asw": "37",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33",
+			"luck": "0",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33",
+			"luck": "0",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
+		}
+	},
+	"strengthenLevel": {
+		"level5": "HP+225 | Anti-Air+17 | Main Gun+1",
+		"level10": "Full Barrage I | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
+		"level15": "HP+451 | Anti-Air+34 | Main Gun Efficiency＋5% ",
+		"level20": "Main Gun Efficiency+10% | CL/DD Gun can be equipped on second slot | Limit Break ★★★★★☆",
+		"level25": "HP+677 | Anti-Air+51 | Main Gun Efficiency＋5%",
+		"level30": "Full Barrage II | Main Gun Efficiency+15% | Limit Break ★★★★★★",
+		"level35": "Luck +5, Improve skill \"No Fly Zone!\""
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser Gun",
+			"efficiency": "105%/110%/125%/145%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Anti-Air Gun / Light Cruiser Gun",
+			"efficiency": "65%/65%/65%/65%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "130%/130%/130%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "xiyatu",
+				"id": "0",
+				"label": "Seattle ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "轻巡洋舰—西雅图",
+						"chineseTL": "Light cruiser - Seattle",
+						"chineseNote": "",
+						"japanese": "軽巡洋艦・シアトル",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Light cruiser – Seattle.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "来了来了，那么，我叫西雅图——啊，确切地说，我其实没有名字，姑且是叫西雅图，嗨呀，这种小事就不要在意了。总之，作为伍斯特级的原型设计之一，亚特兰大级的改进型，我最擅长的就是防空了，天上飞的小家伙们就交给我吧！",
+						"chineseTL": "I'm here I'm here, my name is Seattle. Ah, to be exact, I don't really have a name, but you can call me Seattle. Well, don't pay too much attention to those small details. Anyways, as an early prototype design of the Worcester-class, the improved Atlanta-class, I specialize in anti-air, let me handle those fellows up in the sky!",
+						"chineseNote": "",
+						"japanese": "うぃーっす、あたしはシアトル――あっ、正確な名前はないけど、とりまシアトルって感じっす！いやぁこまけぇことはいいんだって！とにかく、ウースター級のプロトタイプの一つで、アトランタ級の改良版であるあたしは対空が一番得意っすよ！飛んでる敵はあたしにお任せってね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Heyoooo! The name's Seattle– Err, I don't technically have a real name, but just call me Seattle! Seriously, don't sweat the small stuff! Anyhow, I was one of the prototypes for the Worcester class, and as an improvement on the Atlanta class, AA is my A-game! Just leave anything with wings to me!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "就是你把我从沉睡之中唤醒的吗？……你好你好，幸会幸会～我叫西雅图，从今往后，请多指教啦！",
+						"chineseTL": "Was it you who awakened me from my deep slumber?... Hello hello, nice to meet you~ my name is Seattle, from now on, please take care of me!",
+						"chineseNote": "",
+						"japanese": "ウィッス！シアトルを起こしたのは君かね？……おおーよしよしはじめまして～あたしはシアトル、これからよろしくっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sup! You the one who woke me up? Alrighty then~ The name's Seattle! Nice meeting you!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，吃过了吗？没有的话先一起吃点什么吧~",
+						"chineseTL": "Commander, ate already? If you haven't let's get something to eat~",
+						"chineseNote": "",
+						"japanese": "指揮官ってメシ食ったん？まだなら、ちょいと一緒にどっかメシでもどうすか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You eat yet, Commander? If not, would you like me to whip something up real quick?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "派对，茶会，女子会，聚餐……ok，日程排得很满，完美！",
+						"chineseTL": "Party, tea party, women's party, dinner party... ok, the schedule is full, perfect!",
+						"chineseNote": "",
+						"japanese": "パーティーにお茶会に女子会に飲み会……OK！やっぱ忙しいわ～……ま、こういうのが充実してていいけどネ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've got a party, tea time, girls meetup, and drinking get-together to attend... Okay! My schedule is PACKED! Guess that's not really a bad thing, though!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "指挥官，你不会觉得只有一个秘书太冷清吗？我觉得多叫几个姐妹来一起担任秘书会比较热闹哦！",
+						"chineseTL": "Commander, don't you feel it's too quiet with only one secretary? I feel like it'll be more lively if we call a few more sisters to serve as secretaries!",
+						"chineseNote": "",
+						"japanese": "指揮官さぁ…秘書艦が一人だけって寂しく思わない？何人か呼んできて一緒にやったほうが盛り上がるっすよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Commander... Isn't it kinda lonely with just one secretary? Whaddya say we liven it up and get some more peeps in here?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官，今晚下班后有预定吗？我约了不少姐妹办派对，你要不要一起来？",
+						"chineseTL": "Commander, do you have plans after work this evening? I'm having a party with a lot of sisters, want to come together?",
+						"chineseNote": "",
+						"japanese": "指揮官って今日仕事終わったら空いてそう？実はちょっとしたパーティーの幹事やっててさあ～指揮官も飛び込み参加してもいいっすよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You free once you're done with work today, Commander? Listen, I'm throwing a cool party later! You can drop by any time if you want!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "虽然我的战斗经验不足，不过姐妹们都很愿意教导我，我会很快赶上来的~",
+						"chineseTL": "Although I'm inexperienced in battle, my sisters are willing to teach me, I'll catch up soon~",
+						"chineseNote": "",
+						"japanese": "カンレキ的に実戦経験ナイナイなんだけど、皆教えてくれてるしすぐ追いつくっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've got zilch combat experience on paper, but with everyone teaching me stuff, I'll catch up in no time!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，来练习一下舞蹈吧～舞技好会更受欢迎哦？",
+						"chineseTL": "Commander, let's practice dancing~ Dancing skills will make you more popular~",
+						"chineseNote": "",
+						"japanese": "指揮官、ダンスの練習でもしてみない？上手く踊れるともっとモテるっすよ～？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you wanna do some dance practice? You'll rise on the girls' popularity lists if you can dance well!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "touch_2",
+						"chinese": "指挥官，如果你是故意的，我可要生气了",
+						"chineseTL": "Commander, if that was intentional, I'll get angry",
+						"chineseNote": "",
+						"japanese": "君、今のわざとだったらあたしでも怒るっすよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Listen, if you did that on purpose, then consider my gears grinded!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "新的任务！多找些姐妹们一起去吧！",
+						"chineseTL": "New mission! Let's find some more sisters to go together!",
+						"chineseNote": "",
+						"japanese": "ニューミッション！人手集めてやっとけぇ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New missions! We need more manpower up in here!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务完成！指挥官，我们来庆祝一下吧！",
+						"chineseTL": "Mission complete! Commander, let's celebrate a bit!",
+						"chineseNote": "",
+						"japanese": "ミッションコンプリート！って指揮官、お祝いになんかしない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mission complete! Aren't you gonna celebrate, Commander?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，有你的邮件！难道是派对的邀请？",
+						"chineseTL": "Commander, I got your new mail! Is it an invitation to a party?",
+						"chineseNote": "",
+						"japanese": "指揮官、新しいメールっすよ！もしかしてパーティーのお誘い？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you've got new mail! Hell, it might be an invite to a party!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，虽然战斗很重要，但是放松也很重要！",
+						"chineseTL": "Commander, although combat is important, relaxing is also very important!",
+						"chineseNote": "",
+						"japanese": "指揮官、戦いも重要だけど、息抜きも重要っすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Fighting's important and all, but you gotta take regular breaks, Commander!",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "指挥官，委托完成咯？我觉得带点什么去犒劳委托组的姐妹们是个不错的主意！",
+						"chineseTL": "Commander, commissions complete? I feel like getting something to treat the sisters in the commission team will be a good idea!",
+						"chineseNote": "",
+						"japanese": "指揮官、委託バッチリ完了したんすよ？戻ってきた子たちになんか持っていってあげたほうがよさそうっすね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yo, commission team's done, Commander. We oughta go give 'em a snack or something!",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "感觉现在我能把蚊子都给射下来！",
+						"chineseTL": "I feel like I can even shoot mosquitos down!",
+						"chineseNote": "",
+						"japanese": "カトンボも撃ち落せそうな感じっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel like I could snipe a mosquito out of the air!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "好～大家一起上吧！",
+						"chineseTL": "Good~ Everyone, let's go!",
+						"chineseNote": "",
+						"japanese": "よぉし、囲んでたたけー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All right, let's gang up on 'em!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "胜利！回去可要好好庆祝一下~",
+						"chineseTL": "Victory! We have to celebrate when we go back~",
+						"chineseNote": "",
+						"japanese": "ビクトリー！帰ったら盛大に祝うっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Victoryyyy! Let's throw a big party when we get back!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "要是我的火力再强一点就好了……",
+						"chineseTL": "It would have been fine if my firepower was a bit stronger...",
+						"chineseNote": "",
+						"japanese": "いやさ、もっと火力があればなぁ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Man, if only we'd brought more firepower~",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "让战场也热闹起来吧！",
+						"chineseTL": "Let's make the battlefield more lively!",
+						"chineseNote": "",
+						"japanese": "戦場も盛り上げるっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's get some hype up in this place!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "大家再坚持一下！",
+						"chineseTL": "Everyone, let's keep up!",
+						"chineseNote": "",
+						"japanese": "みんな、もうちょっと頑張るっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "C'mon, team, we can do better!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "咦？聚会？没算上你哦，指挥官，请继续工作吧",
+						"chineseTL": "Eh? The get-together? I didn't count you in, Commander, please keep working",
+						"chineseNote": "",
+						"japanese": "うん？パーティー？君、お呼びじゃないから引き続き仕事に励んでくれたまえ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? My party? You're not invited, so be a good commander and get back to work.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "指挥官，不要总是把工作啊，战斗啊挂在嘴边，稍微让自己喘一口气会比较好哦？总之，等会儿有个我发起的派对，你会来的，对吧？",
+						"chineseTL": "Commander, don't be always about work this, combat that, allow yourself to breathe a little? Anyways, I'll be hosting a party in a bit, you'll come, right?",
+						"chineseNote": "",
+						"japanese": "君、仕事だの作戦だのばかり口にしないで、たまには息抜きしたほうがいいっすよ？とりま、この後あたしが主催するパーティーがあるけど、来るよね？ね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mi amigo, you oughta let up on your jabberwocky mission talky and just live a little sometimes. Listen, I'm throwing a party later, so stop by and have some fun, alright?",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "虽然我很喜欢开派对，不过我从不会硬拉不喜欢集体活动的姐妹们来参加哦？但是，如果愿意来参加的话，即使不擅长交流的人，我保证也能让她找到乐趣~",
+						"chineseTL": "Even though I really like hosting parties, I would never forcefully drag sisters who don't like group activities to participate~ But, if they wish to attend, even though they're not good at communicating, I can guarantee they'll find it fun~",
+						"chineseNote": "",
+						"japanese": "あたしパーティーが好きだけど、無理強いしたりはしないっすよ？ま、来てさえくれたらどんなに内向きな子でも楽しめることを保証するっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love throwing parties, but I'm not gonna FORCE anyone to show up to 'em. But I guarantee anyone who does show up is gonna have a heckin' good time, even the super-introverts!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指挥官，现在你知道集体活动的魅力了吧？只要聚在一起，大家就会自然而然地增进关系。你看，现在我们不是已经成为朋友了吗？",
+						"chineseTL": "Commander, you now know the charm of group activities, right? As long as we gather together, we'll gradually grow closer. See, we've become good friends now, right?",
+						"chineseNote": "",
+						"japanese": "指揮官は今、パーティーの魅力をわかってくれたよね！そう！みんな一緒にいれば自然と仲良くなるっすよ！例えば～あたしと君はもう友達ちゃうん？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Glad you finally understand the magic of parties, Commander! That magic being: you can make friends with anyone if you just hang out with them! As an example: me and you are best buds now!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "看在我们交情的份上，指挥官你要是对哪个姐妹有意思，我也可以给你助攻一下哦？……咦，我？欸，啊，呃，不是，真……真的？",
+						"chineseTL": "In the name of our friendship, Commander, which sister are you interested in? I'll be your wingwoman... Eh, me? Eh, ah, uh, i-it's not true, r-right?",
+						"chineseNote": "",
+						"japanese": "あたしたちの仲なんだから～お気に入りの子を教えてくれたらアシぐらいはしてあげるんすよ～ふふふーん♪……あたし？えっ、あっ、ちょっ、マジ？ほ、ほほ本当にぃ……？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, we're BFFs, so tell me who's your crush and I'll give you some hot tips~ Heheheh~ ... It's me? Wait, hold up, you serious? Y-y-you really mean it?!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "ok，心情整理完毕！果然，我也是对指挥官有意思的，不然，从一开始就不会来邀请你了嘛~话说回来，指挥官，今天起，我们除了派对，又有了一样要做的事呢，那就是——约会！",
+						"chineseTL": "OK, I've sorted out my mind! Turns out, I also like Commander, or I wouldn't have invited you from the very beginning~ Anyways, Commander, starting from today, aside from parties, we've got a new activity to do, that's - dating!",
+						"chineseNote": "",
+						"japanese": "OK、気持ちの整理バッチリっす！まあ結論から言えばあたしも指揮官のことが好きっすね！でないといきなり飲みに誘わないっすよ～んで、話を戻すと…今日はパーティー以外にもう一つやることがあって――デートすっぞ！デート！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Okay, I'm 100% ready for this! Oh, and needless to say, I love you too, Commander! I wouldn't invite you to go drinking if I didn't~ So, back on topic... There's one more thing we gotta do today besides partying – it's go on a date! Dee-ay-tee-ee!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Atlanta, Juneau, San Diego)",
+						"media": "link1",
+						"chinese": "前辈，回港后来参加我的派对吧？",
+						"chineseTL": "Senpai, let's attend my party once we return?",
+						"chineseNote": "",
+						"japanese": "おっ、母港に戻ったらあたしのパーティーに来てくれないっすか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, you girls wanna come to my party once we're done here?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Hiei)",
+						"media": "link2",
+						"chinese": "重樱的宴会，我很有兴趣！",
+						"chineseTL": "A Sakura banquet, I'm interested!",
+						"chineseNote": "",
+						"japanese": "重桜の宴会ってやつにも興味ありっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I wanna know more about these Sakura Empire banquets you throw!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うわぁ！マジ感謝～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "xiyatu_2",
+				"id": "1",
+				"label": "Seattle",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "哦哦指挥官，来得正好！嘿嘿，这身礼服，怎么说…会不会有种太华丽的感觉？……不会？太好了！还想着我这么穿会不会不太合适呢，谢谢啦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おお指揮官、よく来てくれたっすよ！どうすか？このパーティードレス、なんだかこう…ゴージャスでいい感じがするよね？……よかったぁ！あたし似合わなかったらしらけるんじゃないかって思ってたっすよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "哦哦指挥官，来得正好！嘿嘿，这身礼服，怎么说…会不会有种太华丽的感觉？……不会？太好了！还想着我这么穿会不会不太合适呢，谢谢啦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おお指揮官、よく来てくれたっすよ！どうすか？このパーティードレス、なんだかこう…ゴージャスでいい感じがするよね？……よかったぁ！あたし似合わなかったらしらけるんじゃないかって思ってたっすよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "哦哦！指挥官，欢迎来到美妙的宴会！今天的主角就是你我二人！嘿嘿，开玩笑的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おお！指揮官、素敵なパーティーへようこそ！今宵の主役はあたしと君の二人っすよ！なんてね♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "小提琴什么的，只要拿在手上就有种很上流的感觉呢！哈哈，既然都拿出来了自然是要露一手的啦！用心听着吧~♪～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴァイオリンを持ってるだけでお上品って感じっす！いやいや、出し物にこれぐらいの芸はやらせてもらうっすよ！ほら！♪～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "佐治亚，你想喝点什么？特调冰块可乐气泡酒？嚯~还是一如既往地口味独到啊~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジョージア、飲み物はどうすか？酸素コーラサワーのロック割？ほほー相変わらず渋いっすね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "啊，宴会就是要开心享受才对哦？一个人喝酒可不行呢~来吧来吧，到人多的地方去~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "君、パーティーはみんなと楽しむものっすよ？ひとりで飲んでどうするのさーはい、みんなのいるところに行った行ったー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "那边貌似有好几个不太习惯宴会的孩子呢…我去把她们引荐给大家认识下，稍等我一会哦，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あそこにパーティー慣れしてない子が何人かいるみたいっすね…ちょっとみんなに紹介してくるから、指揮官、ちょっと待ってて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官想喝什么？如果不方便喝酒的话，来点软饮料也可以哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は飲み物どうすか？お酒が無理ならソフトドリンクでもいいすよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀！？真是的，你是喝醉了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃ！？もう君ぃ、ちょっと酔ってないっすか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Flagship",
+						"media": "warcry_1",
+						"chinese": "哈哈！轰轰烈烈地上吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えへへ！今日は盛り上げるっすよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "虽然挺喜欢大家一起吵吵闹闹的宴会，但是偶尔有一次这种比较高雅的宴会也不错呢~还能像这样和最喜欢的指挥官两人独处…我…貌似有点喝醉了呢…呼……Zzz……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "普段はみんなでワイワイやるパーティーが好きだけど、たまにはこういう格式高いパーティーがあってもいいよね～大好きな指揮官とも二人っきりなれるしさ……あたし、ちょっと酔ってるのかにゃ…スヤスヤ……ふぅ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "xiyatu_3",
+				"id": "2",
+				"label": "Christmas Party Prep!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "圣~诞~快~乐~！虽然想马上开始圣诞大派对，但是如你所见我还在为此准备中呢~再稍等片刻吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "めーりーくーり！いやぁ、クリスマスパーティースタート！って言いたかったけど、実は今、まだ準備中っすよ～もうちょっと待ってて♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Meeeerry Christmas~! Even though the party is about to start, as you can see, I'm still getting ready~ Just gimme a moment, all righty~?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "圣~诞~快~乐~！虽然想马上开始圣诞大派对，但是如你所见我还在为此准备中呢~再稍等片刻吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "めーりーくーり！いやぁ、クリスマスパーティースタート！って言いたかったけど、実は今、まだ準備中っすよ～もうちょっと待ってて♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Meeeerry Christmas~! Even though the party is about to start, as you can see, I'm still getting ready~ Just gimme a moment, all righty~?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "哦哦！太好了，有指挥官的帮忙，我感觉进度快了一倍……不，是两倍！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おお！指揮官のヘルプで、準備スピードは倍に……いや、三倍になってるっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yooo! Awesome! With your help, Commander, we're gonna speed through things twice as fast... no, three times!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "但凡是来参加派对的人，我一定会让她感受到白鹰对圣诞节满溢的热情！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーに参加する人には、ユニオンのクリスマス愛をしっかり感じてもらうっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've gotta show everyone who walks through these doors how passionate the Eagle Union is about our Christmas celebrations!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "佐治亚！你要的姜饼好了！上面有我给你的惊喜！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジョージア！ジンジャークッキー焼き上がりっす！あたしからのサプライズもおまけで♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Georgia, the gingerbread you wanted is ready! There's a little surprise waiting for you! ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "嗯，我想想，我们现在还缺的是……一棵能够吸引所有人眼球的特别的圣诞树！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "んーあと準備しなければならないのは……みんなの目を惹き付ける特別なクリスマスツリーっすね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm, let me think, what are we still missing...? Ah! A special Christmas tree that can immediately grab everyone's attention! ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "节日给了大家聚在一起享受快乐的理由。而我，这次就负责给这聚会搭起最好的舞台！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お祝いの日はみんなで集まってワイワイやる理由を提供する。あたしはみんなを集めてワイワイできる場所を提供する。何も間違ってないっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The holidays give us all a reason to get together and have a good time. As for me, I'm in charge of providing the best venue for that to happen!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "把那边的盐递给我一下！谢啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、そこの塩のビンちょうだい！サンキュー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pass the salt shaker this way! Thanks!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "指挥官！现在可不能捣乱！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官！今はイタズラしちゃダメっすよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, now's not the time for that!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "好的，这下圣诞派对的美食就准备得差不多了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うっす！パーティーの食べ物の準備はこれでバッチリっす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All righty, that should about do it for the food preparations.",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "xiyatu_4",
+				"id": "3",
+				"label": "Sunfish Spell!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "我是来助人为乐的海之魔女西雅图！好啦，你有什么烦恼吗？无~论什么都可以和我说哦？作为代价——要来参加今天的宴会哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お助け魔女のシアトルっす！さては君、なにか困っているのかね？なーんでも相談に乗ってあげるから、代わりに――今日のパーティー、参加してもらうっすよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Supportive sorceress Seattle, comin' in hot! So, something got you down, my good pal? I'm up to talk about whatever's on your mind, but in return, you've gotta come to my party tonight!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "我是来助人为乐的海之魔女西雅图！好啦，你有什么烦恼吗？无~论什么都可以和我说哦？作为代价——要来参加今天的宴会哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "指挥官也想试试潜水？好~那就让西雅图来帮你吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "白天的游戏大赛和晚上的烧烤大会……果然有各种各样的活动才开心嘛！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官，牢牢抓住我的手哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Mission",
+						"media": "task_3",
+						"chinese": "新任务！倔强说的“咒语”就是拿来处理这个的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "放松休息固然重要，不过，正是这种时候才更要认真去照顾大家才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Flagship",
+						"media": "warcry_3",
+						"chinese": "可不能继续潜在水里了呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "15",
+		"add_get_attr": "Anti-Air",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "30",
+		"pt_level": "23",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "8",
+		"ships": "seattle"
+	}
+}

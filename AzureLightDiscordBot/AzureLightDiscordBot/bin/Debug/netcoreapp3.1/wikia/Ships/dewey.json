@@ -1,0 +1,1021 @@
+{
+	"name_reference": "dewey",
+	"cn_reference": "duwei",
+	"nameJP": "デューイ",
+	"nameCN": "杜威",
+	"ID": "4",
+	"name": "Dewey",
+	"internal_id": "101021",
+	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "N/A",
+	"class": "Farragut-Class",
+	"voiceActress": "Miyuri Shimabukuro",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "C",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "1"
+	},
+	"releaseDate": {
+		"JP": "March 22, 2019",
+		"CN": "March 22, 2019",
+		"KR": "March 22, 2019",
+		"EN": "January 17, 2020"
+	},
+	"artist": {
+		"name": "或一",
+		"weibo": "http://bcy.net/u/1495574",
+		"twitter": "",
+		"pixiv": "http://www.pixiv.net/member.php?id=1904395",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "5",
+		"torpedo": "17",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Explore Stage13-3",
+	"skill": {
+		"1": {
+			"icon": "12000",
+			"requirement": "Default Unlocked",
+			"name": "Here to Help",
+			"type": "Support",
+			"description": "While alive in the fleet, decreases damage taken by allied CV/CVL by 5% (10%). When sortied with Gridley, increases self and Gridley's Firepower by 5% (15%)."
+		},
+		"2": {
+			"icon": "20011",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Farragut-class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "duwei",
+			"name": "Dewey ",
+			"description": "Farragut-class destroyer – Dewey, Hull Number DD-349. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		},
+		"2": {
+			"id": "duwei_2",
+			"name": "夏に憧れ",
+			"description": "サラトガちゃんはあっち、レキシントンさんは……指揮官、おはようございますっ！指揮官はこれからみんなと一緒に遊ぶのですか？それともひとりで休憩するのですか…？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "duwei_3",
+			"name": "A Christmas Thank-You",
+			"description": "Lexington gave me this Christmas costume as a thank-you for always supporting her. Commander, do you think I look... pretty in it?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "5100",
+			"rarity": "Common",
+			"name": "Quadruple 533mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1372",
+			"firepower": "65",
+			"torpedo": "244",
+			"antiAir": "161",
+			"aviation": "0",
+			"reload": "164",
+			"hit": "165",
+			"evasion": "156",
+			"speed": "44.4",
+			"luck": "72",
+			"asw": "165",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "1647",
+			"firepower": "74",
+			"torpedo": "279",
+			"antiAir": "185",
+			"aviation": "0",
+			"reload": "189",
+			"hit": "173",
+			"evasion": "162",
+			"speed": "44.4",
+			"luck": "72",
+			"asw": "184",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "265",
+			"firepower": "14",
+			"torpedo": "52",
+			"antiAir": "34",
+			"aviation": "0",
+			"reload": "69",
+			"hit": "63",
+			"evasion": "60",
+			"speed": "44.4",
+			"luck": "72",
+			"asw": "45",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "44.4",
+			"luck": "72",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "44.4",
+			"luck": "72",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 13",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": "Boss"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "duwei",
+				"id": "0",
+				"label": "Dewey ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "法拉格特级驱逐舰—杜威，舷号DD-349",
+						"chineseTL": "Farragut Class Destroyer - Dewey, Pennant DD-349",
+						"chineseNote": "",
+						"japanese": "ファラガット級駆逐艦・デューイ（DD-349)",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Farragut-class destroyer – Dewey, Hull Number DD-349.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是法拉格特驱逐舰·杜威。名字来自于一位对白鹰很重要的人。护航过许多航母，也帮助过许多伙伴，这是杜威的骄傲哦。唯一的遗憾…就是那时没能成功挽救两位姐妹…台风什么的，实在是太可怕了……",
+						"chineseTL": "I'm Dewey of the Farragut class destroyers. My name comes from an important Eagle Union figure. I am proud to have escorted many carriers and helped many comrades. My only regret.. was my failure to save two sisters... the typoon.. it was too scary..",
+						"chineseNote": "",
+						"japanese": "ファラガット級駆逐艦のデューイです。空母護衛と、救援任務にたくさん参加しました。はい、デューイの誇りですっ！ただ…あの時は姉妹艦の二人を救い出せなかったですぅ…台風ってやっぱり怖いですよね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm the Farragut-class destroyer, Dewey. I took part in many carrier convoys and support missions. I pride myself on my service history! Although... I sadly couldn't save two of my sister ships who were in trouble... Typhoons can be frighteningly strong...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "我是驱逐舰杜威…如果有什么需要帮忙的话，请第一时间告诉杜威，无论什么事情，杜威都会全力以赴的。",
+						"chineseTL": "I am Destroyer Dewey. If you have any problems, please feel free to ask me for help. No matter the problem, I'll do my best.",
+						"chineseNote": "",
+						"japanese": "駆逐艦デューイです。…お手伝いできることがありましたら、いつでもデューイに教えてください。デューイはどんなことでも全力でがんばりますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Dewey, I'm a destroyer. If there's anything I can help with, please just say the word. Whatever I'm tasked with, I'll give it my all!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来，指挥官。要检查一下港区的安全措施吗？毕竟谁都不知道什么时候会有天灾什么的降临呢…",
+						"chineseTL": "Welcome back Commander. Do you want to check on the port's safety protocols? After all, who knows when a disaster will strike..",
+						"chineseNote": "",
+						"japanese": "指揮官、おかえりなさい。母港の防災機材を確認しませんか？天災がいつ起きるかは誰にもわかりませんからねっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander. Could we inspect the port's emergency relief supplies? You never know when disaster might strike.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "嗯？指挥官遇到什么麻烦了吗？需要杜威帮忙吗？",
+						"chineseTL": "Oh? Commander, are you troubled? Do you need Dewey's help?",
+						"chineseNote": "",
+						"japanese": "指揮官、なにかお困りのことでもありますか？デューイのお手伝いが必要ですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Is there something on your mind, Commander? Something you need my help for...?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "杜威也很喜欢音乐哦，最喜欢的…是列克星敦小姐的歌",
+						"chineseTL": "Dewey really likes music too, my favorite is... Miss Lexington's song",
+						"chineseNote": "",
+						"japanese": "デューイも音楽が好きですよ。一番好きなのは…レキシントンさんの歌ですっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love listening to music. My favorite song is made by Lexington!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "呀啊啊啊！抱、抱歉指挥官。杜威对于雷电和台风果然还是…觉得有点可怕……",
+						"chineseTL": "Ah! S-sorry Commander, Dewey is still rather apprenhensive about electricity and typhoons..",
+						"chineseNote": "",
+						"japanese": "きゃっ！？ご、ごめんなさい指揮官、デューイはやっぱり台風とか雷とか…怖いです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eep! S-Sorry, Commander! Typhoons and thunder are just too scary for me...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "温柔的约克城，帅气的企业，总是充满精神的萨拉小姐…白鹰的大家，都是很好的人呢",
+						"chineseTL": "Gentle Yorktown, Cool Enterprise, Energetic Saratoga.. The Eagle union is full of good people.",
+						"chineseNote": "",
+						"japanese": "優しいヨークタウンさんに、格好いいエンタープライズさん、元気いっぱいのサラトガちゃん…ユニオンの人はみんないい人ですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The caring Yorktown, the cool Enterprise, the peppy Saratoga... The Eagle Union has good people left and right.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "头发乱了…？谢谢指挥官…作为报答，稍后请让我帮您按摩一下吧？",
+						"chineseTL": "Messy Hair...? Thank you Commander, allow me to message you later as a sign of gratitude.",
+						"chineseNote": "",
+						"japanese": "髪の毛、ちょーっと跳ねてました…？注意してくださってありがとうございます！お礼として、あとでマッサージさせてくださいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My hair is a little messy? Oh, thank you for pointing it out! Please let me return the favor by giving you a massage later!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "这是……？杜威的胸口不觉得难受哦？",
+						"chineseTL": "This is...? Dewey's chest doesn't feel uncomfortable.",
+						"chineseNote": "",
+						"japanese": "ん……？デューイ、別にお胸は痛くないですよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm...? My chest doesn't hurt, so why'd you do that?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "如果觉得任务麻烦的话，可以交给杜威来办哦？",
+						"chineseTL": "If you find them troublesome, you can let Dewey deal with it.",
+						"chineseNote": "",
+						"japanese": "任務のこと、面倒だなーと思ったら、デューイにまかせてくださいねっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If missions feel like a chore to you, let me take care of them!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务的报酬…只是放在那边的话，是不是有点浪费呀…",
+						"chineseTL": "The mission's rewards.. isn't it just a waste to leave it there?",
+						"chineseNote": "",
+						"japanese": "任務の報酬…あそこに置いたままでは、勿体ないですよ…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Isn't it wasteful to simply leave the mission rewards sitting there?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，要及时查阅信息哦。保证情报的更新，才能规避各种意外的危险呢",
+						"chineseTL": "Commander, you should check your reports promptly to ensure the intelligence we have is up to date. With that we can reduce the chances of accidents.",
+						"chineseNote": "",
+						"japanese": "指揮官、情報のチェックはこまめに行ってくださいね。いつも情報を最新のものにしてこそ、危険は未然に防げるのですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, please check your new intel regularly. By staying up-to-date, you can prevent disaster from striking.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "作战…辛苦了，指挥官。请好好放松一下，战斗资料的整理就交给杜威吧",
+						"chineseTL": "Battle.. Good work, Commander. Please go get rested and leave sorting of the combat reports to Dewey.",
+						"chineseNote": "",
+						"japanese": "作戦、お疲れ様でした！戦闘詳報の整理はデューイにまかせて、どうぞゆっくりなさってくださいっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Well done on the last mission! Allow me to take care of the after-combat report, and you can get some rest in the meanwhile.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "参加委托的伙伴们回来了。大家带回来的东西，要合理使用才行呢",
+						"chineseTL": "Our comrades have returned. Please use the resources they bought back carefully.",
+						"chineseNote": "",
+						"japanese": "委託からみんなが戻ってきました！持ち帰ってきたものは適材適所、ちゃんと使わないとっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission team has returned! They've brought with them exactly what we needed, so let's put it to good use!",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "下次无论是什么样的状况，都不会再失败了！",
+						"chineseTL": "For everyone, Dewey will do her best!",
+						"chineseNote": "",
+						"japanese": "今度はどんなに状況になっても、絶対に失敗しませんっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "No matter how tough the going gets, I will not let anyone down!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "为了大家，杜威会加油的！",
+						"chineseTL": "Leave it to Dewey!",
+						"chineseNote": "",
+						"japanese": "みんなのために、デューイがんばりますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll do the best I can for everyone's sake!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "杜威只是做了自己该做的而已，胜利的功劳…是大家的",
+						"chineseTL": "Dewey only did her part.. the fruits of victory.. belongs to everyone.",
+						"chineseNote": "",
+						"japanese": "デューイはやるべきことをやっただけです。ご褒美は……みんなにっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I did only what was expected of me. Everyone else deserves the rewards!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "又…失败了",
+						"chineseTL": "Another failure...",
+						"chineseNote": "",
+						"japanese": "ま、また失敗しちゃいました……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I-I messed up...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "这里就交给杜威吧！",
+						"chineseTL": "Next time, no matter the situation, no more failures!",
+						"chineseNote": "",
+						"japanese": "ここはデューイに任せて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll handle this!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "损伤扩大…但是，还不能认输…！",
+						"chineseTL": "Grevious injury.. but, I still can't admit defeat..!",
+						"chineseNote": "",
+						"japanese": "損傷拡大…でも、まだ負けませんっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've taken significant damage... but I'm still in the fight!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官…比风暴更让人感觉害怕……",
+						"chineseTL": "Commander.. is scarier than a typhoon..",
+						"chineseNote": "",
+						"japanese": "指揮官…嵐より怖いです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're scarier than any storm, Commander...",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "指挥官肚子饿了吗？杜威试着给您做点咖喱饭吧，就是不知道能不能合您口味",
+						"chineseTL": "Is the Commander hungry? Dewey has cooked up some curry rice, but isn't sure if it'll be up to your tastes.",
+						"chineseNote": "",
+						"japanese": "指揮官はお腹が空いていますか？でしたらデューイがカレーライスでも作ってあげましょうか？お口に合うかどうかは、ちょっとわかりませんけど…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you hungry, Commander? Then would you like me to cook some curry and rice for you? Just so you know, I can't guarantee you'll like it.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "指挥官，刚才杜威整理了一下指挥室，有感觉变得比较整齐了吗？有需要的话，房间也可以帮您整理哦",
+						"chineseTL": "Commander, Dewey just tidied up the command room. Don't you feel it's neater now? I can clean your room if you want too.",
+						"chineseNote": "",
+						"japanese": "指揮官、デューイ、執務室を整理しましたっ。少しキレイになったと思いませんか？指揮官さえ良ければ、デューイ、寝室も整理しますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I cleaned your office earlier. Wouldn't you say it looks more orderly now? I could clean your bedroom too, if you'd like!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指挥官忘记带东西了吗？那杜威帮您去房间找找给您带过来吧",
+						"chineseTL": "Commander, did you forget something? Dewey will go to your room and retrieve it for you.",
+						"chineseNote": "",
+						"japanese": "指揮官は忘れ物をしたのですか？デューイがお部屋で探してみますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Did you lose something, Commander? Then I'll search your room and try to find it!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指挥官，刚换过的被子睡起来有比较舒服吗？保持干净整洁的生活环境，身体才会健康呢…不过指挥官就算生病了，杜威也会照顾您就是了，请不用担心",
+						"chineseTL": "Commander, do freshly changed blankets make you sleep more comfortably? Maintaining a clean and tidy enviroment is important to staying healthy... but even if the commander falls sick, Dewey will take care of you, so don't worry.",
+						"chineseNote": "",
+						"japanese": "指揮官、干したばかりのお布団は気持ちよかったのですか？やっぱりキレイな環境のほうが体にいいですよね…あ、指揮官は病気になっても、デューイがお世話してあげますから、ご安心くださいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, does your freshly dried futon feel comfy? Keeping your living environment clean is good for your health. But I'll look after you if you should ever fall sick, so don't worry about that!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "这是…要给杜威的吗？…表示把最重要的东西都交给杜威了？明白了。虽然不知道能不能胜任，以后无论是工作上还是私人上的事情，杜威都会竭尽全力帮忙指挥官的",
+						"chineseTL": "This is... for Dewey? It represents entrusting everything important to Dewey? I understand. Though I may not know if I'll be any good Dewey will do her best to aid the Commander in matters of private and work.",
+						"chineseNote": "",
+						"japanese": "これは…デューイに、ですか？一番大切なものを、本当に…？わ、わかりました！できるかどうかはわかりませんけど、お仕事も、プライベートも、デューイは全力で指揮官をサポートしますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Is this... for me? Am I really your most beloved...? Okay! I can't promise I'll be perfect, but I will support you in any way I can, be it at work or in private!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Lexington)",
+						"media": "link1",
+						"chinese": "下次，还能去听您唱歌吗？",
+						"chineseTL": "(Lexington) Next time, may I listen to you sing?",
+						"chineseNote": "",
+						"japanese": "またライブに行ってもいいですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Could we perform together again?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Saratoga)",
+						"media": "link2",
+						"chinese": "一起加油吧，萨拉小姐！",
+						"chineseTL": "(Saratoga) Let's do our best together, Miss Saratoga!",
+						"chineseNote": "",
+						"japanese": "サラトガちゃん、一緒に頑張りましょう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll keep you covered, Sara!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3 (Yorktown, Enterprise)",
+						"media": "link3",
+						"chinese": "没想到还能和两位共同作战…杜威会加油的！",
+						"chineseTL": "(Yorktown) Didn't expect to do battle with the two of us.. Dewey will do her best!",
+						"chineseNote": "",
+						"japanese": "もう一度一緒に戦えるとは思ってませんでした…デューイ、がんばりますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I never thought I'd get to fight with you again... I'll do my absolute best!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg 4 (Gridley)",
+						"media": "link4",
+						"chinese": "格里德利…准备好之后就自由开火吧",
+						"chineseTL": "(Gridley) Gridley.. fire when ready.",
+						"chineseNote": "",
+						"japanese": "グリッドレイ、好きな時に撃っちゃっていいよっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Gridley, just fire whenever you want.",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "duwei_2",
+				"id": "1",
+				"label": "夏に憧れ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "萨拉托加小姐在那边，列克星敦小姐在……啊，是指挥官。指挥官是准备来海边玩的，还是打算休息呢？",
+						"chineseTL": "Miss Saratoga is over there, and Miss lexington is.. Ah, it's Commander. Is Commander here to play, or to relax?",
+						"chineseNote": "",
+						"japanese": "サラトガちゃんはあっち、レキシントンさんは……指揮官、おはようございますっ！指揮官はこれからみんなと一緒に遊ぶのですか？それともひとりで休憩するのですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "萨拉托加小姐在那边，列克星敦小姐在……啊，是指挥官。指挥官是准备来海边玩的，还是打算休息呢？",
+						"chineseTL": "Miss Saratoga is over there, and Miss lexington is.. Ah, it's Commander. Is Commander here to play, or to relax?",
+						"chineseNote": "",
+						"japanese": "サラトガちゃんはあっち、レキシントンさんは……指揮官、おはようございますっ！指揮官はこれからみんなと一緒に遊ぶのですか？それともひとりで休憩するのですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，天气预报说，今天会是一个大晴天呢。",
+						"chineseTL": "Commander, weather reports suggest it's going to be sunny today.",
+						"chineseNote": "",
+						"japanese": "天気予報によると、今日は快晴ですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "这个绘本？这个是杜威画的，一个女孩在梦中追逐着自己憧憬的人的故事呢。指挥官，想看？要记得…对列克星敦小姐保密哦。",
+						"chineseTL": "This sketchbook? Dewey drew it. It's a story about a girl chasing the person of her yearning in her dreams. Commander, want to take a look? Remember.. keep it a secret from Miss Lexington. ",
+						"chineseNote": "",
+						"japanese": "このノートのこと、ですか？え、ええと、デューイの憧れの人を追いかける夢を描いたもので…よ、読みたいですか？はい……あ、あの！レキシントンさんには絶対に秘密にしてくださいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "杜威看到萨拉小姐了。她正非常有活力地和同伴们打着排球呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サラトガちゃんなら、みんなと一緒にビーチバレーで遊んでいるのを見ましたよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "游泳？游泳太累了，杜威只要在游泳圈上漂啊漂的就可以了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "泳ぐのはちょっと疲れちゃいそうですから、デューイはこう…浮き輪でゆらりとする感じが好きですっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "有没有同伴需要帮忙…太好了，大家看起来都很精神呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "助けを必要とする仲間が……よかった…仲間たちはみんな元気そうですっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "唔，指挥官，不要摇杜威的游泳圈啦，绘本会被弄湿的。",
+						"chineseTL": "Hey! Commander, stop shaking Dewey's swimming tube, the sketchbook's going to get wet.",
+						"chineseNote": "",
+						"japanese": "し、指揮官、デューイの浮き輪を揺らさないでくださいっ。ノートが濡れちゃいますからっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀，救、救生圈要翻掉了！",
+						"chineseTL": "Ah! T-the life preserver is going to turn over!",
+						"chineseNote": "",
+						"japanese": "きゃっ！？う、浮き輪が…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "有新的信息，希望不要是风暴的预警…",
+						"chineseTL": "New message. Hopefully it's not reports about a storm..",
+						"chineseNote": "",
+						"japanese": "新しいお知らせですっ。嵐の予報ではありませんように…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，累了的话，可以让杜威帮忙按摩放松的哦。",
+						"chineseTL": "Commander, if you're tired, Dewey could offer a massage for relaxation.",
+						"chineseNote": "",
+						"japanese": "指揮官、疲れたらデューイにマッサージさせてくださいねっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "duwei_3",
+				"id": "2",
+				"label": "A Christmas Thank-You",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レキシントンさん、いつも私が応援してるからってお礼にクリスマスの衣装をデューイにくださいましたっ。指揮官、この衣装は綺麗…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Lexington gave me this Christmas costume as a thank-you for always supporting her. Commander, do you think I look... pretty in it?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レキシントンさん、いつもデューイが応援してるからってお礼にクリスマスの衣装をくださいましたっ。指揮官、この衣装は綺麗…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Lexington gave me this Christmas costume as a thank-you for always supporting her. Commander, do you think I look... pretty in it?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "圣诞快乐，指挥官。愿您能享受这个充满了美好祝福的夜晚。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、メリークリスマスっ。ええと、「この祝福の夜が幸せでありますように」",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Merry Christmas, Commander. Umm, may you have a happy holy night.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "我也想给列克星敦小姐一个特别的圣诞礼物……指挥官觉得，怎样的礼物比较好呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レキシントンさんに特別なクリスマスプレゼントをあげたいです。……指揮官はどんなプレゼントがいいと思いますか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'd like to give Lexington a very special present for Christmas... What would you suggest, Commander?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "圣诞树顶上的星星，象征的是什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "クリスマスツリーに飾ってあるスターは、どんな意味が込められているんでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The star at the top of the Christmas tree... I wonder what it could mean? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "指挥官，也别忘了给其她人送去圣诞的祝福哦？大家可都期待着呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、皆にクリスマスの挨拶をするのを忘れないでくださいねっ。皆、楽しみにしていますから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": " Commander, don't forget to greet everyone on Christmas. Everyone's looking forward to seeing you. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "格里德利顺手帮忙拍了好多张列克星敦小姐的照片，一会要好好谢谢她才行。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "グリッドレイがレキシントンさんの写真もたくさん撮ってくれましたっ。あとでありがとうって言わなくちゃっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": " Gridley took lots of pictures of Lexington for me. I ought to thank her later. ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "唔…感觉换上这一身以后，是不是能够感觉到本森热情的眼神呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こ、この衣装に着替えると、なんか凄くベンソンからの視線を感じます……っ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "E-Ever since I put on this costume, Benson has been really staring me down...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "唔，不要一直玩杜威胸口的铃铛啦…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "べ、ベルで遊ばないでくださいっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pl-Please don't play around with the bells!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "指挥官，准备给谁送圣诞礼物了吗？稍微有点好奇呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、もうクリスマスプレゼントを準備しました…？ちょっとだけ、気になりましたっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you bought Christmas presents yet? I'm just making sure...",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "3",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "7",
+		"pt_level": "5",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "dewey,aylwin"
+	}
+}

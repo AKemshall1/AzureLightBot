@@ -1,0 +1,986 @@
+{
+	"name_reference": "shoukaku",
+	"cn_reference": "xianghe",
+	"nameJP": "翔鶴",
+	"nameCN": "翔鹤",
+	"ID": "228",
+	"name": "Shoukaku",
+	"internal_id": "307051",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "04:30:00",
+	"class": "Shoukaku-Class",
+	"voiceActress": "Risa Taneda",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "S",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "October 27, 2017",
+		"CN": "September 28, 2017",
+		"KR": "",
+		"EN": "September 30, 2018"
+	},
+	"artist": {
+		"name": "Enka",
+		"weibo": "http://weibo.com/maoqishi",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3321609",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "63",
+		"reload": "8"
+	},
+	"acquisitionMethod": "Limited Build in Visitors Dyed in Red",
+	"skill": {
+		"1": {
+			"icon": "10790",
+			"requirement": "Default Unlocked",
+			"name": "Gokkousen (Shoukaku)",
+			"type": "Support",
+			"description": "When paired with Zuikaku, own Air Power increases by 12% (30%). Damage TAKEN increases by 5%."
+		},
+		"2": {
+			"icon": "10810",
+			"requirement": "Default Unlocked",
+			"name": "Crane's Protection",
+			"type": "Defensive",
+			"description": "After launching an airstrike, for 12 seconds, all ally's damage dealt is increased by 4% (10%), damage taken is decreased by 4% (10%)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "xianghe",
+			"name": "Shoukaku",
+			"description": "First ship of the Shoukaku-class aircraft carriers, Shoukaku.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "xianghe_2",
+			"name": "The Crane that Dances With the Wind",
+			"description": "I prepared this outfit just for the occasion, so... Commander, you're not going to disappoint me, are you? Hehe~♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "xianghe_3",
+			"name": "Sororal Wings",
+			"description": "Hehe, this kind of work is a simple matter for me. Commander, please look forward to my performance~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "38000",
+			"rarity": "",
+			"name": "Nakajima B5N"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "5954",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "310",
+			"aviation": "370",
+			"reload": "104",
+			"hit": "78",
+			"evasion": "36",
+			"speed": "34.2",
+			"luck": "49",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "6729",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "349",
+			"aviation": "412",
+			"reload": "120",
+			"hit": "87",
+			"evasion": "56",
+			"speed": "34.2",
+			"luck": "49",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1152",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "66",
+			"aviation": "79",
+			"reload": "44",
+			"hit": "30",
+			"evasion": "14",
+			"speed": "34.2",
+			"luck": "49",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "34.2",
+			"luck": "49",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "34.2",
+			"luck": "49",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Torpedo Bombers +1 / Torpedo Bomber Efficiency +5%",
+		"tier2": "Hangar Capacity +1 / Number of Torpedo Bombers +1 / Torpedo Bomber Efficiency +10%",
+		"tier3": "Number of All Planes +1 / Torpedo Bomber Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "120%/125%/135%/150%",
+			"amount": "1/2/3/4",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "xianghe",
+				"id": "0",
+				"label": "Shoukaku",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "翔鹤级航空母舰一番舰—翔鹤",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "翔鶴型航空母艦・翔鶴",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "First ship of the Shoukaku-class aircraft carriers, Shoukaku.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "第五航空战队旗舰翔鹤~因为笨蛋前·辈们轻率地死掉不得已扛起了重樱航空部队的大旗，虽然战绩比前·辈们高了一点点但总是被说比前·辈们弱，大概是因为谢幕得不够快不够华丽吧噗嗤——那么，再重新自我介绍一下，我是重樱航空战队的被害担当——大型舰队空母，翔鹤~，请多关照~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "先輩たちが先にいなくなったせいで、航空部隊の要を担当しました。妹と先輩たち以上頑張ったのに、なぜか弱い印象がついちゃって……改めまして、重桜艦隊の「被害担当」・翔鶴です。よろしくお願いしますね。うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am Shoukaku, the flagship of the Fifth Carrier Division. Because my super smart senpai went and got themselves all killed, I had to carry the flag of the Sakura Empire’s carrier divisions. Though I was more accomplished than them, for whatever reason, I was always considered weaker. Maybe it was due to my \"lack of grace and speed\" during my final moments... With that said, allow me to reintroduce myself. I am Shoukaku, the punching bag of the Sakura Empire. Please take care of me from now on~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "第五航空战队旗舰翔鹤，今后会以一航战的前·辈们为目标，好好努力的！噗嗤~别露出那种表情啊~开玩笑的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "第五航空戦隊旗艦、翔鶴です。……一航戦の先輩たちについて？…「先輩たちを目標に頑張ります！」ってどう？うふふ♪今のはわ・ざ・とですよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As the flagship of the Fifth Carrier Division, I, Shoukaku, shall do my best to become as good as those esteemed senpai in the First Carrier Division, or something... *giggles* That was on purpose~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "理智是女人的美德……拜此所赐，我总与那些前·辈们格格不入呢，真困扰~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "知性は女の魅力と言いますけど……おかげさまで「先輩方」とはよくギスギスになっちゃいますーーうふふ、困っちゃいます♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Intelligence is said to be a woman’s virtue, but that often puts me at odds with those senpai of mine. How troublesome~",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "我的笛声是亡者的安魂乐……指挥官，你想听一曲吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この笛の調は亡者を鎮める鎮魂曲……指揮官、一曲いかがでしょうか？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The melody of my flute is a requiem for the dead. Shall I play it for you?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "一直和一航战的前·辈们相处，指挥官一定很辛苦吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "一航戦の先輩たちに振り回されて、指揮官も大変ですね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "To always be dealing with those senpai from the First Carrier Division... Commander, you must have a really strong liver.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "虽说好像是加害者与被害者的关系，不过，在各个方面今后都请加多指教了哟，列克星敦~ ",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "前は加害者と被害者だったけど…これからもよろしくお願いしますね。レキシントンさん？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Though our relationship was once one of victim and perpetrator, I look forward to working with you, Lexington.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "瑞鹤，再给白鹰的同·僚们添麻烦的话，今天晚上你就只能吃天妇罗咯",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "瑞鶴、ユニオンの「僚艦」にまた迷惑かけたら、今夜の天ぷらは…増やしておきますね？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zuikaku, if you keep causing trouble for our Eagle Union colleagues, you’ll only get tempura for dinner tonight~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，想听一听我的笛声吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、この笛の調べ、お聞きになりませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, would you like to hear me play my flute?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指挥官，请沉浸在翔鹤的温柔中吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、この翔鶴にもっと溺れてもいいんですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, come and indulge yourself in Shoukaku's tenderness.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "我来看看任务……不是去珊瑚海呢，真遗憾~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務を確認しますね。……珊瑚海じゃないんだ、残念～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let me take a look the mission... It’s not the Coral Sea? That’s too bad~",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "九段渐减邀击计划……嘁，不实行啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "漸減邀撃（ぜんげんようげき）……実行しないのですか？ちぇ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We’re not going to carry out our plans of attrition warfare? Tch~",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "邮件上写司令部决定实行AL/MI计划……了……开玩笑的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "本部から艦隊決戦作戦を決行って、メールが……うふふ♪今のは冗談ですよー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We’ve got mail from HQ, they told us to carry out the Decisive Battle Doctrine. Heh, just kidding~!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "像我们五航战一样平稳地回到港口了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "皆無事に港に戻ってきましたね。そう、私たち五航戦のように、ね♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The girls have returned safely to port, just like the Fifth Carrier Division always does.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "为了丸五计划，这些也是必须的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "マル5計画のために、委託の遂行も必要ですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is all required to carry out the Circle Five Plan.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "能更好地保护瑞鹤了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これで瑞鶴をもっと上手く守れますね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Now, I can protect Zuikaku better!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "理想型舰队航母——翔鹤，出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "完成されし正規空母ーー翔鶴、参る！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The perfected aircraft carrier, Shoukaku, setting sail!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "五航战的荣耀~噗~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「五航戦の栄光ここにあり！」…ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Glory of the 5th Carrier Divison is here! *giggles*",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "真遗憾~我可不会像飞龙前·辈那样不知进退",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "飛龍先輩なら沈むまで戦うかもしれないけど…私は違うわ。うふふ、残念ね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hiryuu-senpai may be willing to fight until the bitter end, but... that’s not my style. What a shame~",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "这是姐姐的权利！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お姉ちゃん特権です♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is the privilege of being the elder sister!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "反……反向注水！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "反対側に注水！急いで！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pump water to the other side! Hurry!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "我似乎看到指挥官被赤城前·辈砍杀的未来了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官が……赤城先輩に刺される未来が見えます。うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I think I just saw a future in which you were cut down by Akagi, Commander.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "我和妹妹瑞鹤在最艰难的时刻并肩作战了两年，要是笨蛋前辈们能再争点气的话……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "妹とあの一番厳しい二年間を乗り越えたけど、あの「センパイ」たちにもっと頑張って欲しかったですね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My sister Zuikaku and I held on for two years during the darkest of times. If only our senpai could have worked a little bit harder.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "对一二航战的不满？当然有啦——自说自话地抛弃了妹妹的姐姐，不可能不遭妹妹怨恨吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "先輩への不満？ええ、ありますともーーあの状況を作り出しておいて、妾の子にだってものを言う資格があるでしょ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do I hold a grudge against the First and Second Carrier Divisions? Of course~ For them to leave us behind like that, wouldn’t anyone complain in that situation?",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "前辈们实在是太狡猾了！明明我马上就要超越她们了——却一下子跑到了我永远也触及不到的地方！真是太狡猾了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "聞いてください指揮官！先輩たちはズルいんです！もうすぐで追い越せそうなのにーーまたすぐずっと上に行って！もう…本当にズルいんです！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Those senpai are so sly! Just when I was about to overtake them, they went somewhere I could never reach! How unfair!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指挥官，我可以借下你的肩膀吗……有时我也会想什么都不想地发会呆呢……到时候我可以依靠你吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、肩を貸していただけますか？…うん…私にもボーっとしたくなる時があります……これからも、こうして寄り添ってもいいでしょうか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, could you lend me your shoulder? Sometimes, even I want to simply clear my mind and rest. When I get like that, can I depend on you to be by my side?",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "我的笛音宛若流水，是以纵情吹之必立于高山。不过——比起高山，现在是你的身侧更适合我的笛声呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この笛の奏でる調べは、鎮魂曲にあらずーー五航戦・翔鶴、これからはずっと、あなたの側に……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The melody of my flute is like a flowing river, requiring an inspiration that usually can only be found atop a mountain. Just being by your side, however, inspires me even more.",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Zuikaku)",
+						"media": "link1",
+						"chinese": "瑞鹤，全力攻击！我来掩护你！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "瑞鶴、全力出撃よ！私が援護するわ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zuikaku, give it your all! I'll cover you!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Akagi)",
+						"media": "link2",
+						"chinese": "看到我的实力了吗，赤城姐！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私の実力を見ましたか？赤城先輩！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you see my true power, Akagi?",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3 (Kaga)",
+						"media": "link3",
+						"chinese": "这次……绝对会让你承认我的实力！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今度こそ…絶対に認めさせるんだから！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This time... I'll prove to you how powerful I really am!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg 4 (Lexington)",
+						"media": "link4",
+						"chinese": "离我太远，防空圈会保护不到你的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うふふ♪これ以上離れると援護してあげられませんよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I won't be able to protect you if you stray too far!",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Easter Egg 5 (Saratoga)",
+						"media": "link5",
+						"chinese": "修理厂女皇是要上哪巡游啊？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ドックの引きこもりちゃんはどこに出かけるおつもり？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Where is the Queen of the Docks heading to?",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "xianghe_2",
+				"id": "1",
+				"label": "The Crane that Dances With the Wind",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "为了这次的舞会，我可是做了特别的准备……如何，指挥官，没有让你失望吧？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "此度のパーティーのために特別に用意した衣装ですが……指揮官、がっかりさせてはいませんよね？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I prepared this outfit just for the occasion, so... Commander, you're not going to disappoint me, are you? Hehe~♪ ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "为了这次的舞会，我可是做了特别的准备……如何，指挥官，没有让你失望吧？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "此度のパーティーのために特別に用意した衣装ですが……指揮官、がっかりさせてはいませんよね？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I prepared this outfit just for the occasion, so... Commander, you're not going to disappoint me, are you? Hehe~♪",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "你会如何邀请我呢，指挥官？稍微有些期待呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は私をどう誘ってくれるのでしょう。ちょっと楽しみです。うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I wonder how you plan on asking me out to the banquet, Commander~ I'm looking forward to it, just a little. Hehe~♪",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "花会凋零，叶会枯萎，舞会也会落下帷幕……不过现在，还是忘掉这些，享受快乐吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "木枯れ果て、花散り、宴もいずれお開きとなる……今はいずれくる終わりのことを忘れ、思いっきり楽しみましょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All flowers must wither, all leaves must fall, and all dances must end... But right now, forget about all that and lose yourself in the moment.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "瑞鹤，你太紧张了。听姐姐的，先放松，放松……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "瑞鶴ったら緊張しすぎよ？お姉ちゃんの言う通り、まずはリラックス、リラックスと……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zuikaku, you're being too nervous. Just do what your sister tells you to. First, relax, just relax... ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "在舞会正式开始前，再来一次练习如何？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーが始まる前に、もう一回練習してみてはどうでしょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Before the banquet begins, shall we practice one more time? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "今晚的主角会是谁呢？是我吗？还是说……我们？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今宵の主役は誰でしょう。私？それとも…私たち？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Who will be the star of tonight's show? Will it be me... or us? Hehe~♪",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "不用担心，指挥官，跟着我的步伐慢慢来就行了~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、心配しないで、私のステップに少しずつついてきてくれればいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't worry, Commander, all you have to do is follow my steps slowly~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "你在做什么呢，指挥官？舞蹈时要好好注视我的眼睛才行哦，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、なにをしているんですか？ダンスの時は私の目をちゃんと見てくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Just what are you doing, Commander? Please keep your eyes on mine when we're dancing~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "来自舞会外的小插曲，会是什么呢~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーの外から寄せられた間奏曲…一体なんでしょう～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I hear a little tune that's not coming from the banquet... What could it be~?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "既然是难得的舞会，今天就暂时和前·辈们和解吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "せっかくのパーティーですから、今日だけは先輩たちと休戦です♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Because it's a special occasion, I'll call a one-day truce with those seniors of mine~♪",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Defeat",
+						"media": "lose_1",
+						"chinese": "花，随风消逝……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "花は風に散りゆく……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The flowers scatter in the wind...",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "若我是随风而舞的翩翩舞鹤，谢幕时让我安心栖息的港湾，一定就是指挥官你的身旁吧…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私が風と舞う鶴だとすれば、一番安心して羽を休める場所はきっと……あなたの側に違いありませんわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If I became a crane that danced with the wind, my safe harbor for when my wings become weary... would surely be by your side, Commander.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "xianghe_3",
+				"id": "2",
+				"label": "Sororal Wings",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呵呵，这点简单的工作，我还是能够胜任的。敬请期待我的表现吧，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふ、この仕事なら私でも楽勝です。指揮官、翔鶴の活躍、期待していてください",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehe, this kind of work is a simple matter for me. Commander, please look forward to my performance~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "呵呵，这点简单的工作，我还是能够胜任的。敬请期待我的表现吧，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふ、この仕事なら私でも楽勝です。指揮官、翔鶴の活躍、期待していてください",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehe, this kind of work is a simple matter for me. Commander, please look forward to my performance~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "今天的风，还挺舒服的呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日の風、気持ちいいです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Doesn't the breeze today feel quite pleasant~?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "瑞鹤…感觉那孩子会不太适应这样的场面呢，指挥官，拜托你帮我多照顾一下她哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "瑞鶴…あの子、こういうのには慣れていなさそうですね…指揮官ごめんなさい、あの子の面倒を代わりに見ていただけないでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zuikaku... She seems to be having difficulty adjusting to this kind of work. Commander, would you be able to look after her?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "像这样受到瞩目的感觉，一旦习惯了，好像也不坏呢，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こういう任務も慣れれば悪くありませんね。ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This kind of work isn't so bad once you get used to it. Hehe~ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "这边的工作结束以后，能带我去兜个风吗，指挥官~？把瑞鹤那孩子也带上~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、仕事から上がったらドライブに連れて行っていただけませんか？瑞鶴も一緒。お願いです～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, after I finish my work over here, would you take me out for a ride? Oh, and Zuikaku too, right~?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "嗯…？前辈没来啊…可惜了~真想让前辈看看指挥官现在的神情呢~ ",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、赤城先輩たちは来ていないのでしょうか…指揮官の今の顔、ぜひとも先輩に見せたかったのに～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my, Akagi and Kaga couldn't make it today? What a pity~ I wish they could see the face you're making right now, Commander~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "头发有点乱了？啊，谢谢你的提醒，指挥官。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "髪の毛がちょっと乱れていました？指揮官ありがとう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My hair's a bit messed up? Oh, thanks for the reminder, Commander.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "就算要沉浸在翔鹤的温柔中，也请等到工作结束之后哦，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "翔鶴に溺れたいなら、お仕事のあとでお願いします～。ね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're welcome to sink into my warmth, but you'll have to wait until after work~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "呼…趁着空档稍微休息下吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅ…ローテで少し休憩しましょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Phew... Why don't we take advantage of the break to rest a bit?",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "16",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"pt_upgrade": "32",
+		"pt_level": "24",
+		"add_level_attr": "Aviation",
+		"add_level_value": "2",
+		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"t_level": "8",
+		"ships": "shoukaku,zuikaku"
+	}
+}

@@ -1,0 +1,639 @@
+{
+	"name_reference": "nowaki",
+	"cn_reference": "yefen",
+	"nameJP": "野分",
+	"nameCN": "野分",
+	"ID": "170",
+	"name": "Nowaki",
+	"internal_id": "301201",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "00:27:00",
+	"class": "Kagerou-Class",
+	"voiceActress": "Emiri Kato",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "October 27, 2017",
+		"CN": "September 28, 2017",
+		"KR": "",
+		"EN": "September 30, 2018"
+	},
+	"artist": {
+		"name": "Saru",
+		"weibo": "http://weibo.com/p/1005051054234800",
+		"twitter": "https://twitter.com/saru_1127",
+		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "33",
+		"aviation": "0",
+		"reload": "15"
+	},
+	"acquisitionMethod": "Limited Build in Visitors Dyed in Red Rerun",
+	"skill": {
+		"1": {
+			"icon": "10780",
+			"requirement": "Default Unlocked",
+			"name": "Gambler's Ship",
+			"type": "Defensive",
+			"description": "Every 20 seconds, gain one of three random effect for 5 (10) seconds:<br>&emsp;1. 30% chance to get +30% evasion<br>&emsp;2. 30% chance to get +20% critical chance and +50% critical damage<br>&emsp;3. 40% chance to get +20% damage taken."
+		},
+		"2": {
+			"icon": "22051",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main cannon is fired, trigger Full Barrage - Kagerou-class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "yefen",
+			"name": "Nowaki",
+			"description": "Kagerou-class destroyer number fifteen - Nowaki.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1787",
+			"firepower": "57",
+			"torpedo": "478",
+			"antiAir": "134",
+			"aviation": "0",
+			"reload": "183",
+			"hit": "182",
+			"evasion": "185",
+			"speed": "42",
+			"luck": "72",
+			"asw": "172",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2145",
+			"firepower": "65",
+			"torpedo": "526",
+			"antiAir": "154",
+			"aviation": "0",
+			"reload": "210",
+			"hit": "191",
+			"evasion": "191",
+			"speed": "42",
+			"luck": "72",
+			"asw": "192",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "346",
+			"firepower": "12",
+			"torpedo": "101",
+			"antiAir": "29",
+			"aviation": "0",
+			"reload": "77",
+			"hit": "70",
+			"evasion": "71",
+			"speed": "42",
+			"luck": "72",
+			"asw": "47",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "42",
+			"luck": "72",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "42",
+			"luck": "72",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Torpedo Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "75%/75%/75%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "135%/140%/150%/155%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "yefen",
+				"id": "0",
+				"label": "Nowaki",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "阳炎级驱逐舰十五番舰—野分",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "陽炎型駆逐艦十五番艦・野分",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Kagerou-class destroyer number fifteen -  Nowaki.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "阳炎级驱逐舰野分。祥瑞？那是佐世保与吴的名物，我们舞鹤可没有这种土产。特鲁克时因为畏缩放弃了舞风，莱特湾时则鲁莽地冲进枪林弹雨中救援筑摩——不过最终两位同伴的结局并没有什么不同……在梦里。大家都在我的身边……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "陽炎型の野分です。悪運？あれは呉と佐世保のことで、私たちの舞鶴にはありません。トラックの時は舞風ちゃんを救えなかったけど、レイテの時は頑張って筑摩さんの救援に向かったのですよ―。皆救えなかったけど…夢ではみんな一緒よ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Nowaki, a Kagerou-class destroyer. Luck? Kure and Sasebo ships have that, us Maizuru ships do not. I was unable to save Maikaze in Truk, but when I was in the Leyte Gulf I came running to Chikuma's rescue. In the end I couldn't save everyone... but in my dreams we're all still together...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "这里是……咦，你是指挥官先生！？咳、驱逐舰野分，即刻加入你的麾下！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ここは……あれ、貴方は指揮官さん！？コホン、駆逐艦野分、着任しました！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This place is... Huh? Are you the commander?! Ahem! Destroyer Nowaki, reporting in!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "Zzz……好，我马上起床……阳光好温暖……Zzz",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "Zzz……いいよーすぐ起きるから……太陽…温かい……Zzz",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zzz... Fiiine, I'll get up in a second... The sun... is so warm... Zzz...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "莱特湾？那时候的事情我已经记不清了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レイテ？よく覚えていないですけど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Leyte Gulf? I don't remember very much of it...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "如果我能勇敢一点，特鲁克的时候…… ",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私がもっと頑張っていれば、トラックでは……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If only I'd tried harder when I was in Truk...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "我喜欢不需要去伤害同伴的这里……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ここは仲間を傷つける必要がないから、好きです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I like this place, I don't need to hurt any of my allies here...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "那珂、岚、萩风、还有——在梦里大家谁都没有离开……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "嵐、雪風ちゃん…夢ではみんな一緒よ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Arashi... Yukikaze... We're all together again in my dreams...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "诶、诶，是指挥官呀……嘿嘿",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、あれ？指揮官……？えへへ…ふぅ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh, what? Commander...? *Giggle*... *Yawn*...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "嘿嘿，指挥官有点像小舞风呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えへへ、指揮官って舞風ちゃんみたいです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*Giggle*... You're like Maikaze-chan, Commander...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任……任务？真希望别太难……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "に、任務？難しくなければいいけど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A-a mission? I hope it won't be difficult...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "不领取奖励，奖励也不会消失的……大概",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ボーナスを受け取らなくても消えませんよ……多分……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your rewards won't disappear even if you don't collect them... I think...",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "我不太需要这种睡前读物……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "寝かしつけの本はいりませんよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I don't really need a bedtime story...",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，现在的天气正适合睡觉……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ふぁあ…良い昼寝日和です……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander... *Yawn*... Today's weather is perfect for a nap...",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "有人回来了……是到吃饭的时间了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誰かが戻ってきました……ご飯の時間……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Someone's come back... Is it lunchtime now...?",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "Zzz……哎，结束了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "Zzz……あれ、もう終わったの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zzz... Huh? It's over already?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "现在可不能再打瞌睡了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今は寝落ちしちゃダメ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I can't fall asleep now...!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "诶？MVP是我！？真是幸运的一天！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん？私が一位！？今日はついてるね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? I'M the MVP?! What a lucky day!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "我在哪？谁在打我？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私は…どこ？誰が撃ってきたの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Where... am I? Who's shooting at me?",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "破野之台风！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "吹き荒れる嵐よ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "O, furious storm!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "怎、怎么回事！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ど、どういうこと！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "W-what's going on?!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "……在你身边我睡不着……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……指揮官の隣は寝付けないよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... I can't sleep with you next to me...",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "电影？那种东西我不太喜欢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "映画ですか？あまり好きじゃないです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Movies? They aren't really my thing...",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "舞风……这一次我一定会对你伸出手！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "舞風ちゃん……今度はきっと手を差し伸べるよ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Maikaze... I promise I'll help you this time...!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "莱特湾的时候有点勇敢过头了……而且，最后谁也没有获救……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レイテの時はちょっと頑張りすぎました……それに誰も助けられなかったし……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I tried too hard to be brave in Leyte Gulf... In the end I couldn't save anyone...",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "Zzzz……指挥官……偶尔也睡睡懒觉怎么样……Zzzz",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "Zzzz……指揮官……たまにはサボって昼寝しても…いいよ……Zzzz",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zzz... Commander... It's fine to take some time off and nap every now... and then... Zzz...",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "这是……亲密无间的姐妹的证明？指挥官想成为我的姐姐吗……咦！完全搞错了！？可是舞风是这么对我说的啊……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これは……姉妹の証明！？指揮官は私のお姉ちゃんになりたいんですか？……違うんですか！？舞風ちゃんがそう言ってたんですけど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is... proof of a sisterly bond?! Commander, you want to be my sister? ... I've got it all wrong?! But that's what Maikaze-chan told me...",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Shigure)",
+						"media": "link1",
+						"chinese": "我跟你可不一样！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あなたとは違うよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm nothing like you!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Akagi)",
+						"media": "link2",
+						"chinese": "这一次，我的鱼雷只会射向敌阵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今度の魚雷は敵に…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This time, I'll only fire on the enemy...",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3 (Kagerou)",
+						"media": "link3",
+						"chinese": "大……大姐头……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お……お姉ちゃん……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "O... Onee-chan...",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "7",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "14",
+		"pt_level": "10",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "7",
+		"ships": "kagerou,shiranui,kuroshio,oyashio,yukikaze,urakaze,isokaze,hamakaze,tanikaze,nowaki"
+	}
+}

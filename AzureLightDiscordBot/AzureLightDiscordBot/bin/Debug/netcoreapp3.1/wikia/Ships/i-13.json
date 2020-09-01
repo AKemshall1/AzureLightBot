@@ -1,0 +1,665 @@
+{
+	"name_reference": "i-13",
+	"cn_reference": "I13",
+	"nameJP": "伊13",
+	"nameCN": "伊13",
+	"ID": "381",
+	"name": "I13",
+	"internal_id": "317011",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Submarine Aircraft Carrier",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "00:34:00",
+	"class": "Type A Mod. 2",
+	"voiceActress": "Yanagihara Kanako",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "A",
+		"aviation": "B",
+		"evasion": "D",
+		"antiAir": "E",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "March 28, 2019",
+		"CN": "March 28, 2019",
+		"KR": "",
+		"EN": ""
+	},
+	"artist": {
+		"name": "原虫",
+		"weibo": "https://www.weibo.com/p/1005052732245883",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=8931555",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "1",
+		"torpedo": "39",
+		"aviation": "5",
+		"reload": "8"
+	},
+	"acquisitionMethod": "Event: Ink-Stained Steel Sakura, イベント：墨染まりし鋼の桜",
+	"skill": {
+		"1": {
+			"icon": "12010",
+			"requirement": "Default Unlocked",
+			"name": "From the Seas to the Skies",
+			"type": "Support",
+			"description": "Upon entering battle, launch a Nakajima C6N Saiun reconnaissance plane. Damage dealt by the Main Fleet is increased by 5.0% (10.0%) in the next 10 seconds"
+		},
+		"2": {
+			"icon": "3511",
+			"requirement": "Default Unlocked",
+			"name": "Extra Oxygen",
+			"type": "Support",
+			"description": "Increase Oxygen by 4 (40)."
+		},
+		"3": {
+			"icon": "29371",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "When enter battle, trigger Full Barrage I-13 I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "I13",
+			"name": "I-13",
+			"description": "Type A Mod. 2 cruiser submarine – I-13.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "35400",
+			"rarity": "Common",
+			"name": "Type 92 Submarine Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "2214",
+			"firepower": "43",
+			"torpedo": "467",
+			"antiAir": "0",
+			"aviation": "220",
+			"reload": "94",
+			"hit": "153",
+			"evasion": "18",
+			"speed": "13.4",
+			"luck": "20",
+			"asw": "0",
+			"oxygen": "198",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2657",
+			"firepower": "50",
+			"torpedo": "514",
+			"antiAir": "0",
+			"aviation": "252",
+			"reload": "109",
+			"hit": "172",
+			"evasion": "36",
+			"speed": "13.4",
+			"luck": "20",
+			"asw": "0",
+			"oxygen": "198",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "428",
+			"firepower": "9",
+			"torpedo": "99",
+			"antiAir": "0",
+			"aviation": "47",
+			"reload": "40",
+			"hit": "59",
+			"evasion": "7",
+			"speed": "13.4",
+			"luck": "20",
+			"asw": "0",
+			"oxygen": "198",
+			"ammo": "2",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "13.4",
+			"luck": "20",
+			"asw": "",
+			"oxygen": "198",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "13.4",
+			"luck": "20",
+			"asw": "",
+			"oxygen": "198",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		}
+	},
+	"huntingRange": {
+		"1": "b2,d2,b3,c3,d3,e3,f3,c4,d4,e4,f4,c5,d5,e5,c6,e6",
+		"2": "b2,d2,b3,c3,d3,e3,f3,c4,d4,e4,f4,c5,d5,e5,c6,e6,b4,f5,c7,e7",
+		"3": "b2,d2,b3,c3,d3,e3,f3,c4,d4,e4,f4,c5,d5,e5,c6,e6,b4,f5,c7,e7,b5,b6,d6,f6",
+		"4": "b2,d2,b3,c3,d3,e3,f3,c4,d4,e4,f4,c5,d5,e5,c6,e6,b4,f5,c7,e7,b5,d6,c2,e2,f2",
+		"5": "b2,d2,b3,c3,d3,e3,f3,c4,d4,e4,f4,c5,d5,e5,c6,e6,b4,f5,c7,e7,b5,d6,c2,e2,f2,c1,e1,b6,f6"
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Seaplanes +1/Improve Hunting range",
+		"tier3": "Improve EX Barrage/Torpedo efficiency +10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "120%/125%/125%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "100%/105%/105%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Seaplane",
+			"efficiency": "150%/150%/150%/150%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "I13",
+				"id": "0",
+				"label": "I-13",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "巡潜甲型改二型潜水舰伊13",
+						"chineseTL": "Type AM Submarine - I-13",
+						"chineseNote": "",
+						"japanese": "巡潜甲型改二伊号第十三潜水艦",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Type A Mod. 2 cruiser submarine – I-13.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是伊13型潜水舰，巡潜甲型改二的首舰，伊13哦，也被称作过伊9型的五号舰，但是我可是专为搭载“晴岚”而做过设计变更的的改良型呢。是不是听起来还挺了不起的？虽然没怎么用上就是了……",
+						"chineseTL": "I'm submarine I-19, first of the modified A class submarines. I-19, also sometimes referred to as the 5th ship of the I-9 class - I am also specially modified to carry Seiran seaplanes. Doesn't it sound impressive? It hasn't been used much though..",
+						"chineseNote": "",
+						"japanese": "あたしは伊十三型、改めて巡潜甲型改二の伊13よ。伊九型の五番艦と言われたこともあるけど、本当は晴嵐を搭載できるようにその改良型として設計変更されたの。なんかすごそうに聞こえない？実際はあまり役に立てなかったけどね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm I-13, formally known as the Type A Mod. 2 cruiser submarine model thirteen. Some people call me the fifth of the Type A model, but I was really just an upgraded model that could store Seirans. Sounds cool, doesn't it? Well, sadly, I didn't achieve much of note...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "你好呀，指挥官，我是潜水空母，伊13，兴趣是眺望天空和飞机。还有这孩子是我的好朋友，“晴岚”，还请多多关照",
+						"chineseTL": "Hello commander, I'm submarine carrier I-13. My interests are sky-gazing and aircraft. This child is my good friend \"Seiran\" please take good care of us.",
+						"chineseNote": "",
+						"japanese": "はじめまして指揮官、あたしは潜水空母伊13、趣味はお空を眺めるのと、飛行機のこと！そしてこのコは友達の「晴嵐」。よろしく～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hi, Commander. I'm the aviation submarine I-13. My hobbies include aircraft and gazing up at the sky! Also, this is my friend, my Seiran. I'm glad to meet you.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来，指挥官，今天的天空也是一片碧蓝呢",
+						"chineseTL": "Welcome back Commander, today's skies are blue as usual.",
+						"chineseNote": "",
+						"japanese": "おかえり指揮官、今日もお空はあおーい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander. The skies are ever blue!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "指挥官，光靠潜艇，能做的事是有限的，要左右战局，最终还是要依靠天空的力量啊",
+						"chineseTL": "Commander, there are limits to the things a submarine can do. In the end we must still rely on the power of air superiority.",
+						"chineseNote": "",
+						"japanese": "指揮官、潜水艦だけではできることは限られてるよ？戦局を変えるには、やっぱり航空戦力が大事だからね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's only so many things a regular submarine can do. To turn the war around, we need more wings in the air.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "指挥官，有一点不要搞错了，虽然我喜欢飞机，但并不讨厌身为潜艇的自己哦？",
+						"chineseTL": "Commander, please don't be mistaken, for although I love submarines; I don't hate my submarine self.",
+						"chineseNote": "",
+						"japanese": "指揮官、勘違いしないでよね。あたしは飛行機が好きだからって、潜水艦である自分のことを嫌ったりはしないよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't get the wrong idea about me, Commander. I do love aircraft, but that doesn't mean I hate myself for being a submarine.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "大海的颜色，是天空的颜色，而天空的颜色，就是我的颜色哦~",
+						"chineseTL": "The colour of the sea is the colour of the sky, and the colour of the sky is my colour~",
+						"chineseNote": "",
+						"japanese": "海の色は空の色、空の色は…あたしと同じ色ね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The sea is the color of the sky. And the sky is the same color as me!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "九九式、九七式、彗星、天山、流星、彩云，还有我的晴岚……只要是和飞机有关的东西，我都知道哦",
+						"chineseTL": "Type 99, Type 97, Suisei, Tenzan, Ryuusei, Saiun and my \"Seiran\", so long as it's related to aircraft, I know them all.",
+						"chineseNote": "",
+						"japanese": "九七、九九、彗星、天山、流星、彩雲、そしてあたしの晴嵐……飛行機のことなら全部知ってるの～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's the Type 97 and Type 99, the Suisei, Tenzan, Ryuusei, Saiun, and of course, my Seiran. I know everything there is to know about aircraft!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，“晴岚”虽然可以借你玩，不过这孩子可是很珍贵的哟，弄坏了我会生气的",
+						"chineseTL": "Commander, I can lend you \"Seiran\" to play, but this child is precious and I'll get angry if you break it!",
+						"chineseNote": "",
+						"japanese": "指揮官、晴嵐を貸してもいいけど、このコはとーーっても高いからね？壊したら怒るからね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm okay with lending you my Seiran, but it's veeeeery expensive! Break it, and I'll be really angry, okay?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指挥官，我要叫“晴岚”用机枪瞄准你了哦",
+						"chineseTL": "Commander, I'm going to order \"Seiran\" to aim its machine guns at you!",
+						"chineseNote": "",
+						"japanese": "指揮官、晴嵐の機銃で狙っちゃうよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't make me pepper you with my Seiran's machine guns.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "指挥官，任务，不要忘了确认哦",
+						"chineseTL": "Commander, mission, don't forget to acknowledge.",
+						"chineseNote": "",
+						"japanese": "指揮官、任務、確認を忘れないでね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Remember to give those missions a look, okay, Commander?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "指挥官，“晴岚”把任务报酬运过来了",
+						"chineseTL": "Commander, \"Seiran\" has transported the mission rewards back.",
+						"chineseNote": "",
+						"japanese": "指揮官、晴嵐が任務報酬を運んできたよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, my Seiran just came back with the mission rewards.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，“晴岚”把信件给你带过来咯",
+						"chineseTL": "Commander, \"Seiran\" has bought over your mail",
+						"chineseNote": "",
+						"japanese": "指揮官、晴嵐がメールを運んできたよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, my Seiran has arrived with mail.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，作战辛苦了",
+						"chineseTL": "Commander, had a tough battle? Welcome back.",
+						"chineseNote": "",
+						"japanese": "指揮官、作戦おつかれさまー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Nice job on that last mission, Commander.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "指挥官，应该到了委托完成的时间了",
+						"chineseTL": "Commander, it's almost time for the commision to complete.",
+						"chineseNote": "",
+						"japanese": "指揮官、委託が完了する時間だよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Commander, a commission should be done by now.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "继续变强的话，可以多搭载几架晴岚吗？",
+						"chineseTL": "If I continue to get stronger, may I carry more Seirans?",
+						"chineseNote": "",
+						"japanese": "もっと強くなったら、晴嵐を何機も載せられるのかな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Maybe I can fit a few more Seirans once I get stronger?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "我会努力的~",
+						"chineseTL": "I will do my best~",
+						"chineseNote": "",
+						"japanese": "がんばるー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's give it our best shot.",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "这样的胜利，应该能为其他部队提供帮助吧",
+						"chineseTL": "Such a victory should help our other fleets.",
+						"chineseNote": "",
+						"japanese": "この勝利はほかの艦隊の手助けになったね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This victory will be a great help to our other fleets.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "果然，光靠潜艇是没有用的呢……",
+						"chineseTL": "Of course, it's useless to rely solely on submarines..",
+						"chineseNote": "",
+						"japanese": "やっぱり潜水艦だけじゃ無理よね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's not good enough to be an ordinary submarine...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "这就是，我能做到的极限了——！",
+						"chineseTL": "This is my limit——!",
+						"chineseNote": "",
+						"japanese": "これが…あたしのできるすべて――！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Here it comes... Everything I'm capable of!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "这就是潜艇的局限性吗……",
+						"chineseTL": "Are these the limits of being a submarine?",
+						"chineseNote": "",
+						"japanese": "これが潜水艦の限界ね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I guess this is all a submarine can do...",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官果然也不理解我呢……",
+						"chineseTL": "Of course the Commander doesn't understand me...",
+						"chineseNote": "",
+						"japanese": "指揮官もわかってくれないんだね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You just don't understand me either, do you, Commander?",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "欢迎来我的房间做客，指挥官。舰载机相关的书籍我这里应有尽有，请随意阅读。另外，橱柜里的舰载机模型，还请轻拿轻放～",
+						"chineseTL": "Welcome to my room, Commander. I have all sorts of carrier related books, please feel free to read them. Aditionally, there's a model carrier in the cabinet, please handle it with care.",
+						"chineseNote": "",
+						"japanese": "あたしの部屋にようこそ。指揮官。ここには飛行機の本がいっぱいあるから、適当に手に取って読んでいいよ。あっ、棚の飛行機の模型を取るときは気をつけてね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome to my room, Commander. I've got books on aircraft lying around if you want to read those. Oh, and please be careful around the model plane on the shelf over there.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "指挥官果然也觉得我的兴趣有些古怪吗？呵呵，这也是没有办法的事。但是呢，指挥官，在我有限的潜艇生涯中，我注意到了，潜艇的力量，是有极限的……",
+						"chineseTL": "The commander feels my interest is weird? Haha, it can't be helped. However Commander, in my limited experience I have found the power of submarines to be limited..",
+						"chineseNote": "",
+						"japanese": "指揮官もあたしのことを変だと思うの…？ふふふ、しょうがない――指揮官？潜水艦ってのは能力に限界があるんだよ…あたしの短いカンレキで学んだことは……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You think I'm weird, do you? Heheh, maybe I am... Just remember: there are only so many things a regular submarine can do. That's something I learned during my short time in service.",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "多亏了指挥官从中搭桥引线，让我得以近距离接触各位航母的舰载机，对我来说，没有比这更高兴的事了，很感谢你哦，指挥官~",
+						"chineseTL": "Thanks to Commander bridging my gap with carriers, it has allowed me to interact closely with thier aircraft. There is no greater joy for me. Thank you again Commander.",
+						"chineseNote": "",
+						"japanese": "指揮官のおかげで、空母のみんなの艦載機ともっと近づくことができた。あたしにとって、これが一番幸せなことなの。指揮官、ありがと～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've gotten closer to the carrier's aircraft now, and it's all thanks to you. I've never been this happy before in my life. Thank you, Commander!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指挥官，你为我做了这么多，偶尔也让我为你做些什么吧，什么事都可以哦？因为，就像指挥官总是在支持着我一样，我也想要成为指挥官的力量呢",
+						"chineseTL": "Commander, after doing so much for me, why not let me do something for you? Anything for you. Because the commander has always supported me, I also wish to be the Commander's supporting strength.",
+						"chineseNote": "",
+						"japanese": "指揮官はいろいろしてくれたから、あたしにも指揮官のためになにかやらせてほしいの。なんでもいいよ？指揮官があたしをサポートしてくれるように、あたしも指揮官の力になりたいから！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I want to repay you somehow for everything you've done for me, Commander. I'll do anything you want! If I can help you, you can then help me back.",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "……地狱猫？！TBF？！飓风？！还有其他的舰载机们……这是特意借来为我们祝福的吗？……真是的，指挥官，不可以哦，这样的话，我会喜欢你喜欢得无可救药的",
+						"chineseTL": "Hellcat?! TBF?! Sea Hurricanes?! And other carrier aircraft... Are these specially borrowed to wish us happiness? Really Commander, you can't do this.. if this continues I'll fall hopelessly in love with you.",
+						"chineseNote": "",
+						"japanese": "……ヘルキャット？アベンジャー？ハリケーン？そして他の艦載機たち……全部あたしのためにわざわざ借りてきてくれたの？……もう指揮官、ダメなの…指揮官のことが好きすぎて変になっちゃうじゃないの……（涙",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A... Hellcat? An Avenger? Even a Hurricane, and all these other planes?! You... went out and borrowed them all just for me? Oh, Commander... I love you so much I can't even think straight...!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "6",
+		"add_get_attr": "Torpedo",
+		"add_get_value": "1",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "12",
+		"pt_level": "9",
+		"add_level_attr": "Aviation",
+		"add_level_value": "2",
+		"add_level_shiptype": "Submarine Aircraft Carrier",
+		"t_level": "7",
+		"ships": "i-13"
+	}
+}

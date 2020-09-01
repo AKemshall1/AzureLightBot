@@ -1,0 +1,1029 @@
+{
+	"name_reference": "sussex",
+	"cn_reference": "susaikesi",
+	"nameJP": "サセックス",
+	"nameCN": "苏塞克斯",
+	"ID": "337",
+	"name": "Sussex",
+	"internal_id": "203091",
+	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "01:30:00",
+	"class": "London-Class",
+	"voiceActress": "Hikaru Aono",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "1"
+	},
+	"releaseDate": {
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
+	},
+	"artist": {
+		"name": "ALLENES",
+		"weibo": "https://weibo.com/u/3818062182",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=8217405",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "21",
+		"torpedo": "13",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"acquisitionMethod": "Heavy Ship Construction",
+	"skill": {
+		"1": {
+			"icon": "2061",
+			"requirement": "Default Unlocked",
+			"name": "Double Gun",
+			"type": "Offensive",
+			"description": "When this ship fires its Main Guns: 15% (25%) chance to fire its Main Guns twice."
+		},
+		"2": {
+			"icon": "21211",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activate All Out Assault Ⅰ: London Class once every 9 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "susaikesi",
+			"name": "Sussex",
+			"description": "London-class heavy cruiser – Sussex. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "susaikesi_2",
+			"name": "Sunlit Tulips",
+			"description": "What are you spacing out for? Have you not gotten tired of staring at all the swimsuits yet? Good grief... Are you able to help set up the parasol or the beach chairs at least?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"3": {
+			"id": "susaikesi_3",
+			"name": "Wine and Red Roses",
+			"description": "What are you staring at me for? I'm just the same as any of the others... Y-you have a few more hands to shake? Of course...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "23000",
+			"rarity": "Common",
+			"name": "Twin 203mm Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "26100",
+			"rarity": "Common",
+			"name": "Quadruple 40mm Pom Pom Gun"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3049",
+			"firepower": "176",
+			"torpedo": "187",
+			"antiAir": "222",
+			"aviation": "0",
+			"reload": "139",
+			"hit": "99",
+			"evasion": "22",
+			"speed": "25.6",
+			"luck": "68",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "3461",
+			"firepower": "203",
+			"torpedo": "215",
+			"antiAir": "255",
+			"aviation": "0",
+			"reload": "160",
+			"hit": "116",
+			"evasion": "71",
+			"speed": "25.6",
+			"luck": "68",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "590",
+			"firepower": "37",
+			"torpedo": "40",
+			"antiAir": "48",
+			"aviation": "0",
+			"reload": "59",
+			"hit": "38",
+			"evasion": "9",
+			"speed": "25.6",
+			"luck": "68",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "68",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "68",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "130%/135%/145%/145%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/145%/145%/160%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "susaikesi",
+				"id": "0",
+				"label": "Sussex",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "伦敦级重巡洋舰—苏塞克斯，舷号96",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン級重巡洋艦・サセックス (HMS Sussex）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "London-class heavy cruiser – Sussex.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "基本上除了西班牙内战和挪威海战之外，我都是在普通地执行任务，啊，中间还大修了一次……总之，在这支舰队我也会脚踏实地地做事的，希望指挥官你也一样",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "かの地中海での沿岸防衛と北海の海戦以外、ほとんど地味な任務しか就いてなくて…あとは一回長い修理が……と、とにかく！この艦隊に着任した以上ちゃんと働かせていただきますから、指揮官もしっかり働きなさいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Other than the coastal defence battle in the Mediterranean Sea and that one naval battle up north, I pretty much carried out all my missions normally... Well, there was that one time I needed serious repairs... b-but anyway! Since I'm here, I'll continue to put my best foot forward. Commander, I expect the same from you!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "你就是指挥官？哼，丑话说在前头，跟姐姐那种耳根子软的性格可不一样，我苏塞克斯可是很严格的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あなたが指揮官？ふん！言っておきますが、あの押しに弱いロンドン姉さんとは違って、私・サセックスはとっても厳しいですからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So you're the Commander? Hmph! Let's make one thing clear: I'm not easygoing like my sister, London. I'll expect you to have your act together!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "工作准备没问题吧，别等会儿才发现少了什么",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "仕事の準備、大丈夫？あとで見落としてた、とか言われても知りませんから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you ready to begin working? Don't come running to me if you find out later that you're missing something.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "什罗普郡的性格也很麻烦，不过那丫头是不会让自己吃亏的类型，就随她去了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シュロップシャーは結構拗ねてる所がありますね……まああの子は何をやっても損をしないタイプですから、放っとけばいいんじゃない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Shropshire can be quite a handful to deal with... But, I suppose since she's the type of person who won't ever let herself draw the short straw, you should just let her be.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "对有些人来说温柔才是在害他，该严格的时候就该严格才对",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "過ぎた優しさは毒になりますわ。厳しい時はちゃんと厳しく接しなきゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Excessive kindness can become poison. One must be strict when the situation calls for it. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "有时间看我的话，不如多做点工作，完成后让你看多久都没关系",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私を見る暇があったら仕事をちゃんとしなさいっ！お、終わったら好きなだけ見ても……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you have time to gawk at me, you should get your work done first. After you finish, then you can, um... ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "……累了的话就先休息，我不是让你硬撑，只是希望你该努力的时候好好努力",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……疲れたら休みなさい。こういう時に無理して我慢するより、肝心な時にちゃんと努力しなさいっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... If you're tired, get some rest. I'm not saying this for your sake - it's simply better if you're ready to give it your all when the situation calls for it.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，领子没翻好，还有头发……不要动，我来帮你弄好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、襟が乱れています。あと髪も……動かないで、今正してあげます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, your collar is messed up. And your hair too... Hold still, I'll fix it for you.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指挥官，在那边坐好，看来我要从基本礼仪开始教起了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、そこに座りなさいっ！……ったくもう…マナーの基本から教え直さなければならないなんて…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, sit right there! Good grief... I'll have to re-teach you some basic manners...!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务应该想好怎么才能最高效地完成后再去做，没有忘吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "まずは効率の良い方法を考えてから、行動に移る――それ、忘れていませんよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Before acting, one must first consider the most efficient way of getting things done - you haven't forgotten, right?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务奖励下达了吗……这不是干得不错嘛，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務報酬ですね！指揮官もやれば出来るじゃありませんか♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So these are the mission rewards! Commander, you're quite the capable one~",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "邮件不要忘了确认",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "メールの確認は忘れないでくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Please do not forget to check your mail.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "虽然还有许多要汇报的东西，不过首先还是，辛苦了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "報告するものはいっぱいありますけど、まあ、ひとまずお疲れ様ってね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's a lot to report still, but for now, good work.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "应该是这个时间……指挥官，委托应该完成了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "時間ですね。……指揮官、委託チームがそろそろ帰還するようです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "And that should be time... Commander, the commission team should be returning any moment now.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "谢谢，接下来的作战我会努力的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どうも、次の作戦もがんばりますわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thank you. I'll continue to work hard on the next mission.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "以不让舰队蒙羞为目标，各自奋斗吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦隊に恥をかかないためにも…各員の奮闘に期待します！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "For the sake of not bringing shame upon the fleet, let us fight!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "不要以为赢了就好，还有许多可以做得更好的地方",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勝ったっていい気にならないのっ。改善出来る点はまだ山ほどありますから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't think that winning is the only thing that matters. There are still many things I could have done better.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "大家不要难过，是我没有做好队长的职责",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "リーダーである私のせいよ。みんな落ち込まないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This was due to my failure as a leader. Don't blame yourselves, everyone.",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "稳扎稳打！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しっかり撃ち込むわよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's make this shot count!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "各位，收缩阵型！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "各員、陣形を引き締めなさいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Everyone, tighten the formation!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "姐姐就是就是太好说话，才把你这种人都给惯坏了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さんは押しに弱いから、あなたをこんなダメ人間になるまで甘やかしてしまったのですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "London is too much of a people-pleaser, and all her coddling seems to have turned you into mush.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "我就是看不惯姐姐那种对谁都和和气气的态度",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さんのあの誰に対してもにっこりしている感じ、どうも慣れませんね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The way London always has that smile plastered on her face no matter who she's around just rubs me the wrong way.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "姐姐是会对谁都会付出很多的，即使是不值得付出的人……嗯？不是在说你啦…还是说，你觉得自己是那样的人？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さんはきっと悪い人に騙されやすくて、しかも騙されてもにっこりと受け入れちゃう…もうなんでこんな性格しているのよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "London is the type of person who would easily be deceived by a bad person, but still continue to smile despite knowing that... Jeez, just why does she have to have that kind of personality...",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "主要是我跟她说这些，她一定会笑着摸摸我的头说“谢谢你苏塞克斯，不过我没关系的”，然后继续那样，可恶，想想就好气",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ…ロンドン姉さん、何を言っても私の頭を撫でながら「サセックスありがとう、でも大丈夫」って言ってくるんだから…そして結局何も変わらずいつも通り……ったくもう、なんで人をこんなに悩ませるのよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*sigh*... What's more, when I went to bring this up with her, she just gave me a pat on the head and said, \"Thanks, Sussex, but it'll be alright.\" So, nothing changed at all... Good grief, why do people have to be so difficult...?",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "当然你是值得姐姐付出没错啦，不过现在还不够，你要变得更加出色，出色到我都对你移不开视线……欸，为什么是我？啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あなたならロンドン姉さんを安心してまかせ……ううん、ダメ、あなたにはもっと優秀に…せめて、この私でも惹かれてしまうくらいになってもらわなくては……あれ？私、今なんて……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "At least I'll feel at ease leaving London in your care... No, you'll have to become even more distinguished, to the point that I won't be able to look away from you... huh? What did I just say...?",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "一开始我只想着让姐姐减少负担才会那么严格，后来就慢慢地……慢慢地希望你成为我心目中最好的存在。现在，你已经是了哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さんを少しでも楽させてあげようと思ってついあなたに厳しくあたっちゃったけど、少しずつ……私にとって誰よりも優秀な存在になって欲しいって、そう思うようになって…今は…もうそうなっちゃったよね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "At first, I was strict with you only because I wanted to ease the burden on my sister... but gradually, I began to hope that you would become the most distinguished person in my life... As of now, you've already become that person...",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (London)",
+						"media": "link1",
+						"chinese": "姐姐你也不要受伤了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さん、怪我はしないように！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "London, stay safe out there!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Shropshire)",
+						"media": "link2",
+						"chinese": "什罗普郡，战斗的时候认真点",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シュロップシャー、戦闘は真面目にやりなさいっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Shropshire, stay focused on the battlefield!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "susaikesi_2",
+				"id": "1",
+				"label": "Sunlit Tulips",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "What are you standing in a trance for, haven't you seen enough swimsuits? Really.. don't you know how to help with setting up umbrellas and beach chairs?",
+						"chineseNote": "",
+						"japanese": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What are you spacing out for? Have you not gotten tired of staring at all the swimsuits yet? Good grief... Are you able to help set up the parasol or the beach chairs at least?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "What are you standing in a trance for, haven't you seen enough swimsuits? Really.. don't you know how to help with setting up umbrellas and beach chairs?",
+						"chineseNote": "",
+						"japanese": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What are you spacing out for? Have you not gotten tired of staring at all the swimsuits yet? Good grief... Are you able to help set up the parasol or the beach chairs at least?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，工作都完成了吧？要是你是偷溜过来的，呵呵……",
+						"chineseTL": "Commander, are you done with your work? If you're slacking off.. heh, heh..",
+						"chineseNote": "",
+						"japanese": "指揮官、仕事は大丈夫？いい加減にやってきたのなら、ふふふ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, how's your work coming along? If I find out that you've snuck out here... Hehe~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "姐姐觉得泳装太暴露了，总是不愿意穿。哈……我偶尔也会觉得，姐姐应该学习一下什罗普郡的大胆…",
+						"chineseTL": "My sister thinks swimsuits are too revealing, and is unwilling to wear them. Hah.. Sometimes I think my sister could take a few lessons from Shropshire about boldness.",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さん、水着の露出度が高いって着たがらないですね…（小声）たまにはシュロップシャーのようにポジティブに考えたほうがいいのに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "London's complaining about how she doesn't want to wear her swimsuit again because it's \"too revealing\" ...*sigh*. She could probably benefit from learning to think more positively about herself, like Shropshire does.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "虽然你是指挥官，不过要是以为大家都是为了你才换上泳装的话，那就大错特错了哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いいですか？みんな指揮官のために水着を着たわけじゃありませんからね…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "People aren't changing into swimsuits just for your viewing pleasure... Got it? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "指挥官，如果遇到什罗普郡的话，你要小心一点，虽然她平时就很烦人，但是夏天的她，是烦人的化身……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シュロップシャーに会ったら気をつけたほうがいいですよ。あの子は夏になると色々と…なんというか、悪い意味であざといというか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You should watch yourself around Shropshire. That girl develops a variety of... how should I say this? ...Bad habits during the summer? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "嗯？没什么，在海边的时候，你想做什么就做什么，我才不管。只是不知道为什么，看到你这张脸就有点来气…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ん？なんでもありませんよ。ここでなら好きなことをしても問題ないですっ。…はあ……なんで指揮官の顔を見ると落ち着かないのよ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? It's nothing. When we're at the beach, you can do whatever you want. *sigh*... It's just that... looking at your mug makes me really uneasy for some reason...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，你也想冲浪吗？那我来教你一些基本常识吧",
+						"chineseTL": "Commander, do you want to surf too? Then let me teach you some basics.",
+						"chineseNote": "",
+						"japanese": "指揮官もサーフィンに興味あります？ふふ、基本から教えてあげます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, are you also interested in surfing? Hehe, I'll teach you the basics.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "你这人真是不长记性呢……",
+						"chineseTL": "You really do have a short term memory..",
+						"chineseNote": "",
+						"japanese": "懲りないわね…っ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You just won't learn your lesson...!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "任务？我陪你一起去吧……干什么，我可没有忘记身为秘书舰的职责！",
+						"chineseTL": "Mission? Let me accompany you... What? I haven't forgotten my duties as a secretary ship!",
+						"chineseNote": "",
+						"japanese": "ミッション？私も行きます。……これでも秘書艦ですからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A mission? I'll also come with you... That's my job as secretary after all!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "这些冰淇淋是……你买的吗？唔，谢谢…",
+						"chineseTL": "Did you buy these ice creams...? Hm, thanks...",
+						"chineseNote": "",
+						"japanese": "このアイスは指揮官が買ってくれたものなの……？あ、ありがとうございます……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Did you buy this ice cream for me...? Th-thanks...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "真是的，指挥官，和你说过多少次了，确认过没有其他任务了再好好休息",
+						"chineseTL": "Again, Commander, I have already confirmed many times there's no missions, so have a good rest.",
+						"chineseNote": "",
+						"japanese": "もう指揮官、他に出撃任務がなくなってから休んでいいって何度も言いましたよね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How many times have I already told you, Commander? Finish your missions first before taking time off.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "指挥官，要去接委托组的话，把这些冰西瓜带上吧——是慰问品",
+						"chineseTL": "Commander, take these watermelons if you're meeting with the commission team. It's a token of appreciation.",
+						"chineseNote": "",
+						"japanese": "指揮官、委託組を出迎えるのでしたらこの冷えたスイカでも持って行って頂戴？差し入れですから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, when you go welcome the commission fleet back, can you take this plate of ice-cold watermelon with you? It's a little courtesy from me.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "susaikesi_3",
+				"id": "2",
+				"label": "Wine and Red Roses",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "一直盯着我看干嘛？我这身和其他人比起来也没什么……你、你还有别的人要打招呼吧？真是的……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "何をジロジロ見ているんですか？別にこの格好他の子と比べて……挨拶に回っているならまだほかの子だっていっぱいいるでしょう？もう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What are you staring at me for? I'm just the same as any of the others... Y-you have a few more hands to shake? Of course...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "一直盯着我看干嘛？我这身和其他人比起来也没什么……你、你还有别的人要打招呼吧？真是的……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "何をジロジロ見ているんですか？別にこの格好他の子と比べて……挨拶に回っているならまだほかの子だっていっぱいいるでしょう？もう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What are you staring at me for? I'm just the same as any of the others... Y-you have a few more hands to shake? Of course...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "工作进度没问题吗？老是在这里瞎晃的话，一会可是得加班的哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "仕事は大丈夫？いつまでもここにいちゃあとで残業確定ですからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How is your work coming along? Keep faffing about like that and you'll be putting in overtime!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "声望小姐，宴会的警备工作交给女仆队的各位就好了…指挥官也给我在这里待着！真是的，你不在这大家还怎么开宴会啊！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レナウンさん、パーティーの警備を申し出てたけど、メイド隊の子たちに任せればいいのに…指揮官はここにいてくださいっ！あなたがいないと始められないでしょう？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Miss Renown, do please let the Maids handle banquet security... the Commander is already here Honestly, how are we supposed to start the party without you?!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "阿贾克斯那家伙，肯定很快又要对指挥官…不行，我得做点什么……啊，没什么！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エイジャックスのことですから、きっとすぐ指揮官を…私がなんとかしなくては……な、なんでもありません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "That Ajax, she's going to do that to the Commander again... I have to do something about her... Ah, it's nothing!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "你要盯着我的脸看到什么时候？指挥官还有很多其他要做的事情吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いつまでこっちの顔を見ているんですか？指揮官は他にも色々やるべきことがあるでしょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How long are you going to stare at me like that? Don't you have anything better to do?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "伦敦姐姐在…呼，看来不用担心的样子。算啦，毕竟是伦敦姐姐，本来就没什么好担心的吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さんは……ふぅ、大丈夫のようですね。まあ、ロンドン姉さんなら心配する必要なんて最初からありませんけど",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My sister London is here... Phew, looks like I don't need to worry. I mean, it's London, there was never anything to worry about in the first place.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "指挥官，这里有点歪了哦。穿着正装还这么不注意…好了，这样好多了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ここがちょっとズレているのですよ。正装なのになんてだらしない…はい、これでいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, look how crooked this is. You really must pay more attention to your formalwear... Right, there we are.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "等、等下！指挥官！？…！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ちょ、ちょっと！指揮官？！…っ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "W-wait! Commander?! Eek...?!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "现、现在毕竟不在作战任务中，稍微放松下也…不对，宴会也要集中精力参与才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "い、今は作戦任務中じゃないから、少しだけ気を抜いても……ううん、こっちのほうにも集中しなさいよっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "N-now that we're through with battle, perhaps we could relax a... No, we have to focus on the party for now!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_2",
+						"chinese": "不能输给其他阵营，大家加油！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "他の陣営に負けないように、みんな、頑張って！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Royal Navy will prevail! Onwards!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "“想、想喝的话就这样喂你好了”……阿贾克斯那家伙，为什么能做出这么浪费的事……我、我在做什么啊！？……指挥官！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「の、飲みたいならこうやって飲ませてあげますわよ」…エイジャックスのやつ、なんでこんなもったいないこと……って、何やっているの私？！…指揮官！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"If you want a d-drink, you can enjoy it like this...\" That Ajax, how could she do something so wasteful...? I... What am I doing...?! Commander...?!",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "7",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "14",
+		"pt_level": "10",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "4",
+		"ships": "london,shropshire,sussex"
+	}
+}

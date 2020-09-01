@@ -1,0 +1,811 @@
+{
+	"name_reference": "massachusetts",
+	"cn_reference": "masazhusai",
+	"nameJP": "マサチューセッツ",
+	"nameCN": "马萨诸塞",
+	"ID": "354",
+	"name": "Massachusetts",
+	"internal_id": "105191",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Battleship",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "05:00:00",
+	"class": "South Dakota-Class",
+	"voiceActress": "Rie Takahashi",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "B",
+		"hp": "S"
+	},
+	"scrap": {
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "July 26, 2018",
+		"CN": "July 26, 2018",
+		"KR": "March 27, 2019",
+		"EN": "June 27, 2019"
+	},
+	"artist": {
+		"name": "Enka",
+		"weibo": "https://weibo.com/maoqishi",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3321609",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "67",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"acquisitionMethod": "Event: Iris of Light and Dark",
+	"skill": {
+		"1": {
+			"icon": "11550",
+			"requirement": "Default Unlocked",
+			"name": "Big Mamie",
+			"type": "Offensive",
+			"description": "For each Eagle Union CA and/or BB (excluding this ship) in your fleet: increases this ship's FP, AA, and EVA by 1.0% (5.0%). Can be stacked up to 3 times."
+		},
+		"2": {
+			"icon": "11560",
+			"requirement": "Default Unlocked",
+			"name": "2,700 Pounds of Justice",
+			"type": "Offensive",
+			"description": "This ship's Main Gun attribute is changed to Super-Heavy Shell. The DMG of the shells increases based on their distance traveled, up to a maximum of 15.0% (30.0%)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "masazhusai",
+			"name": "Massachusetts ",
+			"description": "South Dakota-class battleship – Massachusetts, Hull Number BB-59. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				}
+			}
+		},
+		"2": {
+			"id": "masazhusai_2",
+			"name": "Dressed to Impress",
+			"description": "Hey... Is this outfit that strange to you? Thought it looks just like what my sister's wearing... so what are you staring at? I don't get you at all...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "14300",
+			"rarity": "Common",
+			"name": "Triple 406mm MK6 Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "16400",
+			"rarity": "Rare",
+			"name": "Quadruple 40mm Bofors Gun"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "6738",
+			"firepower": "379",
+			"torpedo": "0",
+			"antiAir": "368",
+			"aviation": "0",
+			"reload": "136",
+			"hit": "61",
+			"evasion": "18",
+			"speed": "27.5",
+			"luck": "82",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120": {
+			"hp": "7783",
+			"firepower": "414",
+			"torpedo": "0",
+			"antiAir": "400",
+			"aviation": "0",
+			"reload": "156",
+			"hit": "74",
+			"evasion": "33",
+			"speed": "27.5",
+			"luck": "82",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"base": {
+			"hp": "1303",
+			"firepower": "80",
+			"torpedo": "0",
+			"antiAir": "79",
+			"aviation": "0",
+			"reload": "57",
+			"hit": "24",
+			"evasion": "7",
+			"speed": "27.5",
+			"luck": "82",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Heavy"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "27.5",
+			"luck": "82",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "27.5",
+			"luck": "82",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "masazhusai",
+				"id": "0",
+				"label": "Massachusetts ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "南达科他级战列舰—马萨诸塞，舷号BB-59",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サウスダコタ型戦艦マサチューセッツ（BB-59）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "South Dakota-class battleship – Massachusetts, Hull Number BB-59.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "在同级里，我算是普通强的那档吧。战斗星章只拿到过11枚，比起南达科他大姐还差一些。没受过什么伤？那只是因为、没遇到过什么像样的对手吧……唔，我也想像大姐头那样、不遗余力地打一场啊。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ぼくは同型艦の中では普通、かな。バトルスターは11個で、サウスダコタより少ない。僕はあまり怪我をしたことがないって？ちゃんとした相手が、いなかったからね……あの時の姉と同じように、全力で戦ってみたいな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I guess I'm the most normal ship in my class. I earned 11 battle stars, which is less than South Dakota did. \"I hardly suffered any damage\"? That's cause I never fought anyone strong enough... Here's hoping that I'll get to fight as hard as my sister did back then.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "嗯？喔……轮到我了吗。我是马萨诸塞，随处可见非常普通的南达科他级战列舰……唔、那个，总之友好相处吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん？あ……ぼくの番ね。ぼくはマサチューセッツ、いつでもどこでもみかけられる普通のサウスダコタ級……えっと、はい、とにかく仲良く…しよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? Ah... my turn to speak. I'm Massachusetts. I'm just a regular old South Dakota-class you can find anywhere... So, yeah, I hope we can... get along.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "午饭吃什么好呢……喔，指挥官。是要去散步吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お昼は……あ、指揮官、今からお散歩？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "For lunch, I'll make... Oh, Commander, are you going for a stroll?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "看完了的话，记得叫我一声。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "見終わったら、言って",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Tell me when you're done inspecting.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "……其实我还挺中意自己的发色的。不觉得、有一点像白头海雕吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……実はこの髪の色、気にいっているんだ。ハクトウワシと似ていると思わない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... You know, I actually like this hair color. It's like that of a bald eagle, isn't it?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "这身衣服…很奇怪吗？可是航行的时候，海风直接拍在皮肤上…会很舒服的哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この服、ヘン？でも航行時、潮風を直接肌に当てられる……気持ちいいよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You think my jacket is strange? This way I can feel the breeze hit my skin when out at sea, though... I love it.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "印象深刻的对手？唔……在卡萨布兰卡的时候，对面有艘只装了一门主炮的战舰，在我手底下撑了很久呢……想在她状态万全的情况下，再打一次试试啊。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "印象深い相手？えっと……カサブランカのとき、主砲が一門しかないのに結構持ちこたえてた戦艦が……あの子が万全の状態でもう一度戦いたいな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "People that impressed me? Umm... when I was in Casablanca, I fought a battleship who held out a long time even with just a single turret... I'd like to fight her again in her finished state.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官也想撒娇？……对我？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は甘えたい？……ぼくに？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You want someone to pamper you? ... You want ME to?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "……多活动身体的话，奇怪的想法也会变少哦。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……体を動かせば、変な考えも少なくなるよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... If you'd move your body more, you'd have fewer weird thoughts.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务、还有这么多啊……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務、多いな……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So many missions waiting on us...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "啊，报酬送来了……晚上可以去吃顿肉了吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、報酬が来た……夕食はお肉食べられそう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ah, the rewards have arrived... Seems we can afford beef for dinner tonight.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "信，放这里了。记得要看。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お手紙、ここに置いといた。あとで読んで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll leave your letter here. Check it later.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "回来了吗……没有受伤吧？如果被人欺负了的话，要和我说哦。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戻ったか。……怪我はないか？いじめられたら、ぼくに相談して",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're back... Did you get hurt? If anyone pokes fun at you, we can talk about it.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "……喔，她们带回来不少东西呢。我去帮忙搬一下。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……お。いっぱい持ち帰ってる。手伝ってくる",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... Oh, look. They've brought so much back. I'll go help them out.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "好像、有点不一样了呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "少し、変わった……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel a bit different...",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "你们、挺结实的吧？被揍的话不会哭吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "結構丈夫だよね？殴られても泣かないよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pretty tough, aren't you? You won't cry if I hit you, will you?",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "已经、结束了？感觉身体才刚刚热起来……没有其他的敌人了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "もう、終わり？ヒートアップしてきたばかりなのに……ほかに敵、いない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's over already? But I was just warming up... Aren't there any other enemies left?",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "抱歉，我刚才走神了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ごめん、よそ見してた…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sorry, I got distracted...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "水平装甲、厚度足够吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この一発は重いよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This one's really heavy.",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "……希望我认真一点吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……本気にさせたいのか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... So you want me to get serious?",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官的身体，有点弱呢。有好好吃饭吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官の体、少し弱い。ちゃんと食べてるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your body is weak, Commander. Are you eating properly?",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "怎样才能变强？唔，多做几个俯卧撑就行了吧……不行吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "強くなる方法？えっと、腕立て伏せ……ダメだった？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How to get stronger? Uhh, do some push-ups? ... Not working for you?",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "总是在挑战自己做不到的事情的指挥官……很有趣呢。害得我也有点、想试试自己的极限在哪里了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "自分のできないことに挑み続ける指揮官……面白そう。ぼくも自分の限界を試してみたくなっているね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Seeing you challenging yourself with things you can't do is... interesting. It makes me want to explore my own limits, too.",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指挥官拼命努力的样子、虽然还挺帅的……但要是太勉强自己的话，就算硬拖，我也会把你一起拖去偷懒喔？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官が必死に頑張っている姿、かっこいいけど……無理しすぎは良くない。強引にでもサボらせるね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I like how cool you look when you're pushing yourself hard... but overdoing it isn't good. I'll force you to rest if I have to.",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "我并没有什么、属于自己的愿望，但我拥有能够实现愿望的力量。指挥官，有什么想要我帮你实现的愿望吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ぼくに望みなどない。でも、望みを叶える力ならある。指揮官、いつか、ぼくに叶えてほしい望み、ある？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I don't have any dreams. But I have the power to grant them. Commander, do you have a dream for me to grant one day?",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "嗯，好啊……指挥官想说的话，想做的事情，其实我大概都知道喔。因为……我也最喜欢指挥官了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ええと、うん……指揮官の言いたいこと、やりたいこと、わかっている。……ぼくも、指揮官のことが大好きだから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Umm, yeah... I already know what you want to do and want to say... Because I love you too, Commander.",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Jean Bart)",
+						"media": "link1",
+						"chinese": "这次你的状态……很好嘛。那就好。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今のあなたは……いいね。これでいい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The way you are now... I like it. This is good.",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (South Dakota)",
+						"media": "link2",
+						"chinese": "大姐头的防御力，真羡慕啊……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉貴の防御力、羨ましい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I envy your defense, sis...",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "masazhusai_2",
+				"id": "1",
+				"label": "Dressed to Impress",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "嗯？这套衣服，很奇怪吗？看起来和姐姐的差不多…为什么指挥官呆住了？真搞不懂你啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ほーい。…この服、ヘン？姉貴のとそう違わないけど…なんで固まっている？ちょっとわからないな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey... Is this outfit that strange to you? Thought it looks just like what my sister's wearing... so what are you staring at? I don't get you at all...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "嗯？这套衣服，很奇怪吗？看起来和姐姐的差不多…为什么指挥官呆住了？真搞不懂你啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "宴会…具体是要做些什么？去听姐姐弹钢琴算了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "看过瘾了的话，不给出足够的感想，我是不会让你走的哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "这布不能这样掀起来？为什么？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "是因为这身打扮，增加了指挥官奇怪的念头吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "啊，任务奖励下来了。真是太好了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "化妆真难啊…其他人都是怎么轻松做到的…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Victory",
+						"media": "mvp_1",
+						"chinese": "不弄脏衣服的战斗…好像也挺有意思的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "20",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "40",
+		"pt_level": "30",
+		"add_level_attr": "Hit",
+		"add_level_value": "2",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "7",
+		"ships": "south_dakota,massachusetts,alabama"
+	}
+}
