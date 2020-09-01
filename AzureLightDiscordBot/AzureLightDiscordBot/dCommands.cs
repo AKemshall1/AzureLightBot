@@ -153,6 +153,21 @@ namespace AzureLightDiscordBot
             await ctx.Channel.SendMessageAsync("- \n"+ Name+ hpFinal + fpFinal +torpFinal + aaFinal + aviFinal + relFinal + evaFinal+speedFinal+luckFinal+aswFinal+oxyFinal+ammoFinal+costFinal+armorFinal).ConfigureAwait(false);
         }
 
-        
+        [Command("stage")]
+        [Description("Returns the enemy level of the stage provided. E.G. (!stage 2-4hard) will provide mob and boss levels for this stage. SOS missions under x-5")]
+        public async Task ReturnStageLevel(CommandContext ctx, string stage)
+        {
+            //read json, then deserialize it
+            var json = string.Empty;
+            using (var fs = File.OpenRead(@"worlds\chapters.json"))
+            using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
+                json = await sr.ReadToEndAsync().ConfigureAwait(false); //configureAwait false - the thread that starts this task does not have to be the one to continue it - faster
+
+            //var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
+            JObject jo = JObject.Parse(json);
+
+            await ctx.Channel.SendMessageAsync(stage +": " + jo.SelectToken(stage));
+
+        }
     }
 }
