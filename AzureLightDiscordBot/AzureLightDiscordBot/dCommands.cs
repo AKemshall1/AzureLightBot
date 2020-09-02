@@ -8,7 +8,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-
+using System.Text;
 namespace AzureLightDiscordBot
 {
     class dCommands:BaseCommandModule
@@ -46,14 +46,51 @@ namespace AzureLightDiscordBot
         [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ning_hai")]
         public async Task shipGeneral(CommandContext ctx, string boat)
         {
-            string boatCap = boat;  //to capitalise the name of the boat
+           
             string normChibi = "chibi.png";
             boat = boatNickname(boat);
+            string boatCap = boat;  //to capitalise the name of the boat
             string shipCalled = boat + ".json"; //file name for boat called
+            
 
             if (boat.Length >= 1)   //if the passed string doesn't work, bot will return it at the start of a sentence so make the first letter a capital
             {
-                boatCap = char.ToUpper(boat[0]) + boat.Substring(1);
+                boatCap = boat.Replace("_", " ");
+                boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
+
+
+                string tempString = string.Empty;
+                //iterate through the string
+                //if the char before the current one is a space, make the current char a capital
+
+                for (int i = 0; i < boatCap.Length; i++)    //start at 1 so we never replace the first letter
+                {
+                    if (i == 0)
+                    {
+                      
+                        tempString += boatCap[i];
+                     
+
+                    }
+                    else if (boatCap[i - 1] == ' ')
+                    {
+                      
+                        tempString += char.ToUpper(boatCap[i]);
+                      
+
+
+                    }
+                    else
+                    {
+                      
+                        tempString += boatCap[i];
+                      
+                    }
+
+
+                   
+                }
+                boatCap = tempString;
             }
            
             if (File.Exists(@"wikia\Ships\" + shipCalled)) 
@@ -79,8 +116,8 @@ namespace AzureLightDiscordBot
                     normChibi = "kaichibi.png"; //adds kai onto the string to get the right chibi
                 }
 
-                string boatName = configShip.Name;  
-                string Name = " - \n" + "Name: " + configShip.faction + " " + char.ToUpper(configShip.Name[0]) + configShip.Name.Substring(1) + "\n";
+                string boatName = configShip.Name;
+                string Name = "Name: " + configShip.faction + " " + boatCap + "\n";
                 string boatRarity = "Rarity: " + configShip.Rarity + "\n";
                 string boatClass = "Class: " + configShip.ShipClass + "\n";
                 string boatType = "Type: " + configShip.type + "\n";
@@ -106,14 +143,34 @@ namespace AzureLightDiscordBot
         public async Task shipStats(CommandContext ctx, string boat)
         {
             string hp, firepower, torpedo, antiAir, aviation, reload, hit, evasion, speed, luck, asw, oxygen, ammo, cost, armor;
-            string boatCap = boat;
+           
             boat = boatNickname(boat);
             string normChibi = "chibi.png";
+            string boatCap = boat;
             string shipCalled = boat + ".json"; //file name for boat called
 
             if (boat.Length >= 1)
             {
-                boatCap = char.ToUpper(boat[0]) + boat.Substring(1);
+                boatCap = boat.Replace("_", " ");
+                boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
+
+                string tempString = string.Empty;
+                for (int i = 0; i < boatCap.Length; i++)    //start at 1 so we never replace the first letter
+                {
+                    if (i == 0)
+                    {
+                        tempString += boatCap[i];
+                    }
+                    else if (boatCap[i - 1] == ' ')
+                    {
+                        tempString += char.ToUpper(boatCap[i]);
+                    }
+                    else
+                    {
+                        tempString += boatCap[i];
+                    }
+                }
+                boatCap = tempString;
             }
 
             if (File.Exists(@"wikia\Ships\" + shipCalled))
@@ -128,7 +185,7 @@ namespace AzureLightDiscordBot
                 JObject jo = JObject.Parse(json);
 
                 string boatName = configShip.Name;
-                string Name = "Name: " + configShip.faction + " " + char.ToUpper(configShip.Name[0]) + configShip.Name.Substring(1) + "\n";
+                string Name = "Name: " + configShip.faction + " " + boatCap + "\n";
 
                 string testString = jo.SelectToken("stats.120retrofit.hp").ToString();
                 if (testString == string.Empty) //doesn't have retrofit
@@ -237,7 +294,7 @@ namespace AzureLightDiscordBot
             }
             else if (boatInput == "hipper_muse" || boatInput == "hippermuse" || boatInput == "admiral_hipper_muse" || boatInput == "admiralhippermuse")
             {
-                fixedName = "admiral_hipper";
+                fixedName = "admiral_hipper_idol";
                 return fixedName;
             }
             else if (boatInput == "akagi_muse" || boatInput == "akagimuse")
@@ -340,9 +397,9 @@ namespace AzureLightDiscordBot
                 fixedName = "graf_zeppelin";
                 return fixedName;
             }
-            else if (boatInput == "hasley" || boatInput == "hasleypowell")
+            else if (boatInput == "halsey" || boatInput == "halseypowell")
             {
-                fixedName = "hasley_powell";
+                fixedName = "halsey_powell";
                 return fixedName;
             }
             else if (boatInput == "hiei_chan")
@@ -380,9 +437,9 @@ namespace AzureLightDiscordBot
                 fixedName = "i58";
                 return fixedName;
             }
-            else if (boatInput == "i-568")
+            else if (boatInput == "i-168")
             {
-                fixedName = "i568";
+                fixedName = "i168";
                 return fixedName;
             }
             else if (boatInput == "lusty")
@@ -407,12 +464,12 @@ namespace AzureLightDiscordBot
             }
             else if (boatInput == "kaga_battleship")
             {
-                fixedName = "kagabb";
+                fixedName = "kaga_bb";
                 return fixedName;
             }
-            else if (boatInput == "KGV" || boatInput == "george")
+            else if (boatInput == "kgv" || boatInput == "george")
             {
-                fixedName = "george";
+                fixedName = "king_george_v";
                 return fixedName;
             }
             else if (boatInput == "lopiniatre")
@@ -482,7 +539,7 @@ namespace AzureLightDiscordBot
             }
             else if (boatInput == "ping" || boatInput == "pinghai")
             {
-                fixedName = "pinghai";
+                fixedName = "ping_hai";
                 return fixedName;
             }
             else if (boatInput == "pow" || boatInput == "princeofwales")
@@ -507,7 +564,7 @@ namespace AzureLightDiscordBot
             }
             else if (boatInput == "sandy" || boatInput == "sandiego")
             {
-                fixedName = "san_deigo";
+                fixedName = "san_diego";
                 return fixedName;
             }
             else if (boatInput == "sanjuan" || boatInput == "juan")
