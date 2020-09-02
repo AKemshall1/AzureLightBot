@@ -4221,11 +4221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\piggy\\Desktop\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\AzureLightDiscordBot.csproj",
+      "projectUniqueName": "C:\\Users\\piggy\\Documents\\GitHub\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\AzureLightDiscordBot.csproj",
       "projectName": "AzureLightDiscordBot",
-      "projectPath": "C:\\Users\\piggy\\Desktop\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\AzureLightDiscordBot.csproj",
+      "projectPath": "C:\\Users\\piggy\\Documents\\GitHub\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\AzureLightDiscordBot.csproj",
       "packagesPath": "C:\\Users\\piggy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\piggy\\Desktop\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\obj\\",
+      "outputPath": "C:\\Users\\piggy\\Documents\\GitHub\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\piggy\\AppData\\Roaming\\NuGet\\NuGet.Config",

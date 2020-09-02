@@ -149,7 +149,7 @@ namespace AzureLightDiscordBot
             string oxyFinal = "Oxygen: " + oxygen + "\n";
             string ammoFinal = "Ammo: " + ammo + "\n";
             string costFinal = "Cost: " + cost + "\n";
-            string armorFinal = "Amor: " + armor;
+            string armorFinal = "Armor: " + armor;
             
             if (File.Exists(@"chibis\" + boatName + normChibi))
                 await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi);
