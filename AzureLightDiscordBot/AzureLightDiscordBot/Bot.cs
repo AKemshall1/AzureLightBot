@@ -19,6 +19,7 @@ namespace AzureLightDiscordBot
     {
         public DiscordClient Client { get; private set; }    //can get the client from anywhere, but can only set it from this class;
         public CommandsNextExtension Commands { get; private set; }
+        
 
         public async Task RunAsync()
         {
@@ -29,6 +30,8 @@ namespace AzureLightDiscordBot
 
             var configJson = JsonConvert.DeserializeObject<ConfigJSON>(json);
 
+  
+          
 
             var config = new DiscordConfiguration
             {

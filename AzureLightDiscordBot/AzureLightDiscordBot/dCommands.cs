@@ -8,11 +8,13 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
+using System.Linq;
 
 namespace AzureLightDiscordBot
 {
     class dCommands:BaseCommandModule
     {
+        public BoatNicknames bn;
         [Command("bestgirl")]
         [Description("Tells you who the true best girl is.")]
         public async Task BestGirl(CommandContext ctx)
@@ -46,6 +48,8 @@ namespace AzureLightDiscordBot
         [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ninghai")]
         public async Task shipGeneral(CommandContext ctx, string boat)
         {
+            bn = new BoatNicknames();
+         
             string normChibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed further down the line
 
             boat = boatNickname(boat);  //check to see if the passed string is a nickname, if so fix the filename
@@ -122,6 +126,8 @@ namespace AzureLightDiscordBot
         [Description("Returns statistics for the specified boat at L120 with retrofit if applicable. EG. !stats hiryuu !stats arkroyal")]
         public async Task shipStats(CommandContext ctx, string boat)
         {
+            bn = new BoatNicknames();
+          
             string hp, firepower, torpedo, antiAir, aviation, reload, hit, evasion, speed, luck, asw, oxygen, ammo, cost, armor;
             string normChibi = "chibi.png";
             boat = boatNickname(boat);
@@ -245,7 +251,7 @@ namespace AzureLightDiscordBot
 
             if (jo.SelectToken(stage) != null)
             {
-                await ctx.Channel.SendMessageAsync(stage + ": " + jo.SelectToken(stage)).ConfigureAwait(false); ;
+                await ctx.Channel.SendMessageAsync(stage + ": " + jo.SelectToken(stage)).ConfigureAwait(false);
             }
             else
                 await ctx.Channel.SendMessageAsync("Commander, I've never been to " + stageCap+" before! Maybe big sis knows.. (Accepted format : !stage 2-4, !stage 2-4hard. SOS stages are listed under x-5.)").ConfigureAwait(false); 
@@ -255,413 +261,22 @@ namespace AzureLightDiscordBot
 
         public string boatNickname(string boatInput)
         {
-            string fixedName;
-            if (boatInput == "spee" || boatInput == "graf_spee" || boatInput == "grafspee")
-            {
-                fixedName = "admiral_graf_spee";
-                return fixedName;
-            }
-            else if (boatInput == "hipper")
-            {
-                fixedName = "admiral_hipper";
-                return fixedName;
-            }
-            else if (boatInput == "hipper_muse" || boatInput == "hippermuse" || boatInput == "admiral_hipper_muse" || boatInput == "admiralhippermuse")
-            {
-                fixedName = "admiral_hipper_idol";
-                return fixedName;
-            }
-            else if (boatInput == "akagi_muse" || boatInput == "akagimuse")
-            {
-                fixedName = "akagi_idol";
-                return fixedName;
-            }
-            else if (boatInput == "anshan" )
-            {
-                fixedName = "an_shan";
-                return fixedName;
-            }
-            else if (boatInput == "lolicon" || boatInput == "arkroyal")
-            {
-                fixedName = "ark_royal";
-                return fixedName;
-            }
-            else if (boatInput == "balti")
-            {
-                fixedName = "baltimore";
-                return fixedName;
-            }
-            else if (boatInput == "thotloli")
-            {
-                fixedName = "bache";
-                return fixedName;
-            }
-            else if (boatInput == "blackprince")
-            {
-                fixedName = "black_prince";
-                return fixedName;
-            }
-            else if (boatInput == "brem")
-            {
-                fixedName = "bremerton";
-                return fixedName;
-            }
-            else if (boatInput == "bunkerhill")
-            {
-                fixedName = "bunker_hill";
-                return fixedName;
-            }
-            else if (boatInput == "changchun")
-            {
-                fixedName = "chang_chun";
-                return fixedName;
-            }
-            else if (boatInput == "charles" || boatInput == "charlesausburne" )
-            {
-                fixedName = "charles_ausburne";
-                return fixedName;
-            }
-            else if (boatInput == "clevelandmuse" || boatInput=="cleveland_muse")
-            {
-                fixedName = "cleveland_idol";
-                return fixedName;
-            }
-            else if (boatInput == "conte" || boatInput == " cavour" || boatInput == "contedicavour")
-            {
-                fixedName = "conti_di_cavour";
-                return fixedName;
-            }
-            else if (boatInput == "dorset")
-            {
-                fixedName = "dorsetshire";
-                return fixedName;
-            }
-            else if (boatInput == "doy" || boatInput == "dork")
-            {
-                fixedName = "duke_of_york";
-                return fixedName;
-            }
-            else if (boatInput == "emily" || boatInput == "emile" || boatInput == "emilebertin")
-            {
-                fixedName = "emile_bertin";
-                return fixedName;
-            }
-            else if (boatInput == "enty")
-            {
-                fixedName = "enterprise";
-                return fixedName;
-            }
-            else if (boatInput == "fushun" )
-            {
-                fixedName = "fu_shun";
-                return fixedName;
-            }
-            else if (boatInput == "gascogne_muse" || boatInput == "gascognemuse")
-            {
-                fixedName = "gascogne_idol";
-                return fixedName;
-            }
-            else if (boatInput == "giuliocesare" || boatInput == "giulio" || boatInput == "cesare")
-            {
-                fixedName = "giulio_cesare";
-                return fixedName;
-            }
-            else if (boatInput == "zeppelin" )
-            {
-                fixedName = "graf_zeppelin";
-                return fixedName;
-            }
-            else if (boatInput == "halsey" || boatInput == "halseypowell")
-            {
-                fixedName = "halsey_powell";
-                return fixedName;
-            }
-            else if (boatInput == "hiei_chan")
-            {
-                fixedName = "hieichan";
-                return fixedName;
-            }
-            else if (boatInput == "i-13")
-            {
-                fixedName = "i13";
-                return fixedName;
-            }
-            else if (boatInput == "i-19")
-            {
-                fixedName = "i19";
-                return fixedName;
-            }
-            else if (boatInput == "i-25")
-            {
-                fixedName = "i25";
-                return fixedName;
-            }
-            else if (boatInput == "i-26")
-            {
-                fixedName = "i26";
-                return fixedName;
-            }
-            else if (boatInput == "i-56")
-            {
-                fixedName = "i56";
-                return fixedName;
-            }
-            else if (boatInput == "i-58")
-            {
-                fixedName = "i58";
-                return fixedName;
-            }
-            else if (boatInput == "i-168")
-            {
-                fixedName = "i168";
-                return fixedName;
-            }
-            else if (boatInput == "lusty")
-            {
-                fixedName = "illustrious";
-                return fixedName;
-            }
-            else if (boatInput == "indy")
-            {
-                fixedName = "indianapolis";
-                return fixedName;
-            }
-            else if (boatInput == "jean" || boatInput == "jeanbart")
-            {
-                fixedName = "jean_bart";
-                return fixedName;
-            }
-            else if (boatInput == "jeanne" || boatInput == "jeannedarc")
-            {
-                fixedName = "jeanne_d_arc";
-                return fixedName;
-            }
-            else if (boatInput == "kaga_battleship")
-            {
-                fixedName = "kaga_bb";
-                return fixedName;
-            }
-            else if (boatInput == "kgv" || boatInput == "george")
-            {
-                fixedName = "king_george_v";
-                return fixedName;
-            }
-            else if (boatInput == "lopiniatre")
-            {
-                fixedName = "l_opiniatre";
-                return fixedName;
-            }
-            else if (boatInput == "lagalissonniere" || boatInput == "galissonniere")
-            {
-                fixedName = "la_galissonniere";
-                return fixedName;
-            }
-            else if (boatInput == "malin" || boatInput == "lemalin")
-            {
-                fixedName = "le_malin";
-                return fixedName;
-            }
-            else if (boatInput == "mars" || boatInput=="lemars" )
-            {
-                fixedName = "le_mars";
-                return fixedName;
-            }
-            else if (boatInput == "temeraire" || boatInput == "letemeraire")
-            {
-                fixedName = "le_temeraire";
-                return fixedName;
-            }
-            else if (boatInput == "triomphant" || boatInput == "letriomphant")
-            {
-                fixedName = "le_triomphant";
-                return fixedName;
-            }
-            else if (boatInput == "lil_sandy" || boatInput == "lilsandy")
-            {
-                fixedName = "little_san_diego";
-                return fixedName;
-            }
-            else if (boatInput == "little_bel" || boatInput == "littlebel")
-            {
-                fixedName = "belchan";
-                return fixedName;
-            }
-            else if (boatInput == "lil_illustrious" || boatInput == "littleillustrious")
-            {
-                fixedName = "little_illustrious";
-                return fixedName;
-            }
-            else if (boatInput == "longisland")
-            {
-                fixedName = "long_island";
-                return fixedName;
-            }
-            else if (boatInput == "ninghai" || boatInput == "ning" )
-            {
-                fixedName = "ning_hai";
-                return fixedName;
-            }
-            else if (boatInput == "northcarolina" || boatInput == "carolina" )
-            {
-                fixedName = "north_carolina";
-                return fixedName;
-            }
-            else if (boatInput == "pamiat" || boatInput == "merkuria" || boatInput == "pamiatmerkuria")
-            {
-                fixedName = "pamiat_merkuria";
-                return fixedName;
-            }
-            else if (boatInput == "ping" || boatInput == "pinghai")
-            {
-                fixedName = "ping_hai";
-                return fixedName;
-            }
-            else if (boatInput == "pow" || boatInput == "princeofwales")
-            {
-                fixedName = "prince_of_wales";
-                return fixedName;
-            }
-            else if (boatInput == "prinz" || boatInput == "eugen" || boatInput == "prinzeugen")
-            {
-                fixedName = "prinz_eugen";
-                return fixedName;
-            }
-            else if (boatInput == "qe" || boatInput == "elizabeth" || boatInput =="queenelizabeth")
-            {
-                fixedName = "queen_elizabeth";
-                return fixedName;
-            }
-            else if (boatInput == "slc" || boatInput == "salt" || boatInput == "saltlakecity")
-            {
-                fixedName = "salt_lake_city";
-                return fixedName;
-            }
-            else if (boatInput == "sandy" || boatInput == "sandiego")
-            {
-                fixedName = "san_diego";
-                return fixedName;
-            }
-            else if (boatInput == "sanjuan" || boatInput == "juan")
-            {
-                fixedName = "san_juan";
-                return fixedName;
-            }
-            else if (boatInput == "shangrila" || boatInput=="shangri")
-            {
-                fixedName = "shangri-la";
-                return fixedName;
-            }
-            else if (boatInput == "sheffield_muse" || boatInput == "sheffieldmuse")
-            {
-                fixedName = "sheffield_idol";
-                return fixedName;
-            }
-            else if (boatInput == "southdakota" || boatInput == "dakota")
-            {
-                fixedName = "south_dakota";
-                return fixedName;
-            }
-            else if (boatInput == "rossiya" || boatInput == "sovetskaya" || boatInput == "sovetskayarossiya")
-            {
-                fixedName = "sovetskaya_rossiya";
-                return fixedName;
-            }
-            else if (boatInput == "stlouis")
-            {
-                fixedName = "st_louis";
-                return fixedName;
-            }
-            else if (boatInput == "taiyuan")
-            {
-                fixedName = "tai_yuan";
-                return fixedName;
-            }
-            else if (boatInput ==  "u-47")
-            {
-                fixedName = "u47";
-                return fixedName;
-            }
-            else if (boatInput == "u-73")
-            {
-                fixedName = "u73";
-                return fixedName;
-            }
-            else if (boatInput == "u-81")
-            {
-                fixedName = "u81";
-                return fixedName;
-            }
-            else if (boatInput == "u-96")
-            {
-                fixedName = "u96";
-                return fixedName;
-            }
-            else if (boatInput == "u-101")
-            {
-                fixedName = "u101";
-                return fixedName;
-            }
-            else if (boatInput == "u-110")
-            {
-                fixedName = "u110";
-                return fixedName;
-            }
-            else if (boatInput =="u-522" )
-            {
-                fixedName = "u522";
-                return fixedName;
-            }
-            else if (boatInput == "u-556")
-            {
-                fixedName = "u556";
-                return fixedName;
-            }
-            else if (boatInput =="u-557")
-            {
-                fixedName = "u557";
-                return fixedName;
-            }
-            else if (boatInput == "vittorio" || boatInput == "veneto" || boatInput == "vittorioveneto")
-            {
-                fixedName = "vittorio_veneto";
-                return fixedName;
-            }
-            else if (boatInput == "westvirginia" || boatInput == "virginia")
-            {
-                fixedName = "west_virginia";
-                return fixedName;
-            }
-            else if (boatInput == "yatsen")
-            {
-                fixedName = "yat_sen";
-                return fixedName;
-            }
-            else if (boatInput == "nimi")
-            {
-                fixedName = "z23";
-                return fixedName;
-
-            }
-            else if (boatInput == "zeppy")
-            {
-                fixedName = "zeppelinchan";
-                return fixedName;
-            }
-            else if (boatInput == "saintlouis" || boatInput == "sanrui")
-            {
-                fixedName = "saint_louis";
-                return fixedName;
-            }
-            else if (boatInput == "fdg" ||boatInput == "germanmommy")
-            {
-                fixedName = "friedrich_der_grosse";
-                return fixedName;
+            
+            for (int i = 0; i < bn.nicknames.Length; i++)
+            {
+                
+                if (bn.nicknames[i].Contains(boatInput))
+                {
+                    
+                    return bn.nicknames[i][0];
+                }
+            
             }
-        
-
-
 
             return boatInput;
+
+
+            
         }
     }
 }
