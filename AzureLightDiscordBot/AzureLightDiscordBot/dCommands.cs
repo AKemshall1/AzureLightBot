@@ -8,7 +8,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-using System.Text;
+
 namespace AzureLightDiscordBot
 {
     class dCommands:BaseCommandModule
@@ -43,65 +43,45 @@ namespace AzureLightDiscordBot
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         [Command("info")]
-        [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ning_hai")]
+        [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ninghai")]
         public async Task shipGeneral(CommandContext ctx, string boat)
         {
-           
-            string normChibi = "chibi.png";
-            boat = boatNickname(boat);
-            string boatCap = boat;  //to capitalise the name of the boat
+            string normChibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed further down the line
+
+            boat = boatNickname(boat);  //check to see if the passed string is a nickname, if so fix the filename
             string shipCalled = boat + ".json"; //file name for boat called
-            
+
+            string boatCap = boat;  //ready to capitalise the name of the boat
+
+            Console.WriteLine("INFO: " + shipCalled);
 
             if (boat.Length >= 1)   //if the passed string doesn't work, bot will return it at the start of a sentence so make the first letter a capital
             {
                 boatCap = boat.Replace("_", " ");
                 boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
-
-
                 string tempString = string.Empty;
                 //iterate through the string
                 //if the char before the current one is a space, make the current char a capital
 
-                for (int i = 0; i < boatCap.Length; i++)    //start at 1 so we never replace the first letter
+                for (int i = 0; i < boatCap.Length; i++) 
                 {
                     if (i == 0)
-                    {
-                      
-                        tempString += boatCap[i];
-                     
-
-                    }
+                        tempString += boatCap[i];   //always print the first letter before checking so don't go out of the array
                     else if (boatCap[i - 1] == ' ')
-                    {
-                      
                         tempString += char.ToUpper(boatCap[i]);
-                      
-
-
-                    }
                     else
-                    {
-                      
                         tempString += boatCap[i];
-                      
-                    }
-
-
-                   
                 }
                 boatCap = tempString;
             }
            
             if (File.Exists(@"wikia\Ships\" + shipCalled)) 
             {
-                Console.WriteLine("INFO: " + shipCalled);
-
                 //read json, then deserialize it
                 var json = string.Empty;
                 using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
                 using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
-                    json = await sr.ReadToEndAsync().ConfigureAwait(false); //configureAwait false - the thread that starts this task does not have to be the one to continue it - faster
+                    json = await sr.ReadToEndAsync().ConfigureAwait(false);
                 var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
                 //for nested json objects, parse specifically
                 JObject jo = JObject.Parse(json);
@@ -123,31 +103,32 @@ namespace AzureLightDiscordBot
                 string boatType = "Type: " + configShip.type + "\n";
                 string boatGet = "Obtainable: " + configShip.AcquisitionMethod + "\n";
                 string boatVA = "Voice Actress: " + configShip.VoiceActress + "\n";
-                string artistPixiv = "Artist Pixiv: " + artist;
+                artist = "Artist Pixiv: " + artist;
 
 
                 if (File.Exists(@"chibis\" + boatName + normChibi)) //check if the file exists before trying to send it
                     await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi).ConfigureAwait(false); ;
 
-                await ctx.Channel.SendMessageAsync(Name + boatRarity + boatClass + boatType + boatGet + boatVA + artistPixiv).ConfigureAwait(false);
+                await ctx.Channel.SendMessageAsync(Name + boatRarity + boatClass + boatType + boatGet + boatVA + artist).ConfigureAwait(false);
             }
             else
-                await ctx.Channel.SendMessageAsync(boatCap +"? Who is she, buli...? (Multiple word ships must have underscores (e.g. ning_hai). Submarines contain no dashes (e.g i58))").ConfigureAwait(false);
+                await ctx.Channel.SendMessageAsync(boatCap +"? Who is she, buli...? (Check your spelling and try again. New boats may not be available yet)").ConfigureAwait(false);
 
 
         }
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         [Command("stats")]
-        [Description("Returns statistics for the specified boat at L120 with retrofit if applicable. EG. !stats hiryuu !stats ark_royal")]
+        [Description("Returns statistics for the specified boat at L120 with retrofit if applicable. EG. !stats hiryuu !stats arkroyal")]
         public async Task shipStats(CommandContext ctx, string boat)
         {
             string hp, firepower, torpedo, antiAir, aviation, reload, hit, evasion, speed, luck, asw, oxygen, ammo, cost, armor;
-           
-            boat = boatNickname(boat);
             string normChibi = "chibi.png";
+            boat = boatNickname(boat);
             string boatCap = boat;
             string shipCalled = boat + ".json"; //file name for boat called
+
+            Console.WriteLine("STATS: " + shipCalled);
 
             if (boat.Length >= 1)
             {
@@ -155,27 +136,20 @@ namespace AzureLightDiscordBot
                 boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
 
                 string tempString = string.Empty;
-                for (int i = 0; i < boatCap.Length; i++)    //start at 1 so we never replace the first letter
+                for (int i = 0; i < boatCap.Length; i++)   
                 {
                     if (i == 0)
-                    {
                         tempString += boatCap[i];
-                    }
                     else if (boatCap[i - 1] == ' ')
-                    {
                         tempString += char.ToUpper(boatCap[i]);
-                    }
                     else
-                    {
                         tempString += boatCap[i];
-                    }
                 }
                 boatCap = tempString;
             }
 
             if (File.Exists(@"wikia\Ships\" + shipCalled))
             {
-                Console.WriteLine("STATS: " + shipCalled);
                 //read json, then deserialize it
                 var json = string.Empty;
                 using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
@@ -226,25 +200,25 @@ namespace AzureLightDiscordBot
                     normChibi = "kaichibi.png";
                 }
 
-                string hpFinal = "Health: " + hp + "\n";
-                string fpFinal = "Firepower: " + firepower + "\n";
-                string torpFinal = "Torpedo: " + torpedo + "\n";
-                string aaFinal = "AntiAir: " + antiAir + "\n";
-                string aviFinal = "Aviation: " + aviation + "\n";
-                string relFinal = "Reload: " + reload + "\n";
-                string hitFinal = "Hit: " + hit + "\n";
-                string evaFinal = "Evasion: " + evasion + "\n";
-                string speedFinal = "Speed: " + speed + "\n";
-                string luckFinal = "Luck: " + luck + "\n";
-                string aswFinal = "ASW: " + asw + "\n";
-                string oxyFinal = "Oxygen: " + oxygen + "\n";
-                string ammoFinal = "Ammo: " + ammo + "\n";
-                string costFinal = "Cost: " + cost + "\n";
-                string armorFinal = "Armor: " + armor;
+                hp = "Health: " + hp + "\n";
+                firepower = "Firepower: " + firepower + "\n";
+                torpedo = "Torpedo: " + torpedo + "\n";
+                antiAir = "Anti Air: " + antiAir + "\n";
+                aviation = "Aviation: " + aviation + "\n";
+                reload = "Reload: " + reload + "\n";
+                hit = "Hit: " + hit + "\n";
+                evasion = "Evasion: " + evasion + "\n";
+                speed = "Speed: " + speed + "\n";
+                luck = "Luck: " + luck + "\n";
+                asw = "ASW: " + asw + "\n";
+                oxygen = "Oxygen: " + oxygen + "\n";
+                ammo = "Ammo: " + ammo + "\n";
+                cost = "Cost: " + cost + "\n";
+                armor = "Armor: " + armor;
 
                 if (File.Exists(@"chibis\" + boatName + normChibi))
                     await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi).ConfigureAwait(false); ;
-                await ctx.Channel.SendMessageAsync("- \n" + Name + hpFinal + fpFinal + torpFinal + aaFinal + aviFinal + relFinal + evaFinal + speedFinal + luckFinal + aswFinal + oxyFinal + ammoFinal + costFinal + armorFinal).ConfigureAwait(false);
+                await ctx.Channel.SendMessageAsync("- \n" + Name + hp + firepower + torpedo + antiAir + aviation + reload + evasion + speed + luck + asw + oxygen + ammo + cost + armor).ConfigureAwait(false);
             }
             else
                 await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Multiple word ships must have underscores (e.g. ning_hai). Submarines contain no dashes (e.g i58))").ConfigureAwait(false);

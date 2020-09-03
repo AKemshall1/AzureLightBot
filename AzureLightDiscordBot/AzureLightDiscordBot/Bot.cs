@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace AzureLightDiscordBot
 {
-    //Async = can run other code at the same time - don't have ot wait for that code block to end
+    //Async = can run other code at the same time - don't have to wait for that code block to end
 
     public class Bot
     {
