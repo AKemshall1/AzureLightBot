@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sdp4Vp1U4HYRunVS5NZVvAnUk0TzIN0cb2C3L4oKZqKTkaRYc/yMeqtNa4UYHMlhv/J8kbnkGGCPZEagTYX1HA==",
+  "dgSpecHash": "EeH6FcYWZHZnmE/m8jbKEmG5D5/yRF+BQu4vXDEOBAxH8PYgkHf6cTPkd8/XfGQxl1HeK9igqtlzbRIbzrYmfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\piggy\\Desktop\\AzureLightBot\\AzureLightDiscordBot\\AzureLightDiscordBot\\AzureLightDiscordBot.csproj",
   "expectedPackageFiles": [
@@ -80,7 +80,9 @@
     "C:\\Users\\piggy\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\piggy\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Users\\piggy\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
-    "C:\\Users\\piggy\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\piggy\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\piggy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\piggy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

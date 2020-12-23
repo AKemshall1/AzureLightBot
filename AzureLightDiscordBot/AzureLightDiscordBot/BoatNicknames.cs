@@ -11,9 +11,9 @@ using System.Runtime.CompilerServices;
 using System.Linq;
 namespace AzureLightDiscordBot
 {
-    public class BoatNicknames
+    public  class BoatNicknames
     {
-        public string[][] nicknames = new string[78][];
+        public  string[][] nicknames = new string[78][];
 
         public BoatNicknames()
         {

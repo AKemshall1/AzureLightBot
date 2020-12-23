@@ -24,23 +24,10 @@ namespace AzureLightDiscordBot
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         [Command("equip")]
-        [Description("Sends equipment guide per category specified. Commands all lowercase no spaces. E.G.(!equip aa/araux/bbaux/bbgunmain/bbgunaux/cagun/clcaaux/clgun/cvaux/ddaux/ddgunmain/planes/sub/torp)  Guide credit: Nerezza")]
-        public async Task EquipmentGuide(CommandContext ctx, string guideType)
+        [Description("Sends equipment guide imgur gallery. Guide credit: Nerezza")]
+        public async Task EquipmentGuide(CommandContext ctx)
         {
-            string guideCap = guideType;    //if the passed string doesn't work, bot will return it at the start of a sentence so make the first letter a capital
-            if (guideType.Length >= 1)
-            {
-                guideCap = char.ToUpper(guideType[0]) + guideType.Substring(1);
-            }
-            
-            string filename = guideType + ".jpg";
-            Console.WriteLine(@"GUIDE: images\" + filename);
-            if (File.Exists(@"images\" + filename))
-            {
-                await ctx.Channel.SendFileAsync(@"images\" + filename).ConfigureAwait(false);
-            }
-            else
-                await ctx.Channel.SendMessageAsync(guideCap +"? Whats that, buli? (Accepted format: !equip aa/araux/bbaux/bbgunmain/bbgunaux/cagun/clcaaux/clgun/cvaux/ddaux/ddgunmain/planes/sub/torp)").ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("https://imgur.com/a/TNpH1rL").ConfigureAwait(false);
         }
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -48,58 +35,39 @@ namespace AzureLightDiscordBot
         [Description("Returns general infomation about the specified ship. EG. !info hiryuu !info ninghai")]
         public async Task shipGeneral(CommandContext ctx, string boat)
         {
-            bn = new BoatNicknames();
-         
-            string normChibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed further down the line
+            bn = new BoatNicknames(); 
+            string chibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed edited later
 
-            boat = boatNickname(boat);  //check to see if the passed string is a nickname, if so fix the filename
-            string shipCalled = boat + ".json"; //file name for boat called
+            boat = boatNickname(boat);  //If the name passed was a nickname, turn it into the filename and store it
+            string shipCalled = boat + ".json"; //create full file name for boat called
+            string boatCap = formatName(boat);  //format boat name into user friendly aesthetic
 
-            string boatCap = boat;  //ready to capitalise the name of the boat
 
-            Console.WriteLine("INFO: " + shipCalled);
-
-            if (boat.Length >= 1)   //if the passed string doesn't work, bot will return it at the start of a sentence so make the first letter a capital
-            {
-                boatCap = boat.Replace("_", " ");
-                boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
-                string tempString = string.Empty;
-                //iterate through the string
-                //if the char before the current one is a space, make the current char a capital
-
-                for (int i = 0; i < boatCap.Length; i++) 
-                {
-                    if (i == 0)
-                        tempString += boatCap[i];   //always print the first letter before checking so don't go out of the array
-                    else if (boatCap[i - 1] == ' ')
-                        tempString += char.ToUpper(boatCap[i]);
-                    else
-                        tempString += boatCap[i];
-                }
-                boatCap = tempString;
-            }
-           
             if (File.Exists(@"wikia\Ships\" + shipCalled)) 
             {
+                #region JSONDESERIALISE
                 //read json, then deserialize it
                 var json = string.Empty;
                 using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
                 using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
                     json = await sr.ReadToEndAsync().ConfigureAwait(false);
                 var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
+              
                 //for nested json objects, parse specifically
                 JObject jo = JObject.Parse(json);
+                #endregion
+
+                #region VALUEFORMATTING
+
+                //if a ship does not have a retrofit, the retrofit hp stat will be blank so use this as a test case
+                if (jo.SelectToken("stats.120retrofit.hp").ToString() != string.Empty) //does have retrofit
+                    chibi = "kaichibi.png"; //adds kai onto the string to get the right chibi
+                
+
 
                 string artist = jo.SelectToken("artist.pixiv").ToString();
-                if (artist == string.Empty)
-                    artist = "Not found";
-
-                string testString = jo.SelectToken("stats.120retrofit.hp").ToString();  //if a ship does not have a retrofit, the retrofit hp stat will be blank so use this as a test case
-                if (testString != string.Empty) //does have retrofit
-                {
-                    normChibi = "kaichibi.png"; //adds kai onto the string to get the right chibi
-                }
-
+                artist = (artist == string.Empty) ? artist : "Not Found";
+               
                 string boatName = configShip.Name;
                 string Name = "Name: " + configShip.faction + " " + boatCap + "\n";
                 string boatRarity = "Rarity: " + configShip.Rarity + "\n";
@@ -108,15 +76,15 @@ namespace AzureLightDiscordBot
                 string boatGet = "Obtainable: " + configShip.AcquisitionMethod + "\n";
                 string boatVA = "Voice Actress: " + configShip.VoiceActress + "\n";
                 artist = "Artist Pixiv: " + artist;
+                #endregion
 
-
-                if (File.Exists(@"chibis\" + boatName + normChibi)) //check if the file exists before trying to send it
-                    await ctx.Channel.SendFileAsync(@"chibis\" + boatName + normChibi).ConfigureAwait(false); ;
+                if (File.Exists(@"chibis\" + boatName + chibi)) //check if the file exists before trying to send it
+                    await ctx.Channel.SendFileAsync(@"chibis\" + boatName + chibi).ConfigureAwait(false);
 
                 await ctx.Channel.SendMessageAsync(Name + boatRarity + boatClass + boatType + boatGet + boatVA + artist).ConfigureAwait(false);
             }
             else
-                await ctx.Channel.SendMessageAsync(boatCap +"? Who is she, buli...? (Check your spelling and try again. New boats may not be available yet)").ConfigureAwait(false);
+                await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Please check your spelling. Nickname not recognised? @piggyapocalypse with the boat and nickname. New boats may not be available)").ConfigureAwait(false);
 
 
         }
@@ -127,35 +95,16 @@ namespace AzureLightDiscordBot
         public async Task shipStats(CommandContext ctx, string boat)
         {
             bn = new BoatNicknames();
-          
             string hp, firepower, torpedo, antiAir, aviation, reload, hit, evasion, speed, luck, asw, oxygen, ammo, cost, armor;
             string normChibi = "chibi.png";
+           
             boat = boatNickname(boat);
-            string boatCap = boat;
             string shipCalled = boat + ".json"; //file name for boat called
-
-            Console.WriteLine("STATS: " + shipCalled);
-
-            if (boat.Length >= 1)
-            {
-                boatCap = boat.Replace("_", " ");
-                boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);
-
-                string tempString = string.Empty;
-                for (int i = 0; i < boatCap.Length; i++)   
-                {
-                    if (i == 0)
-                        tempString += boatCap[i];
-                    else if (boatCap[i - 1] == ' ')
-                        tempString += char.ToUpper(boatCap[i]);
-                    else
-                        tempString += boatCap[i];
-                }
-                boatCap = tempString;
-            }
+            string boatCap = formatName(boat);
 
             if (File.Exists(@"wikia\Ships\" + shipCalled))
             {
+                #region JSONDESERALISE
                 //read json, then deserialize it
                 var json = string.Empty;
                 using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
@@ -163,12 +112,12 @@ namespace AzureLightDiscordBot
                     json = await sr.ReadToEndAsync().ConfigureAwait(false); //configureAwait false - the thread that starts this task does not have to be the one to continue it - faster
                 var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
                 JObject jo = JObject.Parse(json);
+                #endregion
 
                 string boatName = configShip.Name;
                 string Name = "Name: " + configShip.faction + " " + boatCap + "\n";
 
-                string testString = jo.SelectToken("stats.120retrofit.hp").ToString();
-                if (testString == string.Empty) //doesn't have retrofit
+                if (jo.SelectToken("stats.120retrofit.hp").ToString() == string.Empty) //doesn't have retrofit
                 {
                     hp = jo.SelectToken("stats.120.hp").ToString();
                     firepower = jo.SelectToken("stats.120.firepower").ToString();
@@ -227,7 +176,7 @@ namespace AzureLightDiscordBot
                 await ctx.Channel.SendMessageAsync("- \n" + Name + hp + firepower + torpedo + antiAir + aviation + reload + evasion + speed + luck + asw + oxygen + ammo + cost + armor).ConfigureAwait(false);
             }
             else
-                await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Multiple word ships must have underscores (e.g. ning_hai). Submarines contain no dashes (e.g i58))").ConfigureAwait(false);
+                await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Please check your spelling. Nickname not recognised? @piggyapocalypse with the boat and nickname. New boats may not be available)").ConfigureAwait(false);
         }
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         [Command("stage")]
@@ -257,26 +206,109 @@ namespace AzureLightDiscordBot
                 await ctx.Channel.SendMessageAsync("Commander, I've never been to " + stageCap+" before! Maybe big sis knows.. (Accepted format : !stage 2-4, !stage 2-4hard. SOS stages are listed under x-5.)").ConfigureAwait(false); 
 
         }
+      
+        [Command ("skills")]
+        [Description("Returns the skills for the boat provided. e.g. !skills Hiryuu")]
+        public async Task ReturnSkills(CommandContext ctx, string boat)
+        {
+            bn = new BoatNicknames();
+            string chibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed edited later
 
+            boat = boatNickname(boat);  //If the name passed was a nickname, turn it into the filename and store it
+            string shipCalled = boat + ".json"; //create full file name for boat called
+            string boatCap = formatName(boat);  //format boat name into user friendly aesthetic
+
+
+
+            if (File.Exists(@"wikia\Ships\" + shipCalled))
+            {
+                #region JSONDESERIALISE
+                //read json, then deserialize it
+                var json = string.Empty;
+                using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
+                using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
+                    json = await sr.ReadToEndAsync().ConfigureAwait(false);
+                var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
+
+                //for nested json objects, parse specifically
+                JObject jo = JObject.Parse(json);
+                #endregion
+
+                #region VALUEFORMATTING
+
+                //if a ship does not have a retrofit, the retrofit hp stat will be blank so use this as a test case
+                if (jo.SelectToken("stats.120retrofit.hp").ToString() != string.Empty) //does have retrofit
+                    chibi = "kaichibi.png"; //adds kai onto the string to get the right chibi
+
+                string boatName = configShip.Name;
+
+                string skill1 = (jo.SelectToken("skill.1.description").ToString() != string.Empty) ? jo.SelectToken("skill.1.name").ToString() + "\n" + jo.SelectToken("skill.1.type").ToString() + "\n" + jo.SelectToken("skill.1.description").ToString() + "\n \n" :
+                    "Skill 1 not found \n \n";
+
+                string skill2 = (jo.SelectToken("skill.2.description").ToString() != string.Empty) ? jo.SelectToken("skill.2.name").ToString() + "\n" + jo.SelectToken("skill.2.type").ToString() + "\n" + jo.SelectToken("skill.2.description").ToString() + "\n \n":
+                "Skill 2 not found \n \n";
+
+                string skill3 = (jo.SelectToken("skill.3.description").ToString() != string.Empty) ? jo.SelectToken("skill.3.name").ToString() + "\n" + jo.SelectToken("skill.3.type").ToString() + "\n" + jo.SelectToken("skill.3.description").ToString() + "\n \n" :
+                "Skill 3 not found \n \n";
+
+
+                #endregion
+
+                if (File.Exists(@"chibis\" + boatName + chibi)) //check if the file exists before trying to send it
+                    await ctx.Channel.SendFileAsync(@"chibis\" + boatName + chibi).ConfigureAwait(false);
+
+                await ctx.Channel.SendMessageAsync(skill1 + skill2 + skill3).ConfigureAwait(false);
+            }
+            else
+                await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Please check your spelling. Nickname not recognised? @piggyapocalypse with the boat and nickname. New boats may not be available)").ConfigureAwait(false);
+
+
+        }
+
+
+
+
+        //---------UTILITIES----------------------
 
         public string boatNickname(string boatInput)
-        {
-            
+        { 
             for (int i = 0; i < bn.nicknames.Length; i++)
-            {
-                
+            {       
                 if (bn.nicknames[i].Contains(boatInput))
-                {
-                    
+                {        
                     return bn.nicknames[i][0];
                 }
             
             }
-
             return boatInput;
-
-
-            
         }
+
+        public string formatName(string boat)
+        {
+            string boatCap = boat;
+
+            if (boat.Length >= 1)
+            {
+                boatCap = boat.Replace("_", " ");
+                boatCap = char.ToUpper(boatCap[0]) + boatCap.Substring(1);  //capitalises the first letter and replaces all the underscores with spaces
+                string tempString = string.Empty;
+
+                //iterate through the string
+                //if the char before the current one is a space, make the current char a capital e.g. Prinz eugen to Prinz Eugen
+                for (int i = 0; i < boatCap.Length; i++)
+                {
+                    if (i == 0)
+                        tempString += boatCap[i];   //always print the first letter before checking so don't go out of the array
+                    else if (boatCap[i - 1] == ' ')
+                        tempString += char.ToUpper(boatCap[i]);
+                    else
+                        tempString += boatCap[i];
+                }
+                return tempString;
+            }
+            return boat;
+
+        }
+
     }
 }
