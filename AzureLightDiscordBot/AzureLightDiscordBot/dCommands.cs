@@ -242,13 +242,16 @@ namespace AzureLightDiscordBot
 
                 string boatName = configShip.Name;
 
-                string skill1 = (jo.SelectToken("skill.1.description").ToString() != string.Empty) ? jo.SelectToken("skill.1.name").ToString() + "\n" + jo.SelectToken("skill.1.type").ToString() + "\n" + jo.SelectToken("skill.1.description").ToString() + "\n \n" :
+                //if(jo.SelectToken("sdk"))
+
+
+                string skill1 = (jo.SelectToken("skill.1", errorWhenNoMatch: false) != null) ? jo.SelectToken("skill.1.name").ToString() + "\n" + jo.SelectToken("skill.1.type").ToString() + "\n" + jo.SelectToken("skill.1.description").ToString() + "\n \n" :
                     "Skill 1 not found \n \n";
 
-                string skill2 = (jo.SelectToken("skill.2.description").ToString() != string.Empty) ? jo.SelectToken("skill.2.name").ToString() + "\n" + jo.SelectToken("skill.2.type").ToString() + "\n" + jo.SelectToken("skill.2.description").ToString() + "\n \n":
+                string skill2 = (jo.SelectToken("skill.2", errorWhenNoMatch: false) != null) ? jo.SelectToken("skill.2.name").ToString() + "\n" + jo.SelectToken("skill.2.type").ToString() + "\n" + jo.SelectToken("skill.2.description").ToString() + "\n \n":
                 "Skill 2 not found \n \n";
 
-                string skill3 = (jo.SelectToken("skill.3.description").ToString() != string.Empty) ? jo.SelectToken("skill.3.name").ToString() + "\n" + jo.SelectToken("skill.3.type").ToString() + "\n" + jo.SelectToken("skill.3.description").ToString() + "\n \n" :
+                string skill3 = (jo.SelectToken("skill.3", errorWhenNoMatch: false) != null) ? jo.SelectToken("skill.3.name").ToString() + "\n" + jo.SelectToken("skill.3.type").ToString() + "\n" + jo.SelectToken("skill.3.description").ToString() + "\n \n" :
                 "Skill 3 not found \n \n";
 
 
