@@ -1,0 +1,844 @@
+{
+	"name_reference": "suzutsuki",
+	"cn_reference": "li",
+	"nameJP": "涼月",
+	"nameCN": "栎",
+	"ID": "468",
+	"name": "Suzutsuki",
+	"internal_id": "",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "00:29:00",
+	"class": "Akizuki-Class",
+	"voiceActress": "Kotori Koiwai",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "B",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "September 17, 2020",
+		"CN": "September 17, 2020",
+		"KR": "September 17, 2020",
+		"EN": "September 17, 2020"
+	},
+	"artist": {
+		"name": "shisantian",
+		"weibo": "https://www.weibo.com/p/1005053082090661",
+		"twitter": "https://twitter.com/shisantian",
+		"pixiv": "https://www.pixiv.net/en/users/13138388",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "5",
+		"torpedo": "24",
+		"aviation": "0",
+		"reload": "15"
+	},
+	"acquisitionMethod": "Event: Dreamwaker's Butterfly",
+	"skill": {
+		"1": {
+			"icon": "13630",
+			"requirement": "Default Unlocked",
+			"name": "Suzutsuki, Breaking Through!",
+			"type": "Offensive",
+			"description": "Increases this ship's Torpedo, Anti-Air by 1.0% (5%) for each Sakura Empire ship in the same fleet as this ship; when enemy aircraft is shot down within your fleet's Anti-Air Gun range: adds 1 stack of this buff. Can stack up to 6 times. "
+		},
+		"2": {
+			"icon": "13640",
+			"requirement": "Default Unlocked",
+			"name": "Suzutsuki, Causing Confusion!",
+			"type": "Defensive",
+			"description": "3 seconds after the battle starts and every 15 seconds after that: fires a special barrage and has a 15.0% (30%) chance to deploy a smokescreen for 5 seconds that increase Evasion by 20.0% (40%) for all your ships in it (barrage DMG is based on the skill's level and the first smokescreen is guaranteed to deploy). Once per battle, when this ship's HP falls below 20%: heals this ship for 5.0% (15%) HP. "
+		},
+		"3": {
+			"icon": "29600",
+			"requirement": "Default Unlocked",
+			"name": "All Out Assault II",
+			"type": "Offensive",
+			"description": "Every 24 (16) shots from the main battery, triggers Full Barrage - Suzutsuki I (II)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "li",
+			"name": "Suzutsuki",
+			"description": "Akizuki-class destroyer number three – Suzutsuki.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "li_2",
+			"name": "Suzutsuki, Beachside Attendant!",
+			"description": "Commander, over here! We're about to start without you! Ahaha, what would you like to do, Commander? Beach volleyball? Sandcastle building? We can also go relax in the water if you'd like!",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "31000",
+			"rarity": "Rare",
+			"name": "Twin 100mm (Type 98)"
+		},
+		"2": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "2115",
+			"firepower": "70",
+			"torpedo": "343",
+			"antiAir": "178",
+			"aviation": "0",
+			"reload": "190",
+			"hit": "171",
+			"evasion": "174",
+			"speed": "39",
+			"luck": "72",
+			"asw": "187",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2538",
+			"firepower": "81",
+			"torpedo": "384",
+			"antiAir": "205",
+			"aviation": "0",
+			"reload": "384",
+			"hit": "180",
+			"evasion": "179",
+			"speed": "39",
+			"luck": "72",
+			"asw": "207",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "409",
+			"firepower": "15",
+			"torpedo": "73",
+			"antiAir": "38",
+			"aviation": "0",
+			"reload": "80",
+			"hit": "66",
+			"evasion": "67",
+			"speed": "39",
+			"luck": "72",
+			"asw": "51",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Main Gun Mount +1 / Pre-Loaded Torpedo +1 / Anti-Air Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "DD Guns",
+			"efficiency": "100%/???%/???%/110%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "130%/???%/???%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "130%/???%/???%/145%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "li",
+				"id": "0",
+				"label": "",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "椛级驱逐舰三番舰—栎",
+						"chineseTL": "Third of the Akizuki Class Destroyers - Suzutsuki.",
+						"chineseNote": "",
+						"japanese": "秋月型駆逐艦三番艦・涼月",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Akizuki-class destroyer number three – Suzutsuki.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是椛级驱逐舰的一员、栎！曾经和椛、檚她们一起在第六十一驱逐队待过~护卫过鳄，救援过豼，还算是挺活跃的吧？虽然遭遇过很多次危机，中雷那两次也是…“天”号作战的时候也是…不过最后还是都坚持过来了呢！",
+						"chineseTL": "I am a member of the Akizuki class, Sutzutsuki! I was once together Akizuki and Hatsuzuki as part of the 61st Dev, escorted Musashi and participated in Noshiro's rescue mission too! So I guess I was quite active right? Although I encountered lots of dangers, and was subjected to two torpedoes... during the Battle of Bou-no-Misaki too, but in the end I managed to survive through all of it!",
+						"chineseNote": "",
+						"japanese": "秋月型駆逐艦の涼月よ！秋月、初月たちと第六十一駆逐隊に所属し、阿賀野の救援任務に参加したんだ！まあまあ活躍できたよ！2回の被雷や坊ノ岬沖海戦でピンチになったけど生き残れたんだよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Suzutsuki, Akizuki-class destroyer. I was a member of the 61st DesDiv along with Akizuki and Hatsuzuki, and escorted Musashi and participated in Noshiro's rescue mission! Not a shabby record, right? I had a close call at the Battle of Bou-no-Misaki when I got hit by two torpedoes, but I managed to survive until the end!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "啊哈哈，噗太，以后这里就是我们的新家了哦？…恩哼，椛级三号舰·栎，参上！无论是同伴们还是指挥官，都请交给我来守护吧！",
+						"chineseTL": "Ahaha, Pooky, this will be our new home from now on? ... Mm hmm, Second of the Suzutsuki-Class, Suzutsuki, reporting in! Regardless of it's comrades or Commander, please leave it to me to protect you all!",
+						"chineseNote": "",
+						"japanese": "あはは、聞いてるプー太？これからここに暮らすんだよ？……秋月型3番艦の涼月、いざ参上！仲間たちも指揮官もこのわたしがお守りいたす！なんてね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahaha, Pooky, listen up, we're gonna live here from now on! Uhh... Third ship of the Akizuki-class, Suzutsuki, reporting in! I'll be the one to protect my comrades and you, Commander! Just kidding~♪",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来！…有新的作战任务吗？交给我吧！",
+						"chineseTL": "Welcome back! ... Are there new battle missions? Leave it to me",
+						"chineseNote": "",
+						"japanese": "おかえり！…新しい任務とか、ない？なんでもわたしにおまかせ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back! ...Got any new jobs? I'm down for anything!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "被同伴依赖的时候，心中就会涌出一股力量，感觉自己什么都能做得到呢。",
+						"chineseTL": "When being relied on by comrades, there will be a surge of power from my heart, I feel that I can do anything that I want.",
+						"chineseNote": "",
+						"japanese": "仲間たちに頼られると、今のわたしはなーんでもできちゃう！ってくらい、すっごい力が湧き上がってくるんだよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "When my friends are counting on me, I can feel power surging within me that makes me feel like I can do anything!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "“吾乃不倒之栎，单凭尔等的攻击是无法将吾击败的！”…这样的感觉怎么样？嘿嘿~",
+						"chineseTL": "\"I am known as the undefeatable, for someone like you - your attacks will never defeat me!\" How's that feel? Hehe~",
+						"chineseNote": "",
+						"japanese": "「倒れずの涼月ここにあり！お主らの攻撃なぞこのワシに傷一つつけられぬわー！」なんてどうかな？ひゅーひゅー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"The invincible Suzutsuki is here! Your attacks shall not put a scratch on me!\" How'd that sound? Hya hah!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "噗太，你要去指挥官的头上面吗？嘿嘿~那就去吧！但是，不能捣乱哦！",
+						"chineseTL": "Pooky, do you want to be at the top of Commander's head instead? Hehe~ then here you go! But, you can't mess it up okay!",
+						"chineseNote": "",
+						"japanese": "あはははプー太はわたしより指揮官の頭の上のほうがいいの？じゃあ行っていいよ～あっ、いたずらしちゃダメだからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahaha! You'd rather sit atop Commander's head instead of mine? Very well, go forth! Oh, but no pranks though!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "唔…指挥官每天都要处理好多事情啊。所以说啊柉，槆，“大名”啦“将军”啦什么的了可没那么好当哦，还是当指挥官麾下的一员“心腹”就好了吧~",
+						"chineseTL": "Uh... Commander has to deal with many things every day huh. So like I said, Isokaze, Urakaze, whether it's \"Warlord\" or \"General\" or similar isn't that easy to be, it's still better to be a retainer under the Commander right~",
+						"chineseNote": "",
+						"japanese": "指揮官のお仕事って結構多いね～ほらな磯風、浦風、「大名」「将軍」ってのはけっこう大変だから、なるなら「家来」がいいって！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you sure have a lot of work, don't you~ Look, Isokaze, Urakaze, being a warlord or a general is a lot of hard work. A better job would be to become Commander's retainers!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "脸上的墨迹？欸，指挥官你真是不懂呢，这是潮流哦！不觉得很帅吗？我也来给你画一个吧！",
+						"chineseTL": "The markings on my face? Che, Commander don't get it at all, this is what one call fashion! Don't you feel it's cool? Let me draw some for you too!",
+						"chineseNote": "",
+						"japanese": "右頬にあるこれ？指揮官は知らないの？最近の流行りだって！なんなら指揮官にも描いてあげていいよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This marking on my right cheek? You haven't heard of it, Commander? It's the latest fashion trend! Here, I'll draw one on for you!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指、指挥官！有些事情是不可以随便做的啦！",
+						"chineseTL": "C-Commander! There are things that even you can't do on a whim!",
+						"chineseNote": "",
+						"japanese": "し、指揮官！もう、勝手にやっちゃいけないことだってあるんだよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "C-Commander! Jeez, there are some things that you shouldn't be doing!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Rub",
+						"media": "touch_head",
+						"chinese": "嗯嗯，毛茸茸的摸起来很舒服吧！…啊，我说的是这孩子，不是我的耳朵啦！",
+						"chineseTL": "Mm mm, this poofy feel feels comfortable right! ... Ah, I mean this child here, not my ears!",
+						"chineseNote": "",
+						"japanese": "そうそう、フサフサしてていい触り心地でしょ！…って触らせたいのはプー太でわたしの耳じゃないって！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look, fluffy and super pattable, right? ...Hey, I'm talking about Pooky, not my ears!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "指挥官碰到了很难的任务？唔…也给我看看吧？说不定能帮上忙哦！",
+						"chineseTL": "Did Commander hit an especially hard task? Uhm... let me look at it too? I might be able to help after all!",
+						"chineseNote": "",
+						"japanese": "難しそうな任務？…わたしも見ていい？もしかしたら役に立てるかも！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A tough mission, huh? Lemme take a look, maybe I can help out!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务完成了！指挥官，可不要忘了给功臣赏赐哦?",
+						"chineseTL": "Missions are completed! Commander, don't forget to tive the hardworking individuals their rewards too?",
+						"chineseNote": "",
+						"japanese": "任務達成ぃ！指揮官、報奨をお忘れなく！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mission complete! Commander, don't forget about the rewards!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "邮件怎么缺了个口？…啊哈哈……那是噗太做的…对不起…",
+						"chineseTL": "Why do we have a bite mark on the mails? ... Ahahah... That is done by Pooky... sorry about that...",
+						"chineseNote": "",
+						"japanese": "あれ？封筒が破けているって？…あははは…もしやプー太が……ごめんなさい…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? The envelope got torn? ...Ahaha... Sorry 'bout that, must've been Pooky...",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "“甲队由我直接指挥，乙丙队按预定计划行动，然后——”啊，指挥官？什么时候回来的…",
+						"chineseTL": "\"Team A will be lead by me, and Team B will act according to plan, and then-\" Ah, Commander, when did you come return...?",
+						"chineseNote": "",
+						"japanese": "甲の備えはこのわたしが直接指揮いたす。乙と丙の備えは予定通りに動いて、そして――あっ、指揮官、いつから戻ってたの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Team A is directly under my command. Teams B and C will follow the plan, and then... Oh, Commander, when'd you get back?",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "一起去慰问委托回来的同伴们吧！啊对了，慰问品就让我来拿着吧！嘿~咻~",
+						"chineseTL": "Let's go and check on the comrades that came back from commission then! Ah, right, I'll get the rewards for them too! Hehe~",
+						"chineseNote": "",
+						"japanese": "委託組を出迎えに行こう！差し入れはこの涼月が持つよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission fleet has returned! Lemme take home the extras!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "这样就有更多的力量守护大家了！",
+						"chineseTL": "With this I have even more strength to protect everyone!",
+						"chineseNote": "",
+						"japanese": "みんなを守る力、もっとちょうだい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Give me more power, so that I may protect everyone!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "愿诸位武运昌隆！一鼓作气上啦！",
+						"chineseTL": "May the odds be in your favor! Muster yourself and set off!",
+						"chineseNote": "",
+						"japanese": "では諸君ご武運を――いっけー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "May the odds ever be in your favor! Go forth!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "“敌将，已讨伐！”…开玩笑的，嘿嘿~",
+						"chineseTL": "\"The enemy command, has been defeated!\" ... Just kidding, hehe~",
+						"chineseNote": "",
+						"japanese": "敵将討ち取ったりー…なんて、あはは♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The enemy general’s head is mine~! Just kidding, ahaha~♪",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "唔…无论如何，大家都要一起平安回去…！",
+						"chineseTL": "Uh... regardless of what happens, everyone must return home safely...!",
+						"chineseNote": "",
+						"japanese": "くっ…なんとしてもみんなで一緒に帰らないと…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Guh... No matter what, we all have to make it back safely...!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "大家由我来守护！",
+						"chineseTL": "I am going to protect everyone!",
+						"chineseNote": "",
+						"japanese": "涼月、お守りいたす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Suzutsuki, defending her friends!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "接下来才是紧要关头！",
+						"chineseTL": "What comes next is what's truly important!",
+						"chineseNote": "",
+						"japanese": "正念場はここからよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The real fight's only getting started!",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官，我要讨厌你了哦？",
+						"chineseTL": "Commander, I am going to dislike you now, okay?",
+						"chineseNote": "",
+						"japanese": "指揮官のこと、嫌いになっちゃいそうだよ…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you're gonna make me hate you...",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "虽然听起来有点像在自卖自夸，不过，栎还是挺可靠的哦？“栎，谢谢你，帮大忙了！”经常有小伙伴这么跟栎说哦",
+						"chineseTL": "Although it does sound like I'm blowing my own horn, but Suzutsuki is quite reliable you know? \"Thank you, Suzutsuki, you helped lots!\" It's quite common for the others to tell Suzutsuki this~",
+						"chineseNote": "",
+						"japanese": "自画自賛に聞こえちゃうかもしれないけど、わたし涼月はみんなに結構頼りにされてるよ！「涼月ありがとう！助かったよ」って、よく言われてるからね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I may come across as a braggart, but that's because I'm pretty reliable! \"Oh, Suzutsuki, you saved me! I don't know what I would've done without you!\" Yeah, I get that a lot~",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "指挥官，有什么事也可以尽管来拜托我哦！…欸？偶尔依赖依赖指挥官也没关系…？",
+						"chineseTL": "Commander, if you need help, feel free to ask me! ... Eh? It's alright to occasionally rely on Commander too...?",
+						"chineseNote": "",
+						"japanese": "指揮官もわたしを頼りにしていいよ！…なんと！「涼月のほうこそ、指揮官を頼りにしていい」だとー…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you can rely on me as well! ...What?! You think you can one-up me...?!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "依赖指挥官啊…唔，想象一下的话……指挥官给栎泡茶，指挥官给栎做便当，指挥官把睡着的栎抱回宿舍……这，这怎么好意思！",
+						"chineseTL": "Relying on Commander huh... Uh, thinking about that... Commander making tea for Suzutsuki, Commander making packed meals for Suzutsuki, Commander bringing the sleeping Suzutsuki back to the dorms... h-how is that appropriate!!",
+						"chineseNote": "",
+						"japanese": "んー指揮官にやってほしいことは…「お茶を入れてもらう」「お弁当を作ってもらう」「寝てしまった涼月を寮まで運んでもらう」……そそそそんなことはー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... What would I like the commander to do for me? ...Make tea? Pack my lunch? Carry me back to the dorms after I fall asleep? ...Th-th-that's way too embarrassing!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指挥官！肩膀借我靠靠~~嘿咻~…还是这样让人感觉最安心~唔，不知不觉已经很自然地依赖着指挥官了呢…要好好负起责任哦，指挥官？嘿嘿，开玩笑的~",
+						"chineseTL": "Commander, lend me your shoulder to rest for a while~~ hehe~ ... In the end this makes me the most at ease~ uh, without realizing I have became quite reliant on Commander huh... you have to take responsibility, alright, Commander? Hehe, I'm just kidding~",
+						"chineseNote": "",
+						"japanese": "指揮官、ちょっと体をお借り致す！よいっしょっと…うんうん、こうやって指揮官に寄り添っているのってやっぱり安心するねーあ、これって指揮官を頼りにしてるってことかな。ほらほら、指揮官もちゃんと最後まで面倒見てくれると嬉しいなー、なんて♪あははは",
+						"japaneseNote": "",
+						"english": "Commander, get over here! Hup~ ...Mmhmm, that's much cozier. Now it feels more like I'm relying on you, doesn't it? See, you'll also have to take good care of me from now on~ Just kidding~♪ Ahaha!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "啊哈哈…果然到了这时候还是会紧张的呢…本来还以为能更游刃有余一些的呢…那个…指挥官，接下来的…全都交给你就行了吧",
+						"chineseTL": "Ahaha... as expected at a time like this I will still be nervous right... I actually thought I could deal with this more casually... well... Commander... from now on... I will leave everything to you, right?",
+						"chineseNote": "",
+						"japanese": "あははは…やっぱりこういう場面は緊張して当然だよね……大丈夫だと思ってたのにな…こ、これは指揮官に全部任せちゃって…いいよね……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahahaha... Being in a situation like this is quite nerve-racking, isn't it? ...I thought I had mentally prepared myself... Commander, you c-can handle the rest... right...?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 1(Agano)",
+						"media": "link1",
+						"chinese": "当心别受伤了哦！",
+						"chineseTL": "Be careful not to get hurt!",
+						"chineseNote": "",
+						"japanese": "怪我しないように気をつけて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Be careful out there!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 2(Niizuki,Harutsuki,Yoizuki,Hanazuki)",
+						"media": "link2",
+						"chinese": "一起保护好大家吧",
+						"chineseTL": "Let's protect everyone together then!",
+						"chineseNote": "",
+						"japanese": "仲間たちを、この涼月がお守りいたす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I will be the one to protect my friends!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg 3(Isokaze)",
+						"media": "link3",
+						"chinese": "柉，拜托你帮忙了",
+						"chineseTL": "Isokaze, I'll have to depend on you for help!",
+						"chineseNote": "",
+						"japanese": "磯風殿、助太刀頼むよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Isokaze, back me up!",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "li_2",
+				"id": "1",
+				"label": "Suzutsuki, Beachside Attendant!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, over here! We're about to start without you! Ahaha, what would you like to do, Commander? Beach volleyball? Sandcastle building? We can also go relax in the water if you'd like!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, over here! We're about to start without you! Ahaha, what would you like to do, Commander? Beach volleyball? Sandcastle building? We can also go relax in the water if you'd like!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, time out! Look, the others have already started playing without you~ Fine, fine... I shall be the one to accompant you then!" ,
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm pretty refreshing and cool right? Just like my name suggests~ ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do we have enough people to build a sandcastle? Great, count me in as well! Wait, Commander, hold on!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pooky likes coming to the sea as well, isn't that right~? Ah, be careful not to fall into the water!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_3_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Agano's not here? That's too bad, I was looking forward to playing with her... Commander, why do you look so relieved? Hm? Its just my imagination?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Woah?! ...Oh, it's you, Commander, you surprised me... Hibiki shoved a crab in my face earlier and it gave me a nasty pinch...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Jeez, Commander! What are you doing in front of this many people?!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "“",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Not enough people for a game of beach volleyball? All right! I'll go play some watermelon splitting with Georgia first!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseNote": "",
+						"english": "Phew... Playing by the beach is super fun, but after all the commotion, I could use some relaxation... Yup, I'm gonna lay down right here! Mm... Yeah, just stay put like that. Hehe~",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "20",
+		"pt_level": "15",
+		"add_level_attr": "FP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "8",
+		"ships": "hanazuki,harutsuki,niizuki,suzutsuki,yoizuki"
+	}
+}
+
+
+

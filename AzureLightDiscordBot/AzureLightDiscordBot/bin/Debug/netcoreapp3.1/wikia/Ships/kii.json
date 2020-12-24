@@ -1,0 +1,822 @@
+{
+	"name_reference": "kii",
+	"cn_reference": "jiān",
+	"nameJP": "紀伊",
+	"nameCN": "鲣",
+	"ID": "214",
+	"name": "Kii",
+	"internal_id": "",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Battleship",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "04:20:00",
+	"class": "Kii-Class",
+	"voiceActress": "Sayaka Kaneko",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "C",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
+	},
+	"releaseDate": {
+	  "JP": "September 17, 2020",
+		"CN": "September 17, 2020",
+		"KR": "September 17, 2020",
+		"EN": "September 17, 2020"
+	},
+	"artist": {
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "67",
+		"torpedo": "5",
+		"aviation": "0",
+		"reload": "10"
+	},
+	"acquisitionMethod": "Event: Dreamwaker's Butterfly",
+	"skill": {
+		"1": {
+			"icon": "13610",
+			"requirement": "Default Unlocked",
+			"name": "Kii Fleet Strategy",
+			"type": "Offensive",
+			"description": "Every 20 seconds after the start of the battle, 45.0% (75.0%) chance to fire a special barrage (barrage damage scales with skill level)."
+		},
+		"2": {
+			"icon": "13620",
+			"requirement": "Default Unlocked",
+			"name": "Stalwart Advance",
+			"type": "Support",
+			"description": "As long as this ship is afloat, increase the AA stat of each of your Sakura Empire main fleet ships by 5.0% (15.0%). If there are three or more Sakura Empire ships in your fleet (including this ship), increase this ship's FP by 1.0% (10.0%) and increase the TRP of each vanguard ship in your fleet by 1.0% (10.0%)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "jiān",
+			"name": "Kii",
+			"description": "Kii-class battleship – Kii.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "jiān_2",
+			"name": "Poolside Persuasion",
+			"description": "Refreshing drinks, delicious food, warm sunshine... and a pool to beat the heat? Heh, isn't this the essence of summer?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "34100",
+			"rarity": "Common",
+			"name": "Twin 410mm (3rd Year Type)"
+		},
+		"2": {
+			"icon": "32000",
+			"rarity": "Common",
+			"name": "Single 140mm (3rd Year Type)"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "6808",
+			"firepower": "379",
+			"torpedo": "248",
+			"antiAir": "327",
+			"aviation": "0",
+			"reload": "126",
+			"hit": "57",
+			"evasion": "18",
+			"speed": "28",
+			"luck": "39",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120": {
+			"hp": "7945",
+			"firepower": "421",
+			"torpedo": "283",
+			"antiAir": "367",
+			"aviation": "0",
+			"reload": "145",
+			"hit": "72",
+			"evasion": "37",
+			"speed": "28",
+			"luck": "39",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"base": {
+			"hp": "1317",
+			"firepower": "80",
+			"torpedo": "53",
+			"antiAir": "70",
+			"aviation": "0",
+			"reload": "53",
+			"hit": "22",
+			"evasion": "7",
+			"speed": "28",
+			"luck": "39",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Heavy"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "39",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "39",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1 / Main gun efficiency +5% ",
+		"tier2": "Auxiliary gun base +2 / Main gun efficiency +10% ",
+		"tier3": "Main gun base +1 / Main gun efficiency +15% "
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "BB Main Guns",
+			"efficiency": "105%/???%/???%/135%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "CL Main Guns/DD Main Guns",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/3/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "Dreamwaker's Butterfly",
+				"chapter": {
+					"1": {
+						"label": "Ch .T",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							},
+							"5": {
+								"drop": "-",
+								"note": "-"
+							},
+							"6": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "jiān",
+				"id": "0",
+				"label": "Kii",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "鲣级战列舰—鲣",
+						"chineseTL": "Kii Class Battleship - Kii.",
+						"chineseNote": "",
+						"japanese": "紀伊型戦艦・紀伊",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Kii-class battleship – Kii.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是鲣级战列舰的首舰·鲣。因为一些原因最终没能实现在大战中大展身手的抱负……如今，我终于有机会展示自己的实力了！指挥官，不要有所拘束，照你的想法驱使我就行！",
+						"chineseTL": "I am the first ship of the Kii class Battleship - Kii. Due to various reasons I could not realize my expectations to perform well in the great war... But now, I finally got the chance to express my true potential! Commander, do not be restraint , use me according to your will!",
+						"chineseNote": "",
+						"japanese": "八八艦隊計画、紀伊型戦艦の一番艦、紀伊よ。かの大戦では色々あって活躍できなかったけど……ふふん、ここでなら思いっきり暴れられるわ！指揮官、遠慮せず私をうまく使いこなして！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am part of the Eighty-Eight Fleet Program: first ship of the Kii-class battleships, Kii. In short, I never got a chance to shine during the war because reasons... But now I have, and I'm going to use it to its fullest! If you have anything that needs doing, just say the word, Commander!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "战舰鲣，参上！听说在这里可以毫无顾忌的施展拳脚？哼哼，很好！我很期待之后的日子，你也尽管期待我的表现吧！",
+						"chineseTL": "Battleship Kii, reporting in! I heard that I can be loose with my restraints of combat here? Hmm mm, very good! I look forward to the coming days, you too should look forward to my performance too!",
+						"chineseNote": "",
+						"japanese": "戦艦紀伊、参上だ！さて、ここでは派手に動けると聞いたんだけど？そっか、それはいいわね！ふふん、私の獅子奮迅の活躍を期待してて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Battleship Kii, reporting for duty! Is it true that I'd be able to fight without holding back over here? Heh, good stuff! I look forward to what the future has in store, and you should keep your eyes on me as well!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "终于来啦？我的火炮都已经寂寞难耐了哦，是时候让它们热热身了！",
+						"chineseTL": "You are finally here? My cannons are getting lonely and it's hard to hold back, it's time to warm them up!",
+						"chineseNote": "",
+						"japanese": "ようやくご出勤ね。ははは、こっちは主砲をぶっ放したくてウズウズしてたところよ。そろそろ出撃しようじゃない！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look who's finally clocked in, hahahah! My trigger finger's gotten itchy, so let's get on with a sortie already!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "无论是刀剑，还是火炮，果然武器还是得够“大”才好啊，光是气势上就有种“赢了！”的感觉，你说是吧，指挥官！",
+						"chineseTL": "Regardless of swordsmanship or firepower, as expected weapons are better \"bigger\", just the atmosphere it has means you are already winning! Don't you think so too, Commander!",
+						"chineseNote": "",
+						"japanese": "兵装は大きくて、目立っているほうがいいに決まっているわ。性能はともかく、これだけ大きければ「勝ったな！」って、余裕も威勢も生まれる――指揮官もそう思わない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Obviously I like being on the center stage with my massive cannons. Performance aside, their size alone boosts morale while intimidating the enemy. You get what I mean, Commander?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "要是谁欺负你了，尽管告诉我，我帮你揍回去！…嗯？我是认真的哦，没开玩笑的。",
+						"chineseTL": "If someone is bullying you, feel free to tell me, I will help you return the favor! ..Mm? I'm being serious you know, I'm not kidding.",
+						"chineseNote": "",
+						"japanese": "いじめられたら私に言って。この紀伊が身の程を思い知らせてきてやるわ！―ー割と本気だからね？私",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Tell me if anyone starts picking on you. I'll put them in their place! And I mean it, for the most part, you hear?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "嗯~~一直待着感觉身体都要变僵硬了…怎么了，一脸局促的样子。唔，衣服哪里松开了？",
+						"chineseTL": "Mm~ Being still the whole time makes me feel that my entire body is turning stiff... what is it, your expression is so uneasy. Uh, where are my clothes loose again?",
+						"chineseNote": "",
+						"japanese": "んんん～突っ立っているだけだと体が硬くなるわね…どうした指揮官？顔を真っ赤にして…さらしがズレている？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mmghh! I'm feeling stiff after standing up for so long... What's up, Commander? Why are you blushing? ...My bra's coming off?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "鲪～今天忙完之后，和鳌她们一起去喝一杯嘛？哎别这么没人情味嘛…都说好要去就一起去了",
+						"chineseTL": "Suruga~ After we're done with work today, let's go with Ise and the rest for a drink? Ehh don't be so anti-social... when we agreed on going, it means you have to go together too!",
+						"chineseNote": "",
+						"japanese": "駿河～仕事から上がったら、伊勢たちと飲みに行かない？もうつれないわね…行くってときは一緒に行こうね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Suruga! What do you say to going drinking with me and the gang once work is done? Figures, always so antisocial... When people invite you, you should go with it!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "遇到什么困难了？尽管说出来吧。",
+						"chineseTL": "Have you encountered some problems? Feel free to tell me.",
+						"chineseNote": "",
+						"japanese": "困っていることでもあるの？私に相談してくれていいんだよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Something on your mind? I might be able to help you with it.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "增进彼此感情的亲密接触啊…也不错!",
+						"chineseTL": "We've increased our bond through intimate touches huh... that isn't bad!",
+						"chineseNote": "",
+						"japanese": "仲良しのスキンシップ……んーアリかな?",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"Friendly friskiness,\" is it? Hmm... Sure, I guess?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "有新任务？是要去哪个海域清剿敌人的话，就尽管交给我吧！",
+						"chineseTL": "There's a new mission? If we are going to another quadrant in the sea to eliminate enemies, feel free to leave it to me!",
+						"chineseNote": "",
+						"japanese": "新しい任務？敵の掃討なら私に任せて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A new mission? If it's about turning hostiles to scrap, I'll get it done!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "干净利落地把任务都完成了啊，很好！",
+						"chineseTL": "You efficiently completed all the missions huh, very good!",
+						"chineseNote": "",
+						"japanese": "テキパキ任務を片付けてきたわね！よし！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We're wrapping up these missions nicely! Great!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "有信件…难道是谁寄来的挑战书？好，我接了！……啊，原来不是吗…",
+						"chineseTL": "There's mail... don't tell me it's a challenge from someone? Alright, I accept it! ... Ah, so it isn't huh...",
+						"chineseNote": "",
+						"japanese": "手紙……果し合いならこの紀伊、受けて立つわ！…なんだ…違うのか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A letter, eh? If it's an open duel, then I accept their challenge! Oh, no duel, huh...",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "比起驻守港区，还是上战场歼敌更令人瞩目啊，不是吗？",
+						"chineseTL": "Rather than protecting the docks, it's still more eye catching being on the battlefield, right?",
+						"chineseNote": "",
+						"japanese": "母港でじっと待っているより、戦場で活躍した方が目立つと思わない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I reckon we'll garner more fame by winning battles than by wasting time in port, don't you agree?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "虽然我对委托这种单纯枯燥的工作没什么兴趣，不过可不能亏待了归来的同伴们，一起去迎接她们吧！",
+						"chineseTL": "Although I do not have interest in mundane and routine work like commissions, but I can't mistreat comrades who has returned, let us go and welcome them together then!",
+						"chineseNote": "",
+						"japanese": "軍事委託、ちょっと地味ね……まあ、頑張った仲間たちを目立たせないとだし、一緒に出迎えに行こう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "That last commission was kinda mediocre... Still, they deserve a congratulatory moment. Want to come with me?",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "好，马上用实战检验一下强化的成果吧！",
+						"chineseTL": "Alright, let us test out the results of the streghtening in real time right now!",
+						"chineseNote": "",
+						"japanese": "どこまで強化されたか、実戦で確認―ーね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's see how strong I've really gotten. Send me into battle!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "堂堂正正地一决胜负吧!",
+						"chineseTL": "Let's openly decide this properly in a duel then!",
+						"chineseNote": "",
+						"japanese": "正々堂々、派手に勝負と行こうじゃない！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's duke it out, fair and square!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "太好了指挥官，我们赢了呢～",
+						"chineseTL": "Not bad! This is a refreshing battle!",
+						"chineseNote": "",
+						"japanese": "勝ったわね。ふふん、スッキリした勝利だったわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Victory's ours. Heheh, now that was refreshing all right.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "咕…果然是火力还不够吗……",
+						"chineseTL": "Kuh... as expected is my firepower not enough...",
+						"chineseNote": "",
+						"japanese": "くっ…火力が足りなかったか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Dammit... Not enough firepower for the job, huh?",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "好！来大闹一场吧！",
+						"chineseTL": "Alright! Let's make a ruckus now!",
+						"chineseNote": "",
+						"japanese": "ド派手に行くわよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's give 'em a dazzling show!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "哈，对面也有两下子嘛！",
+						"chineseTL": "Hah, the opposition does have some bite to them huh!",
+						"chineseNote": "",
+						"japanese": "向こうもやるわね…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These guys are tougher than I expected!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "嘁，当你的手下真没意思……",
+						"chineseTL": "Che, being your subordinate isn't interesting at all...",
+						"chineseNote": "",
+						"japanese": "……部下を使いこなせない上司はしんどいわね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm so tired of bosses that can't handle their subordinates, like you.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "你啊，动不动就脸红气喘，是不是有点太缺乏锻炼了？就和鲪一样啊",
+						"chineseTL": "Honestly, you get all red-faced and panting with just a bit, are you lacking a bit too much of conditioning? Just like Suruga huh...",
+						"chineseNote": "",
+						"japanese": "指揮官大丈夫？さっきから疲れてそうな顔だけど……駿河と同じく鍛錬不足かな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You okay, Commander? You've had this tired, stiff look on you for a while now... You're not getting rusty like Suruga, are you?",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "嗯——好！就让我鲣来陪你锻炼锻炼！别老在室内待着，多出来动动吧，挥挥木刀什么的也好",
+						"chineseTL": "Mm - Good! Let me Kii accompany you in training! Don't always stay indoors, come out and move around, swinging a training sword or what not, anything is alright!",
+						"chineseNote": "",
+						"japanese": "というわけで…トレーニングに付き合ってあげるわ！ささ、部屋から出て新鮮な空気を吸ってジョギング！あと素振りでもやってみなさい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thought as much. I'll help you with your training, then! Come on, out of your room and into the fresh outdoors for some jogging! And later, we'll do some sparring!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "在战斗中大放异彩，也得有能关注你的伙伴才有意思啊~好！等忙完再去跟螯比划比划，然后再跟她一起去找鳌喝几杯！当然你和鲪也要一起！",
+						"chineseTL": "Being active and dazzling in the battlefield, but you would still need to pay attention to your comrades for it to mean anything~ Alright! After we're done I'm going to go duke it out with Hyuuga, then I'm going to get a few drinks with Ise! Of course, you and Suruga will have to go too!",
+						"chineseNote": "",
+						"japanese": "戦闘で華麗な大活躍をしても、見てくれる仲間がいないと楽しくないわね～よし、仕事から上がったら日向と練習して、そのあと駿河と指揮官も連れて伊勢たちと一杯飲んで…んーいい感じ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's no fun in knocking a battle out of the park if nobody's there to witness it. Anyway, once this work is done, I'll go train with Hyuuga. After that, you, I, and Suruga will go for a drink with Ise! Sound good to you?",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "有想要守护的事物，会让人变得更加强大。现在的我有港区的伙伴们，有你在，自然是最强的啦，哈哈",
+						"chineseTL": "Having something to protect, will make one even stronger. Right now the me here has the comrades at the docks, there's you, of course I am the strongest, haha!",
+						"chineseNote": "",
+						"japanese": "守るべき人がいたほうがより頑張れるって言うじゃない？戦艦紀伊、仲間たちと指揮官のために最強になる―ーなんてね♪はははは",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "People say you can push yourself harder if it's to protect someone. Then for everyone's sake, I, Kii, shall become the strongest battleship... Pfft, yeah right! Hahahahah",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "都说“伙伴之间本就亲密无间”嘛，所以不用这种形式的东西——不是那个意思？你知道我并不擅长表达这个嘛…好吧，既然是你的心意我就接收了！放心吧，无论是过去、现在还是将来，我都会好好保护你的！",
+						"chineseTL": "I already said that \"There's always intimacy between comrades\" right? So objects like \"this\" isn't necessary at all - it doesn't mean that way? You know I'm not well versed with this right... Alright, since this is your will, I'll accept it then! Don't worry, regardless of before, now, or the future, I will properly protect you!",
+						"chineseNote": "",
+						"japanese": "まあ、そんなことしないでも、私達はもうお互い大切なパートナーじゃない？……大丈夫、これはちゃんと受け取るから！今までと同じようにずっと守るから安心して！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I mean, we don't need to go that far. We're already dearly important to one another, aren't we? ...Don't worry, I'll still accept it! And of course, I'll keep on keeping you safe, just like I always have!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Amagi)",
+						"media": "link1",
+						"chinese": "战略交给你，战斗交给我！",
+						"chineseTL": "I'll leave the battle plans to you, leave the battle to me!",
+						"chineseNote": "",
+						"japanese": "考えるのはそっち、戦うのはこっち！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're the brains, I'm the brawn!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2(Suruga)",
+						"media": "link2",
+						"chinese": "别害羞，要华丽地上咯！",
+						"chineseTL": "Don't be embarrassed, you have to set out with a bit of flair!",
+						"chineseNote": "",
+						"japanese": "今は目立つ時！ド派手に暴れるわよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't be shy! Let's do this with flair!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3(Ise, Hyuuga)",
+						"media": "link3",
+						"chinese": "打赢以后回去喝一杯！",
+						"chineseTL": "After we win this, let's go and have a drink!",
+						"chineseNote": "",
+						"japanese": "勝ったら一杯やろうね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's celebrate with a glass after we get back!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "jiān_2",
+				"id": "1",
+				"label": "Poolside Persuasion",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Refreshing drinks, delicious food, warm sunshine... and a pool to beat the heat? Heh, isn't this the essence of summer?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Refreshing drinks, delicious food, warm sunshine... and a pool to beat the heat? Heh, isn't this the essence of summer?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There yoy are, at last. Want to get something to eat, if you're hungry? Like dumplings, or a rice ball, or something.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey Suruga, let's go somewhere - Come on, don't be all \"I like it indoors\" and \"I'd rather not draw attention\", just come out and enjoy the summer with us!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "",
+						"chineseTL": ".",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Akashi sure got that vending machine and stall set up quick... She's ingenious, but only when there's money to be made...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Why the hesitation? It's just a pool. Nothing wrong with just swimming together with me, is there?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Really looks like Amagi, Akagi and all the rest are enjoying the summer. All thanks to you, Commander. You should be proud.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Want to head to that other area? I'll come with you.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Woa, this drink is really good. Want a taste, Commander? Hehe~",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "22",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser, Battleship, Aviation Battleship",
+		"pt_upgrade": "44",
+		"pt_level": "33",
+		"add_level_attr": "FP",
+		"add_level_value": "2",
+		"add_level_shiptype": "Battlecruiser, Battleship, Aviation Battleship",
+		"t_level": "8",
+		"ships": "suruga,kii"
+	}
+}
+
+

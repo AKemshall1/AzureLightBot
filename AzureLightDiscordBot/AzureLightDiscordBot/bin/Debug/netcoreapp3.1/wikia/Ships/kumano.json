@@ -1,0 +1,832 @@
+{
+	"name_reference": "kumano",
+	"cn_reference": "li",
+	"nameJP": "",
+	"nameCN": "栎",
+	"ID": "469",
+	"name": "Kumano",
+	"internal_id": "",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Heavy Crusier",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "",
+	"class": "Mogami-Class",
+	"voiceActress": "Azumi Waki",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "A"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "September 17, 2020",
+		"CN": "September 17, 2020",
+		"KR": "September 17, 2020",
+		"EN": "September 17, 2020"
+	},
+	"artist": {
+		"name": "ぴょん吉",
+		"weibo": "",
+		"twitter": "https://twitter.com/pyon_kti",
+		"pixiv": "https://www.pixiv.net/en/users/197076",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "24",
+		"torpedo": "13",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Dreamwaker's Butterfly",
+	"skill": {
+		"1": {
+			"icon": "13670",
+			"requirement": "Default Unlocked",
+			"name": "Veil of Night",
+			"type": "Defensive",
+			"description": "After this ship takes DMG 3 times in battle: decreases this ship DMG taken by 3.5% (8%) until the battle ends. During the 2nd, 4th, and 6th battle of a sortie this ship fights in: heals this ship for 4.0% (10%) HP 60 seconds after the battle starts. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: improves this ship's All Out Assault."
+		},
+		"2": {
+			"icon": "4110",
+			"requirement": "Default Unlocked",
+			"name": "AP Protection",
+			"type": "Defensive",
+			"description": "Decrease the DMG this ship takes from AP by 10.0% (20%)."
+		},
+		"3": {
+			"icon": "20241",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"name": "All Out Assault II",
+			"type": "Offensive",
+			"description": "Activates All Out Assault I (II): Suzuya-class once every 9 (6) times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "li",
+			"name": "Kumano",
+			"description": "Fourth of the Mogami-class heavy cruiser – Kumano.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "li_2",
+			"name": "",
+			"description": "It's time for Kumano's sexy swimsuit debut~! Just kidding ~☆ Hey Commander, just where~ are~ you~ staring~? Ahaha~♡",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "33000",
+			"rarity": "Rare",
+			"name": "Twin 203mm (3rd Year Type)"
+		},
+		"2": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3680",
+			"firepower": "206",
+			"torpedo": "184",
+			"antiAir": "187",
+			"aviation": "0",
+			"reload": "161",
+			"hit": "115",
+			"evasion": "174",
+			"speed": "27",
+			"luck": "10",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "4141",
+			"firepower": "237",
+			"torpedo": "212",
+			"antiAir": "215",
+			"aviation": "0",
+			"reload": "185",
+			"hit": "129",
+			"evasion": "81",
+			"speed": "27",
+			"luck": "10",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "712",
+			"firepower": "44",
+			"torpedo": "39",
+			"antiAir": "40",
+			"aviation": "0",
+			"reload": "68",
+			"hit": "44",
+			"evasion": "14",
+			"speed": "27",
+			"luck": "10",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault I / Main Gun Efficiency +5%",
+		"tier2": "Torpedo Base +1 / Torpedo Preload +1 / Anti-Air Gun Efficiency +10% ",
+		"tier3": "Improve All Out Assault I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CA/CL Guns",
+			"efficiency": "125%/???%/???%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/???%/???%/145%",
+			"amount": "1/2/1/1",
+			"preload": "0/1/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "95%/???%/???%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "li",
+				"id": "0",
+				"label": "",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "猨级重巡洋舰四番舰—猁",
+						"chineseTL": "Fourth of the Mogami-class heavy cruiser – Kumano.",
+						"chineseNote": "",
+						"japanese": "最上型重巡洋艦四番艦・熊野",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mogami-class heavy cruiser number four – Kumano.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是猨型重巡洋舰猁！在大战中曾经作为第七舰队的一员努力过哦！怎么说呢，虽然在那个岛，以及最后的时刻发生过不少事情…算啦，这次会和小伙伴们全力以赴加油努力的，还请多多关照啦！",
+						"chineseTL": "I am a Mogami-class Heavy Cruiser, Kumano! In the great war I once worked hard as part of the 7th Fleet you know! How do I put it, although I was at that island, and at the end there certainly had lots of things happen... well forget it, this time I will work hard to my utmost with the others as well, so I will have to ask for your care too!",
+						"chineseNote": "",
+						"japanese": "最上型重巡洋艦の熊野よ！かの大戦では第七戦隊のメンバーとして、マジで頑張った！まああの島、そして最後は色々あったけど……今度こそ仲間たちと一緒に全力で頑張っちゃうから、よろしくぅ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Name's Kumano, Mogami-class heavy cruiser! Back in the war, I was Cruiser Division 7, workin' my ass off! Shame about what happened at the island in you-know-where, though... Welp, no point crying over spilt milk. Just gotta do better this time.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "锵~！重巡猁，来报道啦~！指挥官，多多指教~",
+						"chineseTL": "Jang~! Heavy Cruiser - Kumano, reporting in~! Commander, I will be in your care~",
+						"chineseNote": "",
+						"japanese": "じゃーん！重巡熊野、参上したよー！指揮官、よろしく～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Bam! Heavy cruiser, Kumano, ready for action~! Commander, pleased to meetcha~!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "哦哦指挥官来啦！所以~今天要做什么？和猁一起去哪玩玩？啧，要工作吗…",
+						"chineseTL": "Oh ho Commander is here! So~ What are we doing today? Are you going out to have fun with Kumano today? Che, do we have to work..",
+						"chineseNote": "",
+						"japanese": "おお指揮官来た来た！んで？今日はどうする？熊野と遊んでくれる？ 仕事かぁ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There you are, Commander! Nice, nice! So, what's up today? We hangin' out together? Just work? Figures...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "指挥官，和猁一起玩嘛~啊！要给我糖吃吗？那不用一起玩也没事啦！啊~呣！",
+						"chineseTL": "Commander, play with Kumano~ Ah! Are you giving me candy? Then not playing is fine! Ah~ Mm!",
+						"chineseNote": "TL Note: A possibly reference to how in Fate Grand Order: Ibaraki Douji, who has a similar design, likes sweets.",
+						"japanese": "しきかーん、熊野と遊んでぇ～あ！アメさんくれんの？じゃあ遊ばなくていいや！はむ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yo, Commander! Hang out with me, now! Oh, is that a lollipop for me? 'Kay, some other time then! Nom!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "噢，战斗的时候很认真？那是~猁可是该干的时候就能好好干的类型呢。",
+						"chineseTL": "Mm, I'm serious when in battle? That is cause~ I am the type that will still put in effort when it should be time after all~",
+						"chineseNote": "",
+						"japanese": "おっ、戦闘の時はしっかりしてるって？熊野はやる時はやるタイプだからね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? Me takin' the battle seriously surprised you? Well, yeah, I get serious when the situation demands it.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官~喜欢什么类型的女孩子呀？难道…猁也有机会…？啊哈☆",
+						"chineseTL": "Commander~ what type of girls do you like? Don't tell me... Kumao has a chance...? Ahah☆",
+						"chineseNote": "",
+						"japanese": "指揮官さあ、どんな子がタイプ？ま・さ・かー熊野もワンチャンあったりして？あは☆",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So, Commander, what kinda girls do ya like? Wait, lemme guess, I'm your type, aren't I? Ahah!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "超闲…指挥官，我叫狺过来好不好？想商量下下次出门买东西的事～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "マジ暇……しきかーん、鈴谷呼んできてくんない？今度買い物に行くときの相談したいからさ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Soooo bored... Hey, could ya get Suzuya up in this place? I wanna chat with her about my next shopping trip.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "啊哈~刚才指挥官偷偷看我了吧？呼呼呼，不用这么藏着掖着，正・大・光・明地看就好了嘛♡",
+						"chineseTL": "Ahah~ Just now Commander took a peak at me right? Fufufu, don't be so cautious about it, ope-nly seeing it is fine after all♡",
+						"chineseNote": "",
+						"japanese": "はぁ～ん、今ここをチラッと見たでしょ？ふふふ、そう隠さなくていいって、ガン見してもい・い・わ・よ♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Well, well! Caught you admirin', Commander! Hehehe, you don't gotta act innocent. If you wanna stare, stare all ya want!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "哼~果然指挥官也喜欢这样啊~没关系哦，只是这点程度的话，随便你~♡",
+						"chineseTL": "Whew~ As expected Commander like it this way huh~ don't worry, if it's just this level, it's up to you~♡",
+						"chineseNote": "",
+						"japanese": "ふーん、やっぱこういうのが好きなんだ～いーよ、そんぐらいは好きなだけ触らせてあげる～♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Weeeell, someone's feeling frisky, huh? Totes fine with me. Go on, touch me 'till you're content~♡",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务啊…应付这种还是狺更拿手啊…",
+						"chineseTL": "Mission... dealing with this, Suzuya is better at it.",
+						"chineseNote": "",
+						"japanese": "任務か…こういうの鈴谷のほうが得意ね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ugh, missions? You're probs better off hittin' up Suzuya...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "好困……呜哇糟糕，任务奖励来啦！喂~！",
+						"chineseTL": "I am so sleepy... uwah, this is bad, the rewards from the missions are here! Hey~!",
+						"chineseNote": "",
+						"japanese": "ねむーい…うわやばっ、任務報酬来てんじゃん！おーい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sooo tireeed... Oh, crap! Hey, unclaimed mission rewards! C'mon, man!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "私信…不对，是邮件来啦！指挥官，不可以假装已读哦！",
+						"chineseTL": "Private message... no, it's from the mail! Commander, you can't pretend that you left it on read!",
+						"chineseNote": "",
+						"japanese": "DM…じゃなかった、メール来たよ！指揮官、既読スルーはなしだからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You've got a new DM– Err, I mean, new mail! And don't go ghosting whoever sent it!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "战斗反省？挺好的，去吧~？欸，要猁来做吗？",
+						"chineseTL": "Reflection from the battles? That seems nice, go ahead~? Eh, Kumano is to do it?",
+						"chineseNote": "",
+						"japanese": "戦闘の振り返りをすんの？いーよ、やってー？えっ、熊野がやるの？？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You gonna review that last battle? Aight, cool, go ahead. Wait, I'm the one who's gotta do it?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托组回来了哦~不赶紧去迎接她们可不行啊~！",
+						"chineseTL": "The commission team is back~ It won't be good if you don't hurry to welcome them back~!",
+						"chineseNote": "",
+						"japanese": "委託組帰ってきたよー出迎えに行かないとダメっしょ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commission team's back, yo. Don't got time for rhymes, but let's go!",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "哦哦！搞不好出击的机会要变多了？",
+						"chineseTL": "Hey hey! It might end up increasing odds that I will be sent out sortieing more?",
+						"chineseNote": "",
+						"japanese": "おお！ワンチャン出番が増えたり？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sweet! This'll get me more time in the limelight, yeah?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "发现敌舰！这下只能干一架了吧！",
+						"chineseTL": "Discovered the enemy fleet! So with this, we can only duke it out right!",
+						"chineseNote": "",
+						"japanese": "敵艦見ゆ！こういうの戦うしかないっしょ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Enemies spotted! Guess we're rollin' up our sleeves and squarin' off!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "猁，MVP！嘿嘿~快夸我快夸我~！",
+						"chineseTL": "Kumano, is MVP! Hehe~ hurry and praise me, praise me~!",
+						"chineseNote": "",
+						"japanese": "熊野、MVP！よっしゃー褒めて褒めてー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "MVP, baybee! Hell yeah! Give it up for Kumano!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "这还怎么打呀~",
+						"chineseTL": "How am I even expect to be able to fight in this situation~",
+						"chineseNote": "",
+						"japanese": "やってらんないよー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Payback's-a comin', ya hear?!",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "我可要认真揍你了哦！！",
+						"chineseTL": "I am going to take it seriously and to beat you now!",
+						"chineseNote": "",
+						"japanese": "マジボコってやるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's ass-whoopin' time!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "一定要…回到港区…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "母港には…絶対に戻る！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have to... return to the docks...!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官…不太行啊感觉~啊不是批评你啦，只不过我也有点小想法而已～",
+						"chineseTL": "Commander... has the feeling of being quite incompetent~ ah, this isn't a criticism, but I have my own opinion as well~",
+						"chineseNote": "",
+						"japanese": "指揮官ってイケてないね～いやまあ、別に責めてるわけじゃないけどさぁ～ほら、私も色々と考えることがあるじゃん？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're lame, you know that? Not tryin' to be mean, or anything, just saying. Listen, I've got a couple ideas for how to unlamify you.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "指挥官~好闲啊~做点什么嘛~真是的，有什么关系嘛！又不会少块肉~啊，好疼！",
+						"chineseTL": "Commander~ I am so sleepy~ do something about it~ Honestly, what's wrong with that! It's not like you will be losing something due to it~ Ah, that hurts!",
+						"chineseNote": "",
+						"japanese": "しきかーん、ひまー、なんかやって～もう、別にいいじゃん！減るもんじゃないしさあ～あいたっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commandeeeeer, I'm boooored, let's do somethiiiing. Yeah, it's candy, so what? Not like I'll turn into a lardo from a single– Hey, oww!",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "指挥官～猁一个人好寂寞啊～什么都行来玩玩吧～ 找别人？好过分！猁就是想找指挥官玩嘛～来啦来啦！",
+						"chineseTL": "Commander~ Kumano is so lonely by herself~ We can do whatever, just play with me~ Find someone else? That's so mean! Kumano just wants Commander to play with her~ C'mon, c'mon",
+						"chineseNote": "",
+						"japanese": "しきかーん、熊野寂しくなったー、なんでもいいから遊んで～ほかの人にしてって？ひどっ！指揮官のほうがいいんだもん！ほらほら！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commandeeeer, I'm lonelyyyy. We can do whatever, just hang out with meeee. \"Find someone else?\" Wow, rude much? I wanna hang with you! C'mooon!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "能陪猁一起玩？太棒了！一开始就这么说不就好了～于是去哪玩呢？就我们两・个・人♡",
+						"chineseTL": "You can accompany Kumano to play? That's fantastic! You could have just said that at the beginning~ So where shall we go to play? Just. the. two. of. us♡",
+						"chineseNote": "",
+						"japanese": "熊野と遊んでくれるの？やったぁ！最初から素直になりゃよかったのに～んで？どこ行く？ふ・た・り・で♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You'll finally hang with me? Hell yeah! Wish you would've just said so from the beginning! Anyway, where we goin'? Y'know, just the two of us~♡",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指、指挥官喜欢猁吗！？是这样啊……其实猁也喜欢指挥官哦…？诶，是说正经的啦！",
+						"chineseTL": "C-Commander likes Kumano? Is that so... actually Kumano likes Commander too...? Eh, I'm being serious!",
+						"chineseNote": "",
+						"japanese": "く、熊野のことが好きなの！？そうなんだ……実は熊野も指揮官のことが大好きだよ…？ま、マジだってば～！",
+						"japaneseNote": "",
+						"english": "Y-you really like me?! Really, huh... Thing is, I actually love you, Commander... Seriously, though! I do!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "呃，“互相信赖，互相帮助……”后面是什么来着？啊啊这东西又长又不好记，而且在别人面前说也太羞耻了吧！跳过这个直接回房间去吧？亲爱的也没问题吧！",
+						"chineseTL": "Uh, \"To trust, and help each other..\" What's with those at the end? Ahh.. this is just so long and har dto remember, and saying this in fromt of each other is just too embarrassing! Let's skip this and head to the room immediately huh? Darling has no problem with that right!",
+						"chineseNote": "",
+						"japanese": "ええと、「お互いを信じあって、支え合って…」あとはなんだっけ？もう長くて覚えられないし、こういうの人の前で恥ずしすぎてやってられないってばー！もうすっ飛ばして部屋に戻ろ？ダーリンもそれでいいよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Uhh, \"I take you, to have and to hold, from this day forward\"... How'd the rest go? Agh, screw it, it's too long and I'm makin' a fool of myself in front of everyone! You don't mind if we bail and go straight to our room, right, darling?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Mogami)",
+						"media": "link1",
+						"chinese": "猨姐，和猁玩啦！",
+						"chineseTL": "Sister Mogami, play with Kumano!",
+						"chineseNote": "",
+						"japanese": "最上姉さん、熊野と遊んで―",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yo, Mogami, let's hang out later!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2(Suzuya)",
+						"media": "link2",
+						"chinese": "狺，那边就交给你了！",
+						"chineseTL": "Suzuya, I'll leave that side to you!",
+						"chineseNote": "",
+						"japanese": "鈴谷、そっちは頼む！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Suzuya, you take that one!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3(Fiji)",
+						"media": "link3",
+						"chinese": "这个妆画得不错嘛！",
+						"chineseTL": "That makeup is done quite well huh!",
+						"chineseNote": "",
+						"japanese": "そのメイク結構イケてるじゃん！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hot damn, your makeup game is on point!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "li_2",
+				"id": "1",
+				"label": "Suzutsuki, Beachside Attendant!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's time for Kumano's sexy swimsuit debut~! Just kidding ~☆ Hey Commander, just where~ are~ you~ staring~? Ahaha~♡",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "" ,
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_3_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "“",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser, Monitor, Large Cruiser",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "FP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser, Montior, Large Cruiser",
+		"t_level": "7",
+		"ships": "mogami, mikuma, suzuya, kumano"
+	}
+}
+
+
+

@@ -242,7 +242,6 @@ namespace AzureLightDiscordBot
 
                 string boatName = configShip.Name;
 
-                //if(jo.SelectToken("sdk"))
 
 
                 string skill1 = (jo.SelectToken("skill.1", errorWhenNoMatch: false) != null) ? jo.SelectToken("skill.1.name").ToString() + "\n" + jo.SelectToken("skill.1.type").ToString() + "\n" + jo.SelectToken("skill.1.description").ToString() + "\n \n" :
@@ -264,9 +263,66 @@ namespace AzureLightDiscordBot
             }
             else
                 await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Please check your spelling. Nickname not recognised? @piggyapocalypse with the boat and nickname. New boats may not be available)").ConfigureAwait(false);
+        }
+
+        [Command("gear")]
+        [Description("Returns the equippable gear for the boat provided. e.g. !gear Hiryuu")]
+        public async Task ReturnGear(CommandContext ctx, string boat)
+        {
+            bn = new BoatNicknames();
+            string chibi = "chibi.png"; //string to append to make filename - if ship is a retrofit this is changed edited later
+
+            boat = boatNickname(boat);  //If the name passed was a nickname, turn it into the filename and store it
+            string shipCalled = boat + ".json"; //create full file name for boat called
+            string boatCap = formatName(boat);  //format boat name into user friendly aesthetic
+
+
+
+            if (File.Exists(@"wikia\Ships\" + shipCalled))
+            {
+                #region JSONDESERIALISE
+                //read json, then deserialize it
+                var json = string.Empty;
+                using (var fs = File.OpenRead(@"wikia\Ships\" + shipCalled))
+                using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
+                    json = await sr.ReadToEndAsync().ConfigureAwait(false);
+                var configShip = JsonConvert.DeserializeObject<ConfigShip>(json);
+
+                //for nested json objects, parse specifically
+                JObject jo = JObject.Parse(json);
+                #endregion
+
+                #region VALUEFORMATTING
+
+                //if a ship does not have a retrofit, the retrofit hp stat will be blank so use this as a test case
+                if (jo.SelectToken("stats.120retrofit.hp").ToString() != string.Empty) //does have retrofit
+                    chibi = "kaichibi.png"; //adds kai onto the string to get the right chibi
+
+                string boatName = configShip.Name;
+
+                string gear1 = (jo.SelectToken("equipmentLoadout.1.type") != null) ? jo.SelectToken("equipmentLoadout.1.type").ToString() + "\n" + "Efficiency: " + jo.SelectToken("equipmentLoadout.1.efficiency").ToString() + "\n" + "Amount: " + jo.SelectToken("equipmentLoadout.1.amount").ToString() + "\n" + "Preload: " + jo.SelectToken("equipmentLoadout.1.preload").ToString() + "\n \n":
+                    "Equipment slot 1 not found \n \n";
+
+                string gear2 = (jo.SelectToken("equipmentLoadout.2.type") != null) ? jo.SelectToken("equipmentLoadout.2.type").ToString() + "\n" + "Efficiency: " + jo.SelectToken("equipmentLoadout.2.efficiency").ToString() + "\n" + "Amount: " + jo.SelectToken("equipmentLoadout.2.amount").ToString() + "\n" + "Preload: " + jo.SelectToken("equipmentLoadout.1.preload").ToString() + "\n \n" :
+                "Equipment slot 2 not found \n \n";
+
+                string gear3 = (jo.SelectToken("equipmentLoadout.3.type") != null) ? jo.SelectToken("equipmentLoadout.3.type").ToString() + "\n" + "Efficiency: " + jo.SelectToken("equipmentLoadout.3.efficiency").ToString() + "\n" + "Amount: " + jo.SelectToken("equipmentLoadout.3.amount").ToString() + "\n" + "Preload: " + jo.SelectToken("equipmentLoadout.1.preload").ToString() + "\n \n" :
+                "Equipment slot 3 not found \n \n";
+
+
+                #endregion
+
+                if (File.Exists(@"chibis\" + boatName + chibi)) //check if the file exists before trying to send it
+                    await ctx.Channel.SendFileAsync(@"chibis\" + boatName + chibi).ConfigureAwait(false);
+
+                await ctx.Channel.SendMessageAsync(gear1 + gear2 + gear3).ConfigureAwait(false);
+            }
+            else
+                await ctx.Channel.SendMessageAsync(boatCap + "? Who is she, buli...? (Please check your spelling. Nickname not recognised? @piggyapocalypse with the boat and nickname. New boats may not be available)").ConfigureAwait(false);
 
 
         }
+
 
 
 

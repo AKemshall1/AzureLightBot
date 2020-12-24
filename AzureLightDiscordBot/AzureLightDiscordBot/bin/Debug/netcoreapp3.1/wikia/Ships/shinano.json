@@ -1,0 +1,807 @@
+{
+	"name_reference": "shinano",
+	"cn_reference": "xī",
+	"nameJP": "信濃",
+	"nameCN": "鵗",
+	"ID": "231",
+	"name": "Shinano",
+	"internal_id": "",
+	"rarity": "Ultra Rare",
+	"initialStar": "★★★★☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "05:15:00",
+	"class": "Yamato-Class",
+	"voiceActress": "Mamiko Noto",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "S",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "S"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "30"
+	},
+	"releaseDate": {
+		"JP": "September 17, 2020",
+		"CN": "September 17, 2020",
+		"KR": "September 17, 2020",
+		"EN": "September 17, 2020"
+	},
+	"artist": {
+		"name": "侑了个侑",
+		"weibo": "https://www.weibo.com/soaryuna",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "69",
+		"reload": "9"
+	},
+	"acquisitionMethod": "Event: Dreamwaker's Butterfly",
+	"skill": {
+		"1": {
+			"icon": "13580",
+			"requirement": "Default Unlocked",
+			"name": "Hope's Tempest",
+			"type": "Offensive",
+			"description": "Three seconds after the start of the battle, launch a Saiun barrage. When this ship launches an airstrike, launch an additional Shinden Kai 2, Ryusei, and Saiun barrage (damage scales with skill level). Saiun barrages do not do damage; instead, they decrease the FP, TRP, AVI, and AA of one random enemy (humanoids prioritized) by 3.0% and increase the damage they receive by 3.0%, until the end of the battle. This debuff may stack up to three times."
+		},
+		"2": {
+			"icon": "13590",
+			"requirement": "Default Unlocked",
+			"name": "Dreamwaker's Bow",
+			"type": "Support",
+			"description": "Increase own AVI stat by 5.0% (15.0%) for the first two battles of each sortie. Every 15 seconds after the start of the battle, fire a special barrage (barrage damage scales with skill level). If this ship is afloat and ANOTHER fleet in the same sortie engages in its third, fourth, or fifth battle, fire a special barrage 15 seconds into the start of that battle."
+		},
+		"3": {
+			"icon": "13600",
+			"requirement": "Default Unlocked",
+			"name": "Protector of the New Moon",
+			"type": "Defensive",
+			"description": "As long as this ship is afloat, increase FP, EVA, and ASW stats for all DDs in your fleet by 5.0% (15.0%). At the beginning of the battle, if there are at least three Sakura Empire ships in your fleet (including this ship), decrease incoming gun and plane damage received on self by 10.0% (20.0%), and increase AVI and Accuracy for all Sakura Empire CVs and CVLs by 5.0% (15.0%) for the rest of the battle. "
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "xī",
+			"name": "Shinano",
+			"description": "Yamato-class ship number three – Shinano.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "xī_2",
+			"name": "Dreams of the Hazy Moon",
+			"description": "The moonlight dims beneath hazy clouds, and the lights of the night sky begin to shine... The moon, and this sake, are both intoxicating... Will you not enjoy this fine evening with me...?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "37300",
+			"rarity": "Rare",
+			"name": "A7M Reppuu"
+		},
+		"2": {
+			"icon": "38200",
+			"rarity": "Rare",
+			"name": "Aichi B7A Ryuusei"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "7558",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "280",
+			"aviation": "395",
+			"reload": "109",
+			"hit": "70",
+			"evasion": "29",
+			"speed": "28",
+			"luck": "32",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120": {
+			"hp": "8616",
+			"firepower": "9",
+			"torpedo": "0",
+			"antiAir": "317",
+			"aviation": "437",
+			"reload": "126",
+			"hit": "78",
+			"evasion": "49",
+			"speed": "28",
+			"luck": "32",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"base": {
+			"hp": "1462",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "60",
+			"aviation": "84",
+			"reload": "46",
+			"hit": "27",
+			"evasion": "11",
+			"speed": "28",
+			"luck": "32",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Heavy"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "32",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "32",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Dive Bombers +1 / Dive Bomber Efficiency +5% / Can Equip Dive Bombers/Torpedo Bombers in the Fighters slot ",
+		"tier2": "Hangar Capacity +1 / Number of Torpedo Bombers +2 / Torpedo Bomber Efficiency +10% ",
+		"tier3": "Number of All Planes +1 / All Plane Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighters/Dive Bombers/Torpedo Bombers",
+			"efficiency": "120%/???%/???%/125%",
+			"amount": "1/2/4/5",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bombers",
+			"efficiency": "120%/???%/???%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Torpedo Bombers",
+			"efficiency": "125%/???%/???%/140%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "xī",
+				"id": "0",
+				"label": "Shinano",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "鲸级三番舰—鵗",
+						"chineseTL": "Third of the Yamato Class - Shinano.",
+						"chineseNote": "",
+						"japanese": "大和型三番艦・信濃）",
+						"japaneseTL": "Third Ship of the Yamato Class - Shinano",
+						"japaneseNote": "",
+						"english": "Yamato-class ship number three – Shinano.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "妾身乃是重樱航母、鵗。原本当与鲸并肩，为重樱燃尽此身。然而最终却落得那般结局，世事无常，不外如是…而此次，妾身相信，有汝在，定然会有截然不同的的结果——",
+						"chineseTL": "This one is a carrier of the Sakura Empire, Shinano. This one was supposed to be side by side with Yamato, and to put my entire body for the Sakura Empire. However in the end this one ended up in that state, nothing in the world is destined, and that is how it is... but this time, This one believes, with you, the destined could end up with a completely different.",
+						"chineseNote": "",
+						"japanese": "重桜に属す、空母信濃と申す。かの大戦では大和型の姉妹艦として戦陣にて散ることなく、斯様な結末に――嗚呼、諸行因果、妾には、それを…知ること叶わず――汝に導かれし道が異なる結果を生み出さんことを……",
+						"japaneseTL": "I am the aircraft carrier Shinano, who belongs to the Sakura Empire. As a Yamato class ship during the war, she did not fall in the line of battle, but it ended up like this ―― Alas, of all manners of causes and effects, with you, you could not have known that the path you have taken could produce a different result.",
+						"japaneseNote": "",
+						"english": "I am called Shinano, aircraft carrier of the Sakura Empire. I was to stand beside Yamato during that war, yet in the end... Alas, there is impermanence in all things, and nothing became of this one's life... May your guidance lead my fate to a different outcome...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "这种感觉，并非在梦中…将妾身自沉睡中唤醒的，是汝？此亦命运的必然…鲸级三号舰、鵗，让妾身为汝指引前进的正道吧。",
+						"chineseTL": "This feeling, is not one feels of being in a dream... the one, that awakens this one from sleep is... you? This must inevitably be fate... Third of the Yamato Class, Shinano, let this one guide your path to the right one.",
+						"chineseNote": "",
+						"japanese": "この感触…夢ではなく現し世……汝（そなた）が妾（わたし）を呼び覚ましたのか？嗚呼、定めとは斯様にも…大和型3番艦の信濃と申す。正しき道へと導こう…",
+						"japaneseTL": "This feeling... it's not a dream, but reality ...... Have you awakened? Alas, my fate is so, my name is Shinano, the third Yamato-class ship. Allow me to guide you towards the correct path.",
+						"japaneseNote": "",
+						"english": "This sensation... is that of reality... Was it you who awoke this one from her long slumber? Such is the inevitability of fate... Please allow Shinano, third ship of the Yamato-class, to guide you forward upon the right path. ",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来，妾身已等候汝多时了。",
+						"chineseTL": "Welcome back, this one has waited for you for many hours.",
+						"chineseNote": "",
+						"japanese": "Zzzz……よく戻られた。長く、永く、ここで待って居た……",
+						"japaneseTL": "Zzzz..... I'm glad you're back. For a long, long time, I have been waiting for you here......",
+						"japaneseNote": "",
+						"english": "Nnnh... You have returned. Long, eternal, has this one's wait been...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "Zzzzz…真正的强大，足以挣脱命运的束缚…然而真的是那样吗…",
+						"chineseTL": "Zzzz... true strength, is enough to free fate from it's restraints... but is that really how it is...?",
+						"chineseNote": "",
+						"japanese": "Zzzzz……定めを壊すほど真に強きこと……鏡花水月、幻の如く……ふぅ……",
+						"japaneseTL": "Zzzz...... true strength truly is strong enough to break the rules...... flowers in a mirror and the moon in a mirror room, like a vision......fuu......",
+						"japaneseNote": "",
+						"english": "Mmh... True strength can shatter the chains of fate... or is this but the moon's reflection within the water... Mm...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "美好的事物总是短暂，不过，有过一瞬的盛放，总好过默默无闻的凋零吧…",
+						"chineseTL": "Wonderful things are always fleeting, but, blooming for an instant, is still better than a withering obscurity... right...",
+						"chineseNote": "",
+						"japanese": "如何に美しい花も、散りゆくが定め…美しく咲き誇れば、例えそれが一瞬でも尊く――",
+						"japaneseTL": "Even the most beautiful flower has to one day fall, but if it blooms beautifully, even for one moment, it is precious.",
+						"japaneseNote": "",
+						"english": "Even the most beautiful flower is transient, to be scattered into the wind... But, 'tis better to bloom for but a moment than to wither eternally upon the vine.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官，累了的话，要在我怀里睡一会吗？就如诸多重樱驱逐舰们都喜欢做的那般——",
+						"chineseTL": "Commander, if you are tired, do you want to rest within my embrace? Just like how many members of the Sakura Empire Fleet likes as well--",
+						"chineseNote": "",
+						"japanese": "嗚呼、お労しや…妾の胸でゆるりと癒やしを……ええ、駆逐艦の子たちと同じく―― ",
+						"japaneseTL": "Ah, goodness gracious, please let loose and heal in my bosom...... yes, just like the small destroyers――",
+						"japaneseNote": "",
+						"english": "Do you wish to rest within this one's bosom? ...Yes, just as the little destroyers do...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "港区里有许多妾身未曾见识过的新鲜事物，有机会的话真想一一尝试看看…",
+						"chineseTL": "There are lots of fresh and new things in the docks that this one has never seen, if there is an opportunity --- I truly want to try them out...",
+						"chineseNote": "",
+						"japanese": "見聞を広めるのはよろしゅう…此の母港でなら、良ければ、妾が……",
+						"japaneseTL": "You may want to spread the word... here in the home port, if you like, I could......",
+						"japaneseNote": "",
+						"english": "You may want to spread the word... here in the home port, if you like, I could......",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Main 4",
+						"media": "main_4",
+						"chinese": "汝托付于妾身的报告书在此…错误很多？…看来赶工也不是个好事…",
+						"chineseTL": "The records that this one has handed you is there... there are lots of mistakes? ...Looks like rushing work is not a good thing as well.",
+						"chineseNote": "",
+						"japanese": "汝に任された報告書はここに……誤りが多い、と…？あぅ、期日を繰り上げすぎるのも、善からずか……",
+						"japaneseTL": "The report entrusted to you is here ... with many errors, and ...? Well, I suppose it wouldn't do any good to move the due date forward......",
+						"japaneseNote": "",
+						"english": "I have left the report here... Hmm... There are many errors? ...'twould seem that hasty deadlines are not this one's strong suit...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Main 5",
+						"media": "main_5",
+						"chinese": "之字…嗯…啊，刚才不小心撞上汝了吗？抱歉…",
+						"chineseTL": "\"Zigzag\"... mm... ah did this one bump into you by accident? My apologies...",
+						"chineseNote": "TL Note: I have no idea - what she is saying here.",
+						"japanese": "ジグザグ……Zzzzz…あっ…危うくぶつかりそうだった？…妾の不注意に、お詫び申す…",
+						"japaneseTL": "Zigzag...Zzzzzzz...oh...did I almost hit you? ... I apologize for my carelessness.",
+						"japaneseNote": "",
+						"english": " Vrooom... Zzzzzz... Oh... Did I hit you by mistake? ...Sincerest apologies.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "Zzzzzz…啊…妾身又睡着了吗？…非常抱歉…",
+						"chineseTL": "Zzzzz... ah... did this one fell asleep again? ... this one is very apologetic..",
+						"chineseNote": "",
+						"japanese": "Zzzzzz……あ…妾がまた眠っていたと……お詫びを……",
+						"japaneseTL": "Zzzzzz...... ah... it seems as if i had fallen asleep yet again...... my apologies......",
+						"japaneseNote": "",
+						"english": "Mmmm... Hm? ...I dozed off again? ...Sincerest apologies...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "在这里…不可以…",
+						"chineseTL": "Here... is not allowed...",
+						"chineseNote": "",
+						"japanese": "ここでは……汝…うぅ……",
+						"japaneseTL": "Here ...... thou ... uh ......",
+						"japaneseNote": "",
+						"english": "You musn't... Not there... Nnh...",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Rub",
+						"media": "touch_head",
+						"chinese": "指、指挥官，耳朵有点…",
+						"chineseTL": "C-Commander, the ears are a little...",
+						"chineseNote": "",
+						"japanese": "嗚呼……妾、耳は弱く……",
+						"japaneseTL": "Ah.... my, my ears are a weak spot.......",
+						"japaneseNote": "",
+						"english": "Aah... My ears are sensitive...",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务…能及时完成吗？",
+						"chineseTL": "Missions... can it be completed in time..?",
+						"chineseNote": "",
+						"japanese": "お勤め…期日までには果たせようか…",
+						"japaneseTL": "The Paperwork...I don’t know if they can be completed in time...",
+						"japaneseNote": "",
+						"english": "This task... can it be completed in time...?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "果然有汝在，没有什么是做不到的",
+						"chineseTL": "As expected with this one around, there is nothing that cannot be done...",
+						"chineseNote": "",
+						"japanese": "汝がいれば、何事も出来よう…",
+						"japaneseTL": "With you by my side, nothing is impossible...",
+						"japaneseNote": "",
+						"english": "As long as you are here, there is nothing that cannot be accomplished...",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "信件承载着来自远方的思念，万不可轻视…",
+						"chineseTL": "Letters carry with them the intent from far away, you should never dismiss them...",
+						"chineseNote": "",
+						"japanese": "遠き思いを載せる文、軽んずべからず……",
+						"japaneseTL": "A letter of distant thoughts, they are not to be taken lightheartedly......",
+						"japaneseNote": "",
+						"english": "Dismiss not the letters bearing distant thoughts...",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "Zzzz…这次…也平安回来了，…",
+						"chineseTL": "Zzzz... this time... one is back safely as well...",
+						"chineseNote": "",
+						"japanese": "Zzzz……無事に帰還したと観た…嗚呼、よきかな……",
+						"japaneseTL": "Zzzz...... I see you have made it home safely, good......",
+						"japaneseNote": "",
+						"english": "Nnnh... Your safe return... pleases me",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "Zzzzz…万不可…忘记那些默默付出之人，前往…迎接她们吧",
+						"chineseTL": "Zzzzz... that is never allowed... to forget those that serve and sacrifice quietly, onwards... welcome them back.",
+						"chineseNote": "",
+						"japanese": "Zzzzz…委託組の子の出迎えを…どうか忘るべからず……",
+						"japaneseTL": "Zzzzz... Please don’t forget about picking up the commissioned girls......",
+						"japaneseNote": "",
+						"english": "Mmmm... The girls on commission are returning now... 'twould behoove you to forget them not...",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "但愿这一切不会成为无用功…~",
+						"chineseTL": "Let us hope all of this will not be in vain...~",
+						"chineseNote": "",
+						"japanese": "徒労な終わり、なきこと……",
+						"japaneseTL": "A fruitless end, there shall be no more......",
+						"japaneseNote": "",
+						"english": "May this not end in futility...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "胜负，皆为命定。至少…让我等竭尽全力——",
+						"chineseTL": "Victory or defeat, is never predestined. At least... let this one put in my all-",
+						"chineseNote": "",
+						"japanese": "定めなれど、精魂果つるまでお務めを――",
+						"japaneseTL": "Although it is decided, I will work until my being is satisfied.",
+						"japaneseNote": "",
+						"english": "Though fate has been written, I shall fight until my soul's duty has been fulfilled.",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "这便是，妾身的力量…?",
+						"chineseTL": "So this is... this one's power?",
+						"chineseNote": "",
+						"japanese": "妾の力は、これ程……?",
+						"japaneseTL": "My power, is this......?",
+						"japaneseNote": "",
+						"english": "Is this... my power...?",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "抱歉，是妾身辜负了诸位……",
+						"chineseTL": "My apologies, it is this one who implicated every one else....",
+						"chineseNote": "",
+						"japanese": "嗚呼、妾が皆の期待に背いたばかりに……",
+						"japaneseTL": "Alas, I was not able to fulfill everyone's expectations......",
+						"japaneseNote": "",
+						"english": "Apologies... I have failed to meet your expectations...",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "已经看到了，汝等破灭的命运——",
+						"chineseTL": "I have already seen it, the fate that is your destruction-",
+						"chineseNote": "",
+						"japanese": "定めが…観える――",
+						"japaneseTL": "Your fate... I can see it――",
+						"japaneseNote": "",
+						"english": "Your fate... has been sealed...",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "妾身…不会就此退缩！",
+						"chineseTL": "This one... will not shrink away from just this!",
+						"chineseNote": "",
+						"japanese": "……退くことはあるまい…",
+						"japaneseTL": "...... I refuse to retreat...",
+						"japaneseNote": "",
+						"english": "...I shall not retreat...",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": " 在汝身旁，妾身看不到任何的光芒…",
+						"chineseTL": "With you by my side, this one cannot see any glimpse of light...",
+						"chineseNote": "",
+						"japanese": "汝の側では、妾とて光観ること叶わず……",
+						"japaneseTL": "By your side I am unable to see the light......",
+						"japaneseNote": "",
+						"english": "From here, this one sees not any light...",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "承载了诸多期待与瞩目，却无法展现出与之相符的实力，这便是命运对妾身的嘲弄吗…",
+						"chineseTL": "Carrying the expectations and gaze of everyone, but being unable to show and display strength that is equivalent, is this how fate wishes to mock me huh...",
+						"chineseNote": "",
+						"japanese": "期待と注目を受けても、力を振るうこと叶わず……嘲笑われるのは妾の定めゆえの事…",
+						"japaneseTL": "Even if I receive the expectations and attention of everyone, but being that I can not show my power to an equivalent ... I am ridiculed by fate ......",
+						"japaneseNote": "",
+						"english": "To carry the burden of great expectations, yet unable to demonstrate the power to meet them... Such is fate's mockery of this one's existence...",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "知晓命运，却无力改变；与一无所知，亦不知改变，究竟何者更加不幸呢…",
+						"chineseTL": "Knowing destiny, but being unable to change it; as compared to; knowing nothing, and being unable to change it, in the end... which is more unfortunate...",
+						"chineseNote": "",
+						"japanese": "観える未来を変えられぬ不幸と、未来を知り得ぬ不幸……いずれがより良き不幸であろうか",
+						"japaneseTL": "The misfortune of not being able to change the visible future or the misfortune of not being able to know what the future holds...which is the better misfortunate path?",
+						"japaneseNote": "",
+						"english": "To see destiny, yet to be unable to change it; or to be ignorant to the turning of fate... Which is the greater misfortune?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "妾身…一直在做着各种梦，悲伤的令人不忍回忆的梦，幸福的令人不想醒来的梦…甚至现实于妾身，亦如梦幻一般…指挥官，汝…究竟是现实，亦或是梦幻?",
+						"chineseTL": "This one... has always seen various dreams, dreams that are so saddening that makes one not wish to revisit them, happy dreams that makes one not wish to wake up.... even this reality with you, is similar to that of one... Commander, you... are you real, or a dream?",
+						"chineseNote": "",
+						"japanese": "妾が観た夢……いと忘れまほしき悲しさ、永遠に溺れまほしきよろこび、嗚呼…現実も夢幻の如く……汝が果たして、まことなりや?",
+						"japaneseTL": "The dream that I saw ...... the sadness that I forgot, the joy that I was drowned in for eternity, Aha ... reality is like a dream ... are you, indeed, real?",
+						"japaneseNote": "",
+						"english": "Long has this one dreamt... Tragic dreams that one wishes to never recall... Blissful dreams from which one hopes to never wake from... Even reality itself seems like just another dream.. Commander, is this truly reality, or yet another illusion?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "妾身曾为缠绕于身的诸多“命中注定的无可奈何”而哀叹不已…而如今，只要在这里，只要与汝在一起，妾身便觉得，无论何种命运，皆不足为惧了——",
+						"chineseTL": "This one had once lamented being entangled by the multitude of helplessness of being unable to change the destined... but now, as long as this one is here, and with you, this one feels that, regardless of what fate awaits, this one will not be afraid any more-",
+						"chineseNote": "",
+						"japanese": "定めを変えられぬと嘆いた妾は……今や怖れず、未来も、何もかも……こ、ここで、汝と、ともにいれば――",
+						"japaneseTL": "And I, who lamented that I could not change my ways ...... now would not be afraid, not of the future, not of anything ...... if I were here with thee――",
+						"japaneseNote": "",
+						"english": "I once lamented my inability to shift the hand of fate... But now, and forever... as long as you are here...",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "回想在此港区与汝经历之种种，皆是令人不禁微笑的美好回忆…是汝为妾身带来了截然不同的生活。从今往后，妾身会与汝一同，直面各种命运，无论幸或不幸——",
+						"chineseTL": "Looking back at the many experiences that one has at the docks, multitude of them are wonderful memories that one would smile at without thinking... it is you who brought this brand new life to this one. From now on, this one will be one with you, facing various destiny head on, whether in good times or bad-",
+						"chineseNote": "",
+						"japanese": "この母港で出会った汝との思い出は…初々しくも、嬉しく……嗚呼、これで――定めを、悲しみを、喜びを、全てを…妾を大切にする汝とともに――",
+						"japaneseTL": "The memories of our fateful meeting with thee in this home port, are as sweet as the first meeting...... Aha, now ―― the provisions, the sorrows, the joys, all of it - with thee, who cherishes I――",
+						"japaneseNote": "",
+						"english": "The memories forged at this port... have brought me great joy... Alas, from now on... I shall cherish my time with you through fates both joyful and painful... through weal and woe alike....",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "xī_2",
+				"id": "1",
+				"label": "Dreams of the Hazy Moon",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The moonlight beneath the hazy clouds, and the lights of the night sky begin to shine... The moon, and this sake, are both intoxicating me... Will you not enjoy this fine evening with me...?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The shimmering of the countless stars, the dancing lights of the banquet... This night... has only just begin... Zzzzz...",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Through the sojourn of the stars through the sky, through the waxing and waning of the moons, fate remains immutable... In contrast, mortal dreams and realities alike seem like fleeting illusions...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Being able to enjoy tonight's banquet thusly... fills one with apprehension that this... may be another dream...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Though I have long been the plaything of fate, it still allowed me to meet you... How strange and whimsical a thing it must be...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Western spirits are a new experience for this one.. Even this trifling amount... has already... gone to my head...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Beauteous is the moon tonight... Are you in agreement...?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*sigh*... Sincerest apologies for this unsightly display... The destroyer children were playing around and made a mess of my tail... How embarrassing...",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "26",
+		"add_get_attr": "HP",
+		"add_get_value": "2/2",
+		"add_get_shiptype": "Light Carrier/Aircraft Carrier",
+		"pt_upgrade": "52",
+		"pt_level": "39",
+		"add_level_attr": "Aviation",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Carrier/Aircraft Carrier",
+		"t_level": "10",
+		"ships": "shinano"
+	}
+}

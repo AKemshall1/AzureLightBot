@@ -1,0 +1,837 @@
+{
+	"name_reference": "chitose",
+	"cn_reference": "li",
+	"nameJP": "千歳",
+	"nameCN": "鹂",
+	"ID": "470",
+	"name": "Chitose",
+	"internal_id": "",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Aircraft Carrier",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "02:15:00",
+	"class": "Zuihou-Class",
+	"voiceActress": "Hitomi Sekine",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E", 
+		"aviation": "A",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "7",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "September 17, 2020",
+		"CN": "September 17, 2020",
+		"KR": "September 17, 2020",
+		"EN": "September 17, 2020"
+	},
+	"artist": {
+		"name": "yuui (ゆうい)",
+		"weibo": "",
+		"twitter": "https://twitter.com/tofuyuui",
+		"pixiv": "https://www.pixiv.net/en/users/2334129",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "43",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Dreamwaker's Butterfly",
+	"skill": {
+		"1": {
+			"icon": "13680",
+			"requirement": "Default Unlocked",
+			"name": "Strike Team, Attack!",
+			"type": "Offensive",
+			"description": "Every battle, when this ship launches its first Airstrike: launches an additional seaplane airstrike; when it launches its second Airstrike and onwards: 40% (70%) chance to launch an additional torpedo bomber airstrike (DMG is based on the skill's level). If there is a Sakura Empire CVL in the same fleet as this ship: improves these airstrikes. ",
+			"2": {
+				"icon": "3040",
+				"requirement": "Default Unlocked",
+				"name": "Air Support",
+				"type": "Support",
+				"description": "When this ship launches an Airstrike: increase the Aviation of all Carriers in your fleet, excluding this ship by 5.0% (15%) for 8 seconds."
+			}
+		},
+	"skin": {
+		"1": {
+			"id": "li",
+			"name": "Chitose",
+			"description": "Zuihou-class aircraft carrier – Chitose.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "li_2",
+			"name": "Summer Shine",
+			"description": "An order of coconut milk... and grilled sausage. Mm, that should do it... Hm? Commander? Are you here to place an order, or to get away from the heat?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "37100",
+			"rarity": "Common",
+			"name": "A6M2 Zero"
+		},
+		"2": {
+			"icon": "38000",
+			"rarity": "Common",
+			"name": "Nakajima B5N"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3759",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "228",
+			"aviation": "308",
+			"reload": "161",
+			"hit": "68",
+			"evasion": "52",
+			"speed": "29",
+			"luck": "72",
+			"asw": "79",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "4398",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "261",
+			"aviation": "347",
+			"reload": "185",
+			"hit": "81",
+			"evasion": "72",
+			"speed": "29",
+			"luck": "57",
+			"asw": "90",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "727",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "49",
+			"aviation": "65",
+			"reload": "68",
+			"hit": "25",
+			"evasion": "20",
+			"speed": "29",
+			"luck": "57",
+			"asw": "22",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "29",
+			"luck": "57",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "29",
+			"luck": "57",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Torpedo Bombers +1 / Fighters Efficiency +5%",
+		"tier2": "Hangar Capacity +1 / Number of Fighters +1 / Fighters Efficiency +10%",
+		"tier3": "Number of All Planes +1 / Torpedo Bombers Efficiency +10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighters",
+			"efficiency": "115%/???%/???%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bombers",
+			"efficiency": "135%/???%/???%/145%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/???%/???%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "li",
+				"id": "0",
+				"label": "",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "鹳级轻型航空母舰—鹂",
+						"chineseTL": "Zuihou-class aircraft carrier – Chitose.",
+						"chineseNote": "",
+						"japanese": "瑞鳳型航空母艦・千歳",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Zuihou-class aircraft carrier – Chitose.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "最初我和鹃都是作为水上飞机母舰诞生。不过，在那一役过后，我、鹃，还有一些同伴们都加入了航空母舰的队伍。不过，应该说是时运不济，还是实力不足呢…我们直到最后，也没有什么亮眼的发挥…",
+						"chineseTL": "At the beginning Chiyoda and I were designed as seaplane tenders. But after that one deployment, me, Chiyoda and some other comrades all joined the fleet as air carriers. But, should I say that the timing was wrong, or our ability wasn't sufficient... till the very end, we didn't have much accomplishments to my name...",
+						"chineseNote": "",
+						"japanese": "水上機母艦として設計された私と千代田、かの大戦での、あの戦闘を経て仲間たちと共に空母に改造された。…実力不足か、はたまた時の流れに逆らえないためか…活躍できなかったわ。色々とね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Though Chiyoda and I were originally designed as seaplane tenders, during a certain war, we were remodeled into aircraft carriers. Whether it's due to my lack of skill or my inability to oppose the passing of time... I wasn't able to be of much use until the end",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "重樱轻型航空母舰，鹂号。指挥官，还请以后多多指教。对了，我听说鹃她也在这里，对吗？……没什么，只是问一下而已。",
+						"chineseTL": "Sakura Empire's light carrier, Chitose. Commander, I will be in your care from now on. Right, I heard that Chiyoda is here too, right? ... Nothing much, I'm just checking..",
+						"chineseNote": "",
+						"japanese": "重桜所属、軽空母千歳。指揮官、よろしく。千代田もここにいると聞いているけど、本当？……いいえ、ただ聞いてみただけ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am Chitose, light carrier of the Sakura Empire. Commander, I look forward to receiving your guidance. By the way, is it true that Chiyoda is also here? ...Don't worry, I was merely inquiring.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "来了吗…桌子上有鹃送来的羊羹，你想吃的话就拿去吃吧。",
+						"chineseTL": "Have you came... there's some yokan that Chiyoda has sent over, if you want to have some, feel free to eat them.",
+						"chineseNote": "",
+						"japanese": "あ、来た。千代田が差し入れてくれた羊羹が机の上にあるわ。もらってあげて",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, you're here. There's some red bean jelly from Chiyoda on your desk. Feel free to take some.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "我和鹃，姑且都算是神社巫女的一员呢，虽然鹃老是那么闹腾…不过也算是带来了不太一样的欢乐呢。",
+						"chineseTL": "Me and Chiyoda, can be counted as members of the shrine attendants. Although Chiyoda is so rambunctious normally... but it does bring other kinds of joy I guess...",
+						"chineseNote": "",
+						"japanese": "千代田とは一応、神社勤めの仲間。千代田、ああいう感じでうるさいけど、楽しいときもあるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Chiyoda and I are partners in carrying out shrine duties. Even though Chiyoda can be pretty annoying at times, there are still times she's fun to be around.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "貉…真是个好孩子呢，虽然有点胆小，不过，也正因为这样显得更加可爱了…",
+						"chineseTL": "Isuzu... is a really good girl, although she is a bit timid, but, it's because of this that she seems even more adorable after all.",
+						"chineseNote": "",
+						"japanese": "五十鈴…ちょっと怖がり屋だけど、いい子。その怖がりなところも可愛いわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Isuzu... is quite a scaredy cat, but she's a good girl. But even that side of her is cute.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "鹃坚持让我留着这麻烦的发型，所以就保持这样了。倒是一直麻烦她帮忙打理，有些对不住就是…",
+						"chineseTL": "Chiyoda always insist for me to maintain this troublesome hair style, so I kept it this way. It is a little troublesome to ask her to help tidy it up, but I do feel a bit bad too...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "この髪型、千代田がどうしてもっていつも彼女がやってくれる。ちょっとだけ…申し訳ない気持ち",
+						"japaneseNote": "",
+						"english": "Chiyoda always insists on doing my hair this way, so I let her. However, I always feel a bit apologetic for making her do so much...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "神乐舞…我其实还满擅长的哦？下次有机会的话…可以来观摩一下。",
+						"chineseTL": "Kabuki dance huh... I actually am quite versed in it you know? If there's time next time... you can come and sit in for it.",
+						"chineseNote": "",
+						"japanese": "神楽の舞は、まあまあ得意。機会があったら、見に来て",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm at least confident in my Kagura dancing skills. If you get the chance, please come and watch.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "！？…呼，是指挥官啊，还以为是白鹰那个粉毛小姑娘又来捉弄人了…",
+						"chineseTL": "!? ... whew, it's Commander huh, I thought it was that pink girl from the Eagles coming here for a prank.",
+						"chineseNote": "",
+						"japanese": "！？…指揮官か…ユニオンのピンク髪の子の、いたずらだと思った",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Who?! ... Oh, it's you. I thought it was a prank from that pink-haired Union girl.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "！？请、请不要这样…",
+						"chineseTL": "!? P-Please don't do this...",
+						"chineseNote": "",
+						"japanese": "！？ちょっと、ダメ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hah?! Wait, no...!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Rub",
+						"media": "touch_head",
+						"chinese": "你也和鹃一样，喜欢摸我的头发吗？",
+						"chineseTL": "You are the same as Chiyoda, do you like to touch my hair that much?",
+						"chineseNote": "",
+						"japanese": "千代田と同じく、髪に触れるのが好き？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you like touching my bangs like Chiyoda does?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务？没完成放着的话，不太好吧",
+						"chineseTL": "Mission? If you left it incomplete, it won't be good right?",
+						"chineseNote": "",
+						"japanese": "任務。こなさないまま放置、まずいのでは？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Here are some more missions. Isn't it bad to let them pile up like this?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务完成了，嗯，是值得高兴的事情呢。",
+						"chineseTL": "Missions are completed, mm, it's something worthy to be happy about",
+						"chineseNote": "",
+						"japanese": "任務。完了…うん、喜ばしいわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The mission is... complete. That's good.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "有给你的信件，请注意查收…指挥官。",
+						"chineseTL": "There's mail for you here, please take note and accept receipt, Commander...",
+						"chineseNote": "",
+						"japanese": "指揮官宛の手紙あり。査収を",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's a letter addressed to you. Please check it out.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "平安回来了啊。…衣服里的护身符是我做的，给指挥官和鹃都做了一个。",
+						"chineseTL": "Came back safely huh. ...the protection charm in your clothes is made by me, I made each one for Commander and Chiyoda.",
+						"chineseNote": "",
+						"japanese": "無事だったね。…お守りは私の手作り。指揮官と千代田の分、服にコッソリと",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm glad you're safe... I made a protective charm for you, and also one for Chiyoda. Please keep it safely inside your clothes.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托组，平安回来了，真是太好了。",
+						"chineseTL": "Commission team, is back safely, that is great.",
+						"chineseNote": "",
+						"japanese": "委託組、無事帰還。よかった",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission team has returned safely. What a relief.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "总之谢谢你了，指挥官。",
+						"chineseTL": "In any case, thank you, Commander.",
+						"chineseNote": "",
+						"japanese": "ひとまず、感謝。指揮官",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "For the time being, thanks, Commander.",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "总之…先谨慎行动吧。",
+						"chineseTL": "In any case... let's first be a bit more cautious.",
+						"chineseNote": "",
+						"japanese": "まずは、慎重に…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have to make sure to be careful...",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "我…也能帮上大家这么多了么…",
+						"chineseTL": "I... can help everyone with this much huh...",
+						"chineseNote": "",
+						"japanese": "皆の役に立つこと……私にもできた",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm glad... that I was able to be a help to everyone else.",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "该撤退了…希望鹃能平安无事…",
+						"chineseTL": "Time to retreat... I hope that Chiyoda can be safe...",
+						"chineseNote": "",
+						"japanese": "後退する。…千代田、無事でいて…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We're pulling back. Chiyoda, please be safe...",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "攻击队，缠住敌人…！",
+						"chineseTL": "Attacking fleet, entangle the enemy...!",
+						"chineseNote": "",
+						"japanese": "攻撃隊、絡みつけ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Attack force, surround them...!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "不太妙…鹃…没事吧…",
+						"chineseTL": "This isn't good... is Chiyoda... fine?",
+						"chineseNote": "",
+						"japanese": "まずい…千代田…大丈夫かな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is bad... I hope Chiyoda... is alright...",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官，能离鹃远一点吗？越远越好…",
+						"chineseTL": "Commander, can you leave Chiyoda further? The further the better...",
+						"chineseNote": "",
+						"japanese": "指揮官、千代田から離れていて。できるだけ遠く",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander. Get away from Chiyoda. As far as you possibly can.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "“诱饵舰队”么……希望那样的事情不会再次发生就好",
+						"chineseTL": "\"Diversionary Fleet\" huh... I hope that such a thing will not happen again.",
+						"chineseNote": "",
+						"japanese": "「囮機動部隊」……もう一度起きてほしくない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The one thing I hope I never have to see again is the formation of a \"decoy fleet\"...",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "有一个老是缠着自己撒娇的妹妹还真是…倒也不是讨厌…嗯…怎么说呢……",
+						"chineseTL": "Having a overly flirtatious sister that keeps on hanging around me is honestly... well I don't dislike it... Mm... how do I describe it.",
+						"chineseNote": "",
+						"japanese": "甘えてくる妹は…なんというか、嫌ではない……なんといえばいいかな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I don't dislike having to pamper Chiyoda... If anything, I might actually find it quite endearing...",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "做饭打扫这类的活儿，总是被鹃揽过去做了，导致我的手艺反而生疏了……唔，我想说的其实就是…这些其实我也可以做得到…仅，仅此而已哦？",
+						"chineseTL": "When it comes to things like cooking or cleaning, I always got overridden by Chiyoda to do them, it made my own ability with it rusty... uh, what I want to actually say is... all these, I can actually do them you know... j-just that okay?",
+						"chineseNote": "",
+						"japanese": "料理や掃除、身の回りのお世話はいつも千代田がやっている。……つまり、私はできないのではなく、やろうと思えば…そ、それだけのこと……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Cooking, cleaning, even taking care of my things... Chiyoda takes care of it all. ... Basically, it's not that I can't do these tasks. If I put my mind to it, I can do it... I totally can...",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "那个…指挥官，不向我撒撒娇吗？啊…我是想说…我在被撒娇方面还是很有经验的，比方说，膝枕之类的…不，不来试试吗",
+						"chineseTL": "Well... Commander, are you not going to flirt a bit to me? Ah... what I want to say is... I'm quite experienced being on the receiving end of being pampered at, like for example, giving a lap pillow and etc... d-don't you want to give it a try?",
+						"chineseNote": "",
+						"japanese": "指揮官、私に甘えてみない？……こう見えても、甘えられ上手というか……例えば膝枕、とか…されてみたいとか、ない？",
+						"japaneseNote": "",
+						"english": "Commander, won't you rely on me some more? I'm actually pretty good at spoiling people, you know... Oh I know... would you like me to give you a lap pillow, or something...?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "既然是指挥官的心意，我自然愿意欣然接受…以后每天，鹂都会在港区等着你，为你祈福。你也可以…像鹃那样……嗯，经常来找我撒娇的哦",
+						"chineseTL": "Since it is Commander's feelings, I am naturally willing to accept it... hence from now on, Chitose will be waiting for you at the docks praying for happiness for you. You too... just like Chiyoda... mm, come to me often to be pampered you know?",
+						"chineseNote": "",
+						"japanese": "あなたの気持ちだから、喜んで……これから毎日、無事を祈りながら、あなたの居場所になる。あなたも…千代田のように、時々、甘えてきて…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If that's how you feel about me, I'll gladly accept your feelings... I'll pray for your safety every day, and be your refuge from your daily hardships. I hope... you'll come look for me whenever you're feeling troubled, because I want to pamper you like I do with Chiyoda...",
+						"englishNote": ""
+					},
+						"29": {
+						"event": "Easter Egg 1(Chiyoda)",
+						"media": "link1",
+						"chinese": "好了好了，我知道了，一起上吧",
+						"chineseTL": "Alright alright, I got it, let's strike together.",
+						"chineseNote": "",
+						"japanese": "わ、わかったわよ…一緒にね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": " Alright, alright... We'll go together.",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 2(Saratoga)",
+						"media": "link2",
+						"chinese": "小、小鹂？？",
+						"chineseTL": "A small Chitose???",
+						"chineseNote": "",
+						"japanese": " ち、千歳ちゃんって…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "D-Don't call out to me so endearingly...",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg 3(Isuzu)",
+						"media": "link3",
+						"chinese": "不要怕，这次我在你身后",
+						"chineseTL": "Don't be afraid, this time I'm behind you.",
+						"chineseNote": "",
+						"japanese": "私がいるわ。怖がらないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm here. There's nothing to fear.",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "li_2",
+				"id": "1",
+				"label": "Summer Shine",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "" ,
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_3_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "“",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Carrier",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "AVI",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Carrier, Aircraft Carrier",
+		"t_level": "4",
+		"ships": "ryuuhou, chitose, chiyoda"
+	}
+}
+}
+
+
+
